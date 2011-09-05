@@ -25,9 +25,7 @@ To get Scala developers contributing to the language, its tools, and its librari
 
 # Registration
 
-<p markdown="1" class="stricken">
 Registration is now -open- closed! Please visit our [registration page](register.html).
-</p>
 
 <p markdown="1" class="stricken">
 Space is limited to 100 attendees.
