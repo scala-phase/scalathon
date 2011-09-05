@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{{ page.title }}</title> 
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"> 
+
+<style text="text/css">
+div#main {
+    width: 100%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+div#amazon {
+    width: 100%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
+
+}
+
+div#amazon table tr {
+    margin-top: 20px;
+}
+</style>
+
+</head> 
+    
+<body>
+  <div id="wrapper">
+    <div id="header"> 
+      {% include logo.html %}
+    </div>
+    <div id="main">
+
+<!-- AMAZON PAYMENTS DONATION WIDGET -->
+
+<div id="amazon">
+{{ content }}
+
+<div style="width:20em;padding-left:10px;padding-top:10px;padding-right:10px;padding-bottom:10px;">
+	<table class="table" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<form action="https://authorize.payments.amazon.com/pba/paypipeline" method="post">
+	  <input type="hidden" name="immediateReturn" value="1" >
+	  <input type="hidden" name="collectShippingAddress" value="0" >
+	  <input type="hidden" name="signatureVersion" value="2" >
+	  <input type="hidden" name="signatureMethod" value="HmacSHA256" >
+	  <input type="hidden" name="accessKey" value="11SEM03K88SD016FS1G2" >
+	  <input type="hidden" name="referenceId" value="Scalathon-Sponsorship-2011" >
+	  <input type="hidden" name="signature" value="wGJL0zvh5qGFtMaoDNwK+MV8Z4bn2ca0H4RTrA1Qczw=" >
+	  <input type="hidden" name="isDonationWidget" value="1" >
+	  <input type="hidden" name="description" value="Sponsoring Scalathon" >
+	  <input type="hidden" name="amazonPaymentsAccountId" value="LDWUAPFLWRCN52D11X4K1BC1CPK9MQH58LX6KN" >
+	  <input type="hidden" name="returnUrl" value="http://scalathon.org/" >
+	  <input type="hidden" name="processImmediate" value="1" >
+	  <input type="hidden" name="cobrandingStyle" value="logo" >
+	  <input type="hidden" name="abandonUrl" value="http://scalathon.org/sponsor/" >
+	
+	<td>$&nbsp;
+	<input type="text" name="amount" size="8" 
+		value=""></td>
+	<td>&nbsp;</td>  
+	<td><input type="image" src="http://g-ecx.images-amazon.com/images/G/01/asp/beige_large_donate_withmsg_whitebg.gif" border="0"></td>
+	</form>
+	</tr>
+	</table>
+	</div>
+</div>
+
+<!-- END AMAZON PAYMENTS DONATION WIDGET -->
+
+    </div> <!-- main -->
+  </div> <!-- wrapper -->
+</body>
+</html>
