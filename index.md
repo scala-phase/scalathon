@@ -13,7 +13,7 @@ To get Scala developers contributing to the language, its tools, and its librari
 
 # When & Where
 
-* Scalathon will be held **July 16-17, 2011** at the
+* Scalathon was held **July 16-17, 2011** at the
   **[University of Pennsylvania](http://www.upenn.edu)** in
   **[Philadelphia](http://en.wikipedia.org/wiki/Philadelphia)**.
 * For those arriving Friday night July 15, we will have a functional programming
@@ -26,15 +26,13 @@ To get Scala developers contributing to the language, its tools, and its librari
 # Registration
 
 <p markdown="1" class="stricken">
-Registration is now open! Please visit our [registration page](register.html).
+Registration is now -open- closed! Please visit our [registration page](register.html).
 </p>
 
 <p markdown="1" class="stricken">
 Space is limited to 100 attendees.
 Sign up early or risk getting stuck on the waiting list!
 </p>
-
-<p class="attention" markdown="1">**_Scalathon is full!_**</p>
 
 # Keep Up to Date
 
