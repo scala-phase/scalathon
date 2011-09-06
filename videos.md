@@ -24,7 +24,7 @@ Check back frequently for updates.
 * [Heather Miller](http://vimeo.com/28665310) on Scala official documentation.
 * [Josh Suereth](http://vimeo.com/28666098) on *scala-arm*, *scala-io*, the
   Maven Scala plugin, and *SPerformance*.
-* [*Rickard Nilsson*][not-ready] on *ScalaCheck*
+* [Rickard Nilsson](http://vimeo.com/28670075) on *ScalaCheck*
 * [*Alexander Podkhalyuzin and Pavel Fatin*][not-ready] on
   the IntelliJ IDEA Scala Plugin
 * [*Bill Venners*][not-ready] on *ScalaTest*
