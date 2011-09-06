@@ -4,6 +4,8 @@ layout: main
 tab: videos
 ---
 
+# We Have Videos
+
 The Scalathon [talks](talks.html) were videotaped. All videos will eventually
 be available on the [PHASE Vimeo page](http://vimeo.com/scala-phase/). As
 they are encoded and uploaded, we will update this page with individual links
@@ -14,7 +16,7 @@ click on the talk's link to see the current status of the video.**
 
 Check back frequently for updates.
 
-# Saturday's talks
+## Saturday's talks
 
 * [Paul Phillips](http://vimeo.com/28661064), keynote.
 * [Basil Qunibi](http://www.vimeo.com/28662048), Novus.
@@ -44,7 +46,7 @@ Check back frequently for updates.
 * [*Yuvi Masory*][not-ready] on *Qualac*
 * [*Jason Liszka and Jorge Ortiz*][not-ready] on *Rogue*
 
-# Sunday's talks
+## Sunday's talks
 
 * [*Daniel Spiewak*][not-ready] on *Scala API Design and Best Practices*
 * [*Rúnar Óli Bjarnason*][not-ready] on *Amateur Hour: Functional Programming Boot Camp*
