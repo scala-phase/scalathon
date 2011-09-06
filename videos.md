@@ -9,7 +9,11 @@ tab: videos
 The Scalathon [talks](talks.html) were videotaped. All videos will eventually
 be available on the [PHASE Vimeo page](http://vimeo.com/scala-phase/). As
 they are encoded and uploaded, we will update this page with individual links
-to each video. 
+to each video.
+
+You may also visit the
+[Vimeo Scalathon 2011 channel](http://vimeo.com/channels/scalathon2011) for
+a list of all Scalathon videos.
 
 **NOTE: If a speaker's name is in *italics*, the video is not ready; you can
 click on the talk's link to see the current status of the video.**
