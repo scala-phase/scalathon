@@ -9,7 +9,7 @@ tab: home
 
 # Next year?
 
-** Scalathon 2011 succeeded beyond our expectations!**
+**Scalathon 2011 succeeded beyond our expectations!**
 
 **If there's sufficient interest, we fully intend to hold another Scalathon,
 in 2012. Stay tuned!**
