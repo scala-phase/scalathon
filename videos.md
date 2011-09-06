@@ -20,7 +20,7 @@ Check back frequently for updates.
 * [Basil Qunibi](http://www.vimeo.com/28662048), Novus.
 * [Adriaan Moors](http://www.vimeo.com/28663888) on *scalac*.
 * [Heather Miller](http://vimeo.com/28665310) on Scala official documentation.
-* [*Josh Suereth*][uploading] on *scala-arm*, *scala-io*, the
+* [Josh Suereth](http://vimeo.com/28666098) on *scala-arm*, *scala-io*, the
   Maven Scala plugin, and *SPerformance*.
 * [*Rickard Nilsson*][not-ready] on *ScalaCheck*
 * [*Alexander Podkhalyuzin and Pavel Fatin*][not-ready] on
