@@ -25,6 +25,7 @@ Check back frequently for updates.
 * [Josh Suereth](http://vimeo.com/28666098) on *scala-arm*, *scala-io*, the
   Maven Scala plugin, and *SPerformance*.
 * [Rickard Nilsson](http://vimeo.com/28670075) on *ScalaCheck*
+* [Pedro Furlanetto]() on *scaladoc*
 * [*Alexander Podkhalyuzin and Pavel Fatin*][not-ready] on
   the IntelliJ IDEA Scala Plugin
 * [*Bill Venners*][not-ready] on *ScalaTest*
@@ -36,7 +37,6 @@ Check back frequently for updates.
 * [*Eugene Yakota*][not-ready] on *scalaxb*
 * [*Geoff Reedy*][not-ready] on *scala-llvm*
 * [*Boris Okunsky, Ludmila Bityukova, and Stanislav Lakhtin*][not-ready] on *Circumflex*
-* [*Andrea O.K. Wright*][not-ready] on *Integrating Scala, Python and Ruby*
 * [*Neha Narkhede*][not-ready] on *Kafka*
 * [*Brendan McAdams*][not-ready] on *Casbah, Lift-MongoDB, and MongoDB*
 * [*Rose Toomey*][not-ready] on *Salat*
