@@ -9,7 +9,7 @@ be available on the [PHASE Vimeo page](http://vimeo.com/scala-phase/). As
 they are encoded and uploaded, we will update this page with individual links
 to each video. 
 
-**NOTE: If a speaker's name is in *italics*, the video is not; you can
+**NOTE: If a speaker's name is in *italics*, the video is not ready; you can
 click on the talk's link to see the current status of the video.**
 
 Check back frequently for updates.
