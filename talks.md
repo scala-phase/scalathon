@@ -1,5 +1,5 @@
 ---
-title: Logistics
+title: Talks
 layout: main
 tab: talks
 ---
