@@ -25,7 +25,7 @@ Check back frequently for updates.
 * [Josh Suereth](http://vimeo.com/28666098) on *scala-arm*, *scala-io*, the
   Maven Scala plugin, and *SPerformance*.
 * [Rickard Nilsson](http://vimeo.com/28670075) on *ScalaCheck*
-* [Pedro Furlanetto]() on *scaladoc*
+* [Pedro Furlanetto](http://vimeo.com/28684471) on *scaladoc*
 * [*Alexander Podkhalyuzin and Pavel Fatin*][not-ready] on
   the IntelliJ IDEA Scala Plugin
 * [*Bill Venners*][not-ready] on *ScalaTest*
