@@ -18,7 +18,7 @@ Check back frequently for updates.
 
 * [Paul Phillips](http://vimeo.com/28661064), keynote.
 * [Basil Qunibi](http://www.vimeo.com/28662048), Novus.
-* [Adriaan Moors](http://www.vimeo.com/28663202) on *scalac*.
+* [Adriaan Moors](http://www.vimeo.com/28663888) on *scalac*.
 * [*Heather Miller*][uploading] on Scala official documentation.
 * [*Josh Suereth*][uploading] on *scala-arm*, *scala-io*, the
   Maven Scala plugin, and *SPerformance*.
