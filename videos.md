@@ -9,8 +9,10 @@ be available on the [PHASE Vimeo page](http://vimeo.com/scala-phase/). As
 they are encoded and uploaded, we will update this page with individual links
 to each video. 
 
-**NOTE: Videos in *italics* are still not available; you can click on
-its link to see its status.**
+**NOTE: If a speaker's name is in *italics*, the video is not; you can
+click on the talk's link to see the current status of the video.**
+
+Check back frequently for updates.
 
 # Saturday's talks
 
