@@ -33,7 +33,7 @@ Check back frequently for updates.
 * [Alexander Podkhalyuzin and Pavel Fatin](http://vimeo.com/28692913) on
   the IntelliJ IDEA Scala Plugin
 * [Bill Venners](http://vimeo.com/28717576) on *ScalaTest*
-* [*Mark Harrah*][not-ready] on *SBT*
+* [Mark Harrah](http://vimeo.com/28720255) on *SBT*
 * [*Roland Kuhn*][not-ready] on *Akka*
 * [*Aemon Cannon*][not-ready] on *ENSIME*
 * [*Rúnar Óli Bjarnason*][not-ready] on *Scalaz*
