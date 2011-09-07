@@ -34,7 +34,7 @@ Check back frequently for updates.
   the IntelliJ IDEA Scala Plugin
 * [Bill Venners](http://vimeo.com/28717576) on *ScalaTest*
 * [Mark Harrah](http://vimeo.com/28720255) on *SBT*
-* [*Roland Kuhn*][not-ready] on *Akka*
+* [Roland Kuhn](http://vimeo.com/28725035) on *Akka*
 * [*Aemon Cannon*][not-ready] on *ENSIME*
 * [*Rúnar Óli Bjarnason*][not-ready] on *Scalaz*
 * [*Daniel Spiewak*][not-ready] on *Anti-XML*
