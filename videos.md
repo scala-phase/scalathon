@@ -35,7 +35,7 @@ Check back frequently for updates.
 * [Bill Venners](http://vimeo.com/28717576) on *ScalaTest*
 * [Mark Harrah](http://vimeo.com/28720255) on *SBT*
 * [Roland Kuhn](http://vimeo.com/28725035) on *Akka*
-* [*Aemon Cannon*][not-ready] on *ENSIME*
+* [Aemon Cannon](http://vimeo.com/28740913) on *ENSIME*
 * [*Rúnar Óli Bjarnason*][not-ready] on *Scalaz*
 * [*Daniel Spiewak*][not-ready] on *Anti-XML*
 * [*Eugene Yakota*][not-ready] on *scalaxb*
