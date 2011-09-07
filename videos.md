@@ -32,7 +32,7 @@ Check back frequently for updates.
 * [Pedro Furlanetto](http://vimeo.com/28684471) on *scaladoc*
 * [Alexander Podkhalyuzin and Pavel Fatin](http://vimeo.com/28692913) on
   the IntelliJ IDEA Scala Plugin
-* [Bill Venners](http://vimeo.com/28694436) on *ScalaTest*
+* [Bill Venners](http://vimeo.com/28717576) on *ScalaTest*
 * [*Mark Harrah*][not-ready] on *SBT*
 * [*Roland Kuhn*][not-ready] on *Akka*
 * [*Aemon Cannon*][not-ready] on *ENSIME*
