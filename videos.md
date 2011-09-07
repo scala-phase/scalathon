@@ -30,7 +30,7 @@ Check back frequently for updates.
   Maven Scala plugin, and *SPerformance*.
 * [Rickard Nilsson](http://vimeo.com/28670075) on *ScalaCheck*
 * [Pedro Furlanetto](http://vimeo.com/28684471) on *scaladoc*
-* [*Alexander Podkhalyuzin and Pavel Fatin*][not-ready] on
+* [Alexander Podkhalyuzin and Pavel Fatin](http://vimeo.com/28692913) on
   the IntelliJ IDEA Scala Plugin
 * [*Bill Venners*][not-ready] on *ScalaTest*
 * [*Mark Harrah*][not-ready] on *SBT*
