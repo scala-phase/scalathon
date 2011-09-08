@@ -38,7 +38,7 @@ Check back frequently for updates.
 * [Aemon Cannon](http://vimeo.com/28740913) on *ENSIME*
 * [Rúnar Óli Bjarnason](http://vimeo.com/28744278) on *Scalaz*
 * [Daniel Spiewak](http://vimeo.com/28746025) on *Anti-XML*
-* [*Eugene Yakota*][not-ready] on *scalaxb*
+* [Eugene Yakota](http://vimeo.com/28770488) on *scalaxb*
 * [*Geoff Reedy*][not-ready] on *scala-llvm*
 * [*Boris Okunsky, Ludmila Bityukova, and Stanislav Lakhtin*][not-ready] on *Circumflex*
 * [*Neha Narkhede*][not-ready] on *Kafka*
