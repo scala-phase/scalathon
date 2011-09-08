@@ -40,7 +40,7 @@ Check back frequently for updates.
 * [Daniel Spiewak](http://vimeo.com/28746025) on *Anti-XML*
 * [Eugene Yokota](http://vimeo.com/28770488) on *scalaxb*
 * [Geoff Reedy](http://vimeo.com/28774096) on *scala-llvm*
-* [*Boris Okunsky, Ludmila Bityukova, and Stanislav Lakhtin*][not-ready] on *Circumflex*
+* [Boris Okunskiy](http://vimeo.com/28780836) on *Circumflex*
 * [*Neha Narkhede*][not-ready] on *Kafka*
 * [*Brendan McAdams*][not-ready] on *Casbah, Lift-MongoDB, and MongoDB*
 * [*Rose Toomey*][not-ready] on *Salat*
