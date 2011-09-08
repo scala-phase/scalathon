@@ -28,7 +28,7 @@ Check back frequently for updates.
   Maven Scala plugin, and *SPerformance*. [Video](http://vimeo.com/28666098)
 * **Rickard Nilsson**, on *ScalaCheck* [Video](http://vimeo.com/28670075)
 * **Pedro Furlanetto**, on *scaladoc*. [Video](http://vimeo.com/28684471),
-  [Slides](talk-slides/talk-slides/Pedro-Furlanetto-scaladoc.pdf) (PDF)
+  [Slides](talk-slides/Pedro-Furlanetto-scaladoc.pdf) (PDF)
 * **Alexander Podkhalyuzin and Pavel Fatin**, on
   the IntelliJ IDEA Scala Plugin. [Video](http://vimeo.com/28692913)
 * **Bill Venners**, on *ScalaTest*. [Video](http://vimeo.com/28717576)
