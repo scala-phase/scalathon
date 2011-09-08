@@ -41,7 +41,7 @@ Check back frequently for updates.
 * **Eugene Yokota** on *scalaxb*. [Video](http://vimeo.com/28770488)
 * **Geoff Reedy** on *scala-llvm*. [Video](http://vimeo.com/28774096)
 * **Boris Okunskiy** on *Circumflex*. [Video](http://vimeo.com/28780836)
-* **Neha Narkhede**, on *Kafka*.
+* **Neha Narkhede**, on *Kafka*. [Video](http://vimeo.com/28787592)
 * **Brendan McAdams**, on *Casbah, Lift-MongoDB, and MongoDB*.
 * **Rose Toomey**, on *Salat*
 * **Olivier Chafik**, on *ScalaCL*
