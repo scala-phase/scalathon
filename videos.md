@@ -36,7 +36,7 @@ Check back frequently for updates.
 * [Mark Harrah](http://vimeo.com/28720255) on *SBT*
 * [Roland Kuhn](http://vimeo.com/28725035) on *Akka*
 * [Aemon Cannon](http://vimeo.com/28740913) on *ENSIME*
-* [*Rúnar Óli Bjarnason*][not-ready] on *Scalaz*
+* [Rúnar Óli Bjarnason](http://vimeo.com/28744278) on *Scalaz*
 * [*Daniel Spiewak*][not-ready] on *Anti-XML*
 * [*Eugene Yakota*][not-ready] on *scalaxb*
 * [*Geoff Reedy*][not-ready] on *scala-llvm*
