@@ -37,7 +37,7 @@ Check back frequently for updates.
 * [Roland Kuhn](http://vimeo.com/28725035) on *Akka*
 * [Aemon Cannon](http://vimeo.com/28740913) on *ENSIME*
 * [Rúnar Óli Bjarnason](http://vimeo.com/28744278) on *Scalaz*
-* [*Daniel Spiewak*][not-ready] on *Anti-XML*
+* [Daniel Spiewak](http://vimeo.com/28746025) on *Anti-XML*
 * [*Eugene Yakota*][not-ready] on *scalaxb*
 * [*Geoff Reedy*][not-ready] on *scala-llvm*
 * [*Boris Okunsky, Ludmila Bityukova, and Stanislav Lakhtin*][not-ready] on *Circumflex*
