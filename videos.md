@@ -39,7 +39,7 @@ Check back frequently for updates.
 * [Rúnar Óli Bjarnason](http://vimeo.com/28744278) on *Scalaz*
 * [Daniel Spiewak](http://vimeo.com/28746025) on *Anti-XML*
 * [Eugene Yokota](http://vimeo.com/28770488) on *scalaxb*
-* [*Geoff Reedy*][not-ready] on *scala-llvm*
+* [Geoff Reedy](http://vimeo.com/28774096) on *scala-llvm*
 * [*Boris Okunsky, Ludmila Bityukova, and Stanislav Lakhtin*][not-ready] on *Circumflex*
 * [*Neha Narkhede*][not-ready] on *Kafka*
 * [*Brendan McAdams*][not-ready] on *Casbah, Lift-MongoDB, and MongoDB*
