@@ -60,4 +60,4 @@ Check back frequently for updates.
 * **Brendan McAdams**, on *18 Months Learning Scala: Building a MongoDB Driver*
 * **Asheesh Laroia**, on *Attracting and Retaining Contributors to Open Source Projects*
 * **Nikita Ivanov**, on *Distributed Functional Programming Done Right*
-* **Philipp Haller**, on *The Many Flavors of Parallel Programming in SCala*
+* **Philipp Haller**, on *The Many Flavors of Parallel Programming in Scala*
