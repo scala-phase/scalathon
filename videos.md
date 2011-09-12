@@ -42,7 +42,10 @@ Check back frequently for updates.
 * **Geoff Reedy** on *scala-llvm*. [Video](http://vimeo.com/28774096)
 * **Boris Okunskiy** on *Circumflex*. [Video](http://vimeo.com/28780836)
 * **Neha Narkhede**, on *Kafka*. [Video](http://vimeo.com/28787592)
+* **Nathan Hamblen**, on *Unfiltered and Pamflet*.
+  [Video](http://vimeo.com/28913458)
 * **Brendan McAdams**, on *Casbah, Lift-MongoDB, and MongoDB*.
+  [Video](http://vimeo.com/28914664)
 * **Rose Toomey**, on *Salat*
 * **Olivier Chafik**, on *ScalaCL*
 * **Erik Osheim**, on *specialized-numeric*
