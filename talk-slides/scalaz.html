@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+  <link rel="stylesheet" type="text/css" media="screen, projection, print" 
+    href="http://www.w3.org/Talks/Tools/Slidy/slidy.css" /> 
+  <script src="http://www.w3.org/Talks/Tools/Slidy/slidy.js.gz"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide">
+<h1
+>Contributing to Scalaz</h1
+><h3
+>Rúnar Óli Bjarnason</h3
+><p
+>@runarorama</p
+><p
+>http://scalaz.org</p
+></div>
+<div class="slide">
+<h2
+>What is Scalaz?</h2
+><h3
+>A library for pure functional programming in Scala.</h3
+></div>
+<div class="slide">
+<h3
+>Scalaz 6: Current stable branch.</h3
+><h3
+>Scalaz 7: Redesigned library organization.</h3
+></div>
+<div class="slide">
+<h2
+>How do other people contribute?</h2
+><ol style="list-style-type: decimal;"
+><li
+  >Want to do something in Scala, purely functionally.</li
+  ><li
+  >Find that there is nothing in the standard lib.</li
+  ><li
+  >Look for it in Scalaz. Ususally it's there.</li
+  ><li
+  >If not, borrow/invent an appropriate abstraction.</li
+  ><li
+  >Contribute it to scalaz.</li
+  ></ol
+></div>
+<div class="slide">
+<h2
+>What contributions do we welcome?</h2
+><ul
+><li
+  >More examples</li
+  ><li
+  >More tests</li
+  ><li
+  >Better documentation</li
+  ><li
+  >Useful, frequently-used functions</li
+  ><li
+  >Purely functional data structures</li
+  ><li
+  >More type classes</li
+  ><li
+  >Type-class instances</li
+  ><li
+  >Scalaz bindings for your project (e.g. scalaz-akka)</li
+  ><li
+  >Complete rewrites</li
+  ></ul
+></div>
+<div class="slide">
+<h2
+>Scalaz Organization</h2
+><ul
+><li
+  >Pimps</li
+  ><li
+  >Wrapper types</li
+  ><li
+  >Newtypes</li
+  ><li
+  >Data Structures</li
+  ><li
+  >Concurrency</li
+  ><li
+  >Iteratees</li
+  ><li
+  >The rest is type-classes</li
+  ></ul
+></div>
+<div class="slide">
+<h2
+>Pimps</h2
+><h4
+>Identity (<code
+  >*</code
+  >)</h4
+><h4
+>MA (<code
+  >*-&gt;*</code
+  >)</h4
+><h4
+>MAB (<code
+  >*-&gt;*-&gt;*</code
+  >)</h4
+></div>
+<div class="slide">
+<h2
+>Identity (<code
+  >*</code
+  >)</h2
+><p
+>Methods like <code
+  >|+|</code
+  >, <code
+  >some</code
+  >, <code
+  >left</code
+  >, <code
+  >===</code
+  ></p
+><ul
+><li
+  >For all types <code
+    >A</code
+    >, every value of type <code
+    >A</code
+    > implicitly converts to <code
+    >Identity[A]</code
+    ></li
+  ></ul
+></div>
+<div class="slide">
+<h2
+>MA (<code
+  >*-&gt;*</code
+  >)</h2
+><p
+>Methods like <code
+  >map</code
+  >, <code
+  >flatMap</code
+  >, <code
+  >sequence</code
+  >, <code
+  >traverse</code
+  >.</p
+><ul
+><li
+  >For all types <code
+    >A</code
+    > and <code
+    >M[_]</code
+    >, every value of type <code
+    >M[A]</code
+    > implicitly converts to <code
+    >MA[M,A]</code
+    ></li
+  ></ul
+></div>
+<div class="slide">
+<h2
+>MAB (<code
+  >*-&gt;*-&gt;*</code
+  >)</h2
+><p
+>Mainly has arrow combinators</p
+><ul
+><li
+  >For all types <code
+    >A</code
+    >, <code
+    >B</code
+    >, and <code
+    >M[_,_]</code
+    >, every value of type <code
+    >M[A,B]</code
+    > implicitly converts to <code
+    >MAB[M,A,B]</code
+    ></li
+  ></ul
+></div>
+<div class="slide">
+<h2
+>Wrapper types</h2
+><ul
+><li
+  >BooleanW</li
+  ><li
+  >OptionW</li
+  ><li
+  >Function1W</li
+  ><li
+  >etc.</li
+  ></ul
+></div>
+<div class="slide">
+<h2
+>Newtypes</h2
+><p
+>For types that have many different implementations of the same type-class. For example, Int has Monoid for multiplication and addition.</p
+><p
+><code
+  >case class IntMultiplication(value: Int) extends Newtype[Int]</code
+  ></p
+><p
+>Implicitly unwrapped, but not implicitly wrapped.</p
+></div>
+<div class="slide">
+<h2
+>Data Structures</h2
+><ul
+><li
+  >NonEmptyList</li
+  ><li
+  >Tree</li
+  ><li
+  >Lens</li
+  ><li
+  >State</li
+  ><li
+  >FingerTree</li
+  ><li
+  >BKTree</li
+  ><li
+  >Heap</li
+  ></ul
+></div>
+<div class="slide">
+<h2
+>Concurrency</h2
+><ul
+><li
+  >Promise</li
+  ><li
+  >Actor</li
+  ><li
+  >Pluggable, composable strategies</li
+  ></ul
+></div>
+<div class="slide">
+<h2
+>Type Classes</h2
+><ul
+><li
+  >Equal</li
+  ><li
+  >Order</li
+  ><li
+  >Monoid</li
+  ><li
+  >Functor</li
+  ><li
+  >Applicative</li
+  ><li
+  >Monad</li
+  ><li
+  >Traverse</li
+  ></ul
+><p
+>Many more!</p
+></div>
+<div class="slide">
+<h2
+>Scalaz 7</h2
+><p
+>Version 7 has a redesigned organization.</p
+><ul
+><li
+  >Identity becomes <code
+    >*</code
+    ></li
+  ><li
+  >MA becomes <code
+    >*-&gt;*</code
+    ></li
+  ><li
+  >Composition vs. inheritance</li
+  ><li
+  >Monad transformers</li
+  ><li
+  >More mature Iteratees</li
+  ><li
+  >More mature effect tracking</li
+  ></ul
+></div>
+</body>
+</html>
