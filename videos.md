@@ -50,7 +50,7 @@ Check back frequently for updates.
   [Video](http://vimeo.com/28914664)
 * **Rose Toomey**, on *Salat*. [Video](http://vimeo.com/32328951), [Slides (PDF)](talk-slides/salat.pdf)
 * **Olivier Chafik**, on *ScalaCL*. [Video](http://vimeo.com/32333809), [Slides (PDF)](talk-slides/scalacl.pdf)
-* **Erik Osheim**, on *specialized-numeric*.
+* **Erik Osheim**, on *specialized-numeric*. [Video](http://vimeo.com/32337413)
 * **Alexandre Bertails**, on *FeDeRate*.
 * **Yuvi Masory**, on *Qualac*.
 * **Jason Liszka and Jorge Ortiz**, on *Rogue*. [Slides (PDF)](talk-slides/rogue.pdf)
