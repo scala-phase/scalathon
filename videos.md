@@ -48,7 +48,7 @@ Check back frequently for updates.
   [Video](http://vimeo.com/28913458)
 * **Brendan McAdams**, on *Casbah, Lift-MongoDB, and MongoDB*.
   [Video](http://vimeo.com/28914664)
-* **Rose Toomey**, on *Salat*. [Video](http://vimeo.com/32328951), [Slides (PDF)](talk-slides/salat.pdf)
+* **Rose Toomey**, on *Salat*. [Video](http://vimeo.com/32342781), [Slides (PDF)](talk-slides/salat.pdf)
 * **Olivier Chafik**, on *ScalaCL*. [Video](http://vimeo.com/32333809), [Slides (PDF)](talk-slides/scalacl.pdf)
 * **Erik Osheim**, on *specialized-numeric*. [Video](http://vimeo.com/32337413)
 * **Alexandre Bertails**, on *FeDeRate*. [Video](http://vimeo.com/32342669)
