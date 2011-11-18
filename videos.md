@@ -36,7 +36,7 @@ Check back frequently for updates.
 * **Bill Venners**, on *ScalaTest*. [Video](http://vimeo.com/28717576)
 * **Mark Harrah**, on *SBT*. [Video](http://vimeo.com/28720255)
 * **Roland Kuhn**, on *Akka*. [Video](http://vimeo.com/28725035),
-  [Slides](talk-slides/akka.pdf) (PDF)
+  Slides: [PDF](talk-slides/akka.pdf), [PPT](talk-slides/akka.ppt)
 * **Aemon Cannon**, on *ENSIME*. [Video](http://vimeo.com/28740913)
 * **Rúnar Óli Bjarnason**, on *Scalaz*. [Video](http://vimeo.com/28744278), [Slides (HTML)](talk-slides/scalaz.html)
 * **Daniel Spiewak**, on *Anti-XML*. [Video](http://vimeo.com/28746025), [Slides (PDF)](talk-slides/anti-xml.pdf)
