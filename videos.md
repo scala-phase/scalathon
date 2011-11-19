@@ -53,7 +53,7 @@ Check back frequently for updates.
 * **Erik Osheim**, on *specialized-numeric*. [Video](http://vimeo.com/32337413)
 * **Alexandre Bertails**, on *FeDeRate*. [Video](http://vimeo.com/32342669)
 * **Yuvi Masory**, on *Qualac*. [Video](http://vimeo.com/32347763)
-* **Jason Liszka and Jorge Ortiz**, on *Rogue*. [Slides (PDF)](talk-slides/rogue.pdf)
+* **Jason Liszka and Jorge Ortiz**, on *Rogue*. [Video](http://vimeo.com/32349792), [Slides (PDF)](talk-slides/rogue.pdf)
 
 ## Sunday's talks
 
