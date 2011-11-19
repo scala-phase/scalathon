@@ -15,7 +15,7 @@ You may also visit the
 [Vimeo Scalathon 2011 channel](http://vimeo.com/channels/scalathon2011) for
 a list of all Scalathon videos.
 
-Where the presenter has provided talk slides, we have included those here, as well.
+Where the presenter provided slides, we have included those here, as well.
 
 Check back frequently for updates.
 
