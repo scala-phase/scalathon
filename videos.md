@@ -9,7 +9,8 @@ tab: videos
 The Scalathon [talks](talks.html) were videotaped. All videos are
 available on the [PHASE Vimeo page](http://vimeo.com/scalaphase/). However,
 since there are *other* videos on the PHASE Vimeo page, the Scalathon videos
-are also grouped in a [Scalathon-specific Vimeo Channel](http://vimeo.com/channels/scalathon2011).
+are also grouped in a [Scalathon-specific Vimeo Channel](http://vimeo.com/channels/scalathon2011). (The **Video** links, below, all
+link out to Vimeo.)
 
 Where the presenter provided slides, we have included those here, as well.
 
@@ -53,7 +54,7 @@ Check back frequently for updates.
 
 ## Sunday's talks
 
-* **Daniel Spiewak**, on *Scala API Design and Best Practices*
+* **Daniel Spiewak**, on *Scala API Design and Best Practices*. [Video](http://vimeo.com/32353918), [Slides (PDF)](talk-slides/CanBeConfusing.pdf)
 * **Rúnar Óli Bjarnason**, on *Amateur Hour: Functional Programming Boot Camp*
 * **Brendan McAdams**, on *18 Months Learning Scala: Building a MongoDB Driver*
 * **Asheesh Laroia**, on *Attracting and Retaining Contributors to Open Source Projects*
