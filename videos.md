@@ -55,7 +55,7 @@ Check back frequently for updates.
 ## Sunday's talks
 
 * **Daniel Spiewak**, on *Scala API Design and Best Practices*. [Video](http://vimeo.com/32353918), [Slides (PDF)](talk-slides/CanBeConfusing.pdf)
-* **Rúnar Óli Bjarnason**, on *Amateur Hour: Functional Programming Boot Camp*. [Video](http://vimeo.com/32355057)
+* **Rúnar Óli Bjarnason**, on *Amateur Hour: Functional Programming Boot Camp*. [Video](http://vimeo.com/32369416)
 * **Brendan McAdams**, on *18 Months Learning Scala: Building a MongoDB Driver*
 * **Asheesh Laroia**, on *Attracting and Retaining Contributors to Open Source Projects*
 * **Nikita Ivanov**, on *Distributed Functional Programming Done Right*
