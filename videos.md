@@ -31,7 +31,7 @@ Check back frequently for updates.
 * **Rickard Nilsson**, on *ScalaCheck* [Video](http://vimeo.com/28670075), [Slides (PDF)](talk-slides/scalacheck.pdf)
 * **Pedro Furlanetto**, on *scaladoc*. [Video](http://vimeo.com/28684471),
   [Slides (PDF)](talk-slides/scaladoc.pdf)
-* **Alexander Podkhalyuzin and Pavel Fatin**, on
+* **Pavel Fatin and Alexander Podkhalyuzin**, on
   the IntelliJ IDEA Scala Plugin. [Video](http://vimeo.com/28692913), [Slides (PDF)](talk-slides/intellij.pdf)
 * **Bill Venners**, on *ScalaTest*. [Video](http://vimeo.com/28717576)
 * **Mark Harrah**, on *SBT*. [Video](http://vimeo.com/28720255)
@@ -52,7 +52,7 @@ Check back frequently for updates.
 * **Olivier Chafik**, on *ScalaCL*. [Video](http://vimeo.com/32333809), [Slides (PDF)](talk-slides/scalacl.pdf)
 * **Erik Osheim**, on *specialized-numeric*. [Video](http://vimeo.com/32337413)
 * **Alexandre Bertails**, on *FeDeRate*. [Video](http://vimeo.com/32342669)
-* **Yuvi Masory**, on *Qualac*.
+* **Yuvi Masory**, on *Qualac*. [Video](http://vimeo.com/32347763)
 * **Jason Liszka and Jorge Ortiz**, on *Rogue*. [Slides (PDF)](talk-slides/rogue.pdf)
 
 ## Sunday's talks
