@@ -58,5 +58,5 @@ Check back frequently for updates.
 * **Rúnar Óli Bjarnason**, on *Amateur Hour: Functional Programming Boot Camp*. [Video](http://vimeo.com/32369416)
 * **Brendan McAdams**, on *18 Months Learning Scala: Building a MongoDB Driver*. [Video](http://vimeo.com/32373908)
 * **Asheesh Laroia**, on *Attracting and Retaining Contributors to Open Source Projects*. [Video](http://vimeo.com/32379949)
-* **Nikita Ivanov**, on *Distributed Functional Programming Done Right*
+* **Nikita Ivanov**, on *Distributed Functional Programming Done Right*. [Video](http://vimeo.com/32384347)
 * **Philipp Haller**, on *The Many Flavors of Parallel Programming in Scala*
