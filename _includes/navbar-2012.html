@@ -1,0 +1,65 @@
+<!-- Twitter Bootstrap navbar -->
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+      <a class="brand" href="/">Scalathon 2012</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a id="navbar-home" href="/index.html">Home</a></li>
+          <li><a id="navbar-outline" href="outline.html">Outline</a></li>
+          <li><a id="navbar-projects" href="projects.html">Projects</a></li>
+          <li><a id="navbar-talks" href="talks.html">Talks</a></li>
+          <li><a id="navbar-calendar" href="calendar.html">Calendar</a></li>
+          <li><a id="navbar-logistics" href="logistics.html">Logistics</a></li>
+          <li><a id="navbar-register" href="register.html">Register</a></li>
+          <li><a id="navbar-faq" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+String.prototype.endsWith = function(suffix) {
+  return this.indexOf(suffix, this.length - suffix.length) !== -1;
+};
+
+var pathToID = {
+  "/"                   : '#navbar-home',
+  "/index.html"         : '#navbar-home',
+  "/outline.html"       : '#navbar-outline',
+  "/projects.html"      : '#navbar-projects',
+  "/talks.html"         : '#navbar-talks',
+  "/calendar.html"      : '#navbar-calendar',
+  "/logistics.html"     : '#navbar-logistics',
+  "/register.html"      : '#navbar-register',
+  "/faq.html"           : '#navbar-faq',
+};
+
+$(document).ready(function() {
+  function mapPathToID(path) {
+    var key;
+    var id = null;
+    for (key in pathToID) {
+      if (path === key) {
+        id = pathToID[key];
+        break;
+      }
+    }
+
+    return id;
+  };
+
+  var id = mapPathToID(window.location.pathname);
+  if (id != null) {
+    $(id).addClass("active");
+  }
+});
+</script>
