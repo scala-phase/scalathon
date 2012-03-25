@@ -12,7 +12,7 @@ directory:
 
     $ bundle install
 
-Finally, run Jekyll. It's best to use `bundle exec` to run `jekyll` in a
-controlled environment (as dictated by `Gemfile`):
+Finally, build the site, using Rake. It's best to use `bundle exec` to run
+`rake` in a controlled environment (as dictated by `Gemfile`):
 
-    $ bundle exec jekyll
+    $ bundle exec rake
