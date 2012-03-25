@@ -37,6 +37,12 @@ Run
 
 Then, surf to `localhost:4000`.
 
+## Publishing
+
+    $ bundle exec rake 
+    $ git commit -m '...' -a
+    $ git push origin gh-pages
+
 ## Styling
 
 ### To customize the non-Twitter Bootstrap look and feel
