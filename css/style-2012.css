@@ -1,0 +1,124 @@
+/* AUTOMATICALLY GENERATED FROM style-2012.scss on 2012-03-25 13:37:37 -0400 */
+/*
+   ---------------------------------------------------------------------------
+   GENERAL
+   ---------------------------------------------------------------------------
+*/
+#wrapper {
+  padding-top: 120px;
+  margin-left: 2em;
+  margin-right: 2em; }
+  #wrapper li {
+    line-height: 1.2em !important; }
+  #wrapper p {
+    margin-bottom: 15px !important;
+    line-height: 1.2em !important;
+    margin-left: 1em !important; }
+  #wrapper ul li {
+    margin-left: 1em !important; }
+  #wrapper h1 {
+    font-family: "Crimson Text", "Times New Roman", serif !important;
+    padding: 10px 0px 10px 0px !important; }
+  #wrapper h2 {
+    font-family: "Crimson Text", "Times New Roman", serif !important;
+    padding: 10px 0px 10px 0px !important; }
+  #wrapper h3 {
+    font-family: "Crimson Text", "Times New Roman", serif !important;
+    padding: 10px 0px 10px 0px !important; }
+  #wrapper h4 {
+    font-family: "Crimson Text", "Times New Roman", serif !important;
+    padding: 10px 0px 10px 0px !important; }
+
+#top-sponsors {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #cccccc; }
+  #top-sponsors .sponsor-icon {
+    height: 50px !important; }
+
+#scalathon-logo img#logo {
+  height: 60px !important; }
+
+div#scalathon-footer {
+  width: 100%;
+  max-height: 50px;
+  font-size: 12pt;
+  color: #555555;
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+  padding-bottom: 0;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  margin-bottom: 50px;
+  border-top: 1px solid #cccccc; }
+  div#scalathon-footer .footer-left {
+    float: left; }
+  div#scalathon-footer .footer-right {
+    float: right; }
+  div#scalathon-footer .footer-center {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  div#scalathon-footer .sponsor-icon {
+    height: 45px !important;
+    margin-top: 10px; }
+
+div#twitter_widget {
+  margin-left: 20px;
+  margin-right: -40px;
+  margin-top: -10px;
+  float: right; }
+
+#calendar {
+  width: 800px; }
+
+img.last {
+  display: block; }
+  img.last margin {
+    bottom: 20px;
+    left: auto;
+    right: auto; }
+
+img.right {
+  float: right;
+  padding-left: 10px; }
+
+div.center {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto; }
+  div.center img {
+    padding: 10px;
+    align: center; }
+
+img.left {
+  float: left;
+  padding-right: 10px; }
+
+#toc-block {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: compact(5px 5px 5px 1px gray, false, false, false, false, false, false, false, false);
+  -moz-box-shadow: compact(5px 5px 5px 1px gray, false, false, false, false, false, false, false, false);
+  box-shadow: compact(5px 5px 5px 1px gray, false, false, false, false, false, false, false, false);
+  float: right; }
+  #toc-block .toc-heading {
+    font-weight: bold; }
