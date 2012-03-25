@@ -13,6 +13,13 @@
 <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="/css/style-2012.css" media="screen"> 
 <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Karla:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="/js/jquery.tableofcontents.min.js" type="text/javascript"></script>
+
 
 {% include bootstrap.js.html %}
 
@@ -30,9 +37,6 @@
 
     <div id="header"> 
       {% include top-sponsors-2012.html %}
-      {% comment %}
-      {% include logo-2012.html %}
-      {% endcomment %}
     </div>
 
 {% if page.show_twitter %}
@@ -85,9 +89,11 @@
   {% include footer-2012.html %}
 
 {% if page.generate_toc %}
-<script type="text/javascript">
-createTOC();
-</script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      generateTOC('#main', 'Table of Contents');
+    });
+  </script>
 {% endif %}
 
 </body>

@@ -9,8 +9,34 @@
 // Custom stuff goes here.
 @import "responsive.less";
 @navbarBackground: #3D81ED;
-@navbarBackgroundHighlight: #6EE4ED;
+@navbarBackgroundHighlight: #3D81ED;
 @navbarLinkColor: @white;
-@navbarLinkColorHover: @grayLight;
-@navbarHeight: 100px;
-@baseFontSize: 14px;
+@navbarLinkColorHover: @white;
+
+@baseFontFamily: Helvetica, Arial, Verdana, sans-serif;
+@baseFontSize: 16px;
+
+// Changing navbar height requires hackage. See
+// https://github.com/twitter/bootstrap/issues/1540
+
+.navbar .nav {
+  height: @navbarHeight;
+  padding-top: ((@navbarHeight - 20)/ 2);
+}
+
+.navbar .nav > li > a {
+  //padding: (@navbarHeight - 20)/2 10px ((@navbarHeight - 20)/ 2  1);
+  padding: (((@navbarHeight - 20) / 2) * 0.8) 20px (((@navbarHeight - 20) / 2) * 1.2);
+}
+
+.navbar .nav li.active a {
+  color: red !important;
+}
+
+.navbar .brand {
+  font-family: "Crimson Text", "Times New Roman", serif;
+  font-size: 140%;
+  padding: (((@navbarHeight - 20) / 2) * 0.8) 20px (((@navbarHeight - 20) / 2) * 1.2);
+}
+
+@navbarHeight: 65px;

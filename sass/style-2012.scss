@@ -1,8 +1,11 @@
-@import url("http://fonts.googleapis.com/css?family=PT+Sans+Caption:regular,bold");
-@import url("http://fonts.googleapis.com/css?family=Permanent+Marker");
-
 @import "bourbon/bourbon";
 
+$border-color: #ccc;
+$rounded-border-radius: 10px;
+// $navbar-height MUST match what's in less/custom.less
+$navbar-height: 60px;
+$header-font: "Crimson Text", "Times New Roman", serif;
+$header-padding: 10px 0px 10px 0px;
 /*
    ---------------------------------------------------------------------------
    GENERAL
@@ -10,18 +13,83 @@
 */
 
 body {
-  padding-top: 100px;
 }
 
 #wrapper {
-  margin-left: 2em;
+  padding-top: $navbar-height * 2;
+
+  margin: {
+    left: 2em;
+    right: 2em;
+  }
+
+  li {
+    line-height: 1.2em !important;
+  }
+
+  p {
+    margin-bottom: 15px !important;
+    line-height: 1.2em !important;
+    margin-left: 1em !important;
+  }
+
+  ul {
+    li {
+      margin-left: 1em !important;
+    }
+  }
+
+  h1 {
+    font-family: $header-font !important;
+    padding: $header-padding !important;
+  }
+
+  h2 {
+    font-family: $header-font !important;
+    padding: $header-padding !important;
+  }
+
+  h3 {
+    font-family: $header-font !important;
+    padding: $header-padding !important;
+  }
+
+  h4 {
+    font-family: $header-font !important;
+    padding: $header-padding !important;
+  }
 }
 
+
 #top-sponsors {
+  @include border-radius($rounded-border-radius);
+  padding: {
+    left: $rounded-border-radius;
+    right: $rounded-border-radius;
+    top: $rounded-border-radius;
+    bottom: $rounded-border-radius;
+  }
+
+  margin: {
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+  }
+
+  border: 1px solid $border-color;
+
   .sponsor-icon {
     height: 50px !important;
   }
 }
+
+#scalathon-logo {
+  img#logo {
+    height: $navbar-height !important;
+  }
+}
+
 
 div#scalathon-footer {
   width: 100%;
@@ -30,7 +98,7 @@ div#scalathon-footer {
   color: #555555;
   background-color: white;
 
-  padding {
+  padding: {
     left: 0;
     right: 0;
     top: 20px;
@@ -38,11 +106,11 @@ div#scalathon-footer {
   };
 
   font-family: Helvetica, Verdana, Arial, sans-serif;
-  margin {
+  margin: {
     bottom: 50px;
   }
 
-  border-top: 1px solid #ccc;
+  border-top: 1px solid $border-color;
 
   .footer-left {
       float: left;
@@ -63,3 +131,60 @@ div#scalathon-footer {
     margin-top: 10px;
   }
 }
+
+div#twitter_widget {
+  margin: {
+    left:20px;
+    right: -40px;
+    top: -10px;
+  }
+  float: right;
+}
+
+#calendar {
+  width: 800px;
+}
+
+img.last {
+  margin {
+    bottom: 20px;
+    left: auto;
+    right: auto;
+  }
+  display: block;
+}
+
+img.right {
+  float: right;
+  padding-left: 10px;
+}
+
+div.center {
+  width: 30%;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  img {
+    padding: 10px;
+    align: center;
+  }
+}
+
+img.left {
+  float: left;
+  padding-right: 10px;
+}
+
+#toc-block {
+  @include border-radius($rounded-border-radius);
+  padding: $rounded-border-radius;
+  border: 1px solid $border-color;
+  @include box-shadow(5px 5px 5px 1px gray);
+  float: right;
+
+  .toc-heading {
+    font-weight: bold;
+  }
+}
+

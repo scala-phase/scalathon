@@ -9,17 +9,23 @@
         <span class="icon-bar"></span>
       </a>
 
-      <a class="brand" href="/">Scalathon 2012</a>
+      <a class="brand" href="/2012/">
+        <span id="scalathon-logo">
+          <img id="logo" src="/img/logo-2012-small.png" alt="Scalathon!">
+          {{ page.title }}
+        </span>
+      </a>
+
       <div class="nav-collapse">
         <ul class="nav">
-          <li><a id="navbar-home" href="/index.html">Home</a></li>
-          <li><a id="navbar-outline" href="outline.html">Outline</a></li>
-          <li><a id="navbar-projects" href="projects.html">Projects</a></li>
-          <li><a id="navbar-talks" href="talks.html">Talks</a></li>
-          <li><a id="navbar-calendar" href="calendar.html">Calendar</a></li>
-          <li><a id="navbar-logistics" href="logistics.html">Logistics</a></li>
-          <li><a id="navbar-register" href="register.html">Register</a></li>
-          <li><a id="navbar-faq" href="faq.html">FAQ</a></li>
+          <li id="navbar-home"><a href="index.html">Home</a></li>
+          <li id="navbar-outline"><a href="outline.html">Outline</a></li>
+          <li id="navbar-projects"><a href="projects.html">Projects</a></li>
+          <li id="navbar-talks"><a href="talks.html">Talks</a></li>
+          <li id="navbar-calendar"><a href="calendar.html">Calendar</a></li>
+          <li id="navbar-logistics"><a href="logistics.html">Logistics</a></li>
+          <li id="navbar-register"><a href="register.html">Register</a></li>
+          <li id="navbar-faq"><a href="faq.html">FAQ</a></li>
         </ul>
       </div>
     </div>
@@ -32,15 +38,15 @@ String.prototype.endsWith = function(suffix) {
 };
 
 var pathToID = {
-  "/"                   : '#navbar-home',
-  "/index.html"         : '#navbar-home',
-  "/outline.html"       : '#navbar-outline',
-  "/projects.html"      : '#navbar-projects',
-  "/talks.html"         : '#navbar-talks',
-  "/calendar.html"      : '#navbar-calendar',
-  "/logistics.html"     : '#navbar-logistics',
-  "/register.html"      : '#navbar-register',
-  "/faq.html"           : '#navbar-faq',
+  "/2012"                    : '#navbar-home',
+  "/2012/index.html"         : '#navbar-home',
+  "/2012/outline.html"       : '#navbar-outline',
+  "/2012/projects.html"      : '#navbar-projects',
+  "/2012/talks.html"         : '#navbar-talks',
+  "/2012/calendar.html"      : '#navbar-calendar',
+  "/2012/logistics.html"     : '#navbar-logistics',
+  "/2012/register.html"      : '#navbar-register',
+  "/2012/faq.html"           : '#navbar-faq'
 };
 
 $(document).ready(function() {
@@ -56,7 +62,6 @@ $(document).ready(function() {
 
     return id;
   };
-
   var id = mapPathToID(window.location.pathname);
   if (id != null) {
     $(id).addClass("active");

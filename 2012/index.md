@@ -19,6 +19,7 @@ see the [Scalathon 2011](/2011/) page.*
 
 * Scalathon 2012 will held **July 27-29, 2012** in the suburbs of
   **[Philadelphia](http://en.wikipedia.org/wiki/Philadelphia), Pennsylvania**,
+  at a location to be announced soon.
 
 # Registration
 
