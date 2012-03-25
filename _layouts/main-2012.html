@@ -10,7 +10,7 @@
 {% comment %}
 <link rel="stylesheet" type="text/css" href="/css/reset.css" media="screen"> 
 {% endcomment %}
-<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen"> 
+<link rel="stylesheet" type="text/css" href="/css/style-2012.css" media="screen"> 
 
 {% if page.generate_toc %}
 <script type="text/javascript">
@@ -23,12 +23,14 @@
   <body>
     <div id="wrapper">
       <div id="header"> 
-        {% include top-sponsors.html %}
-        {% include logo.html %}
+        {% include top-sponsors-2012.html %}
+        {% include logo-2012.html %}
         <div id="menu">
           <ul id="nav"> 
             <li><a href="index.html" {% if page.tab == 'home' %}class="selected first"{% else %}class="first"{% endif %}>Home</a></li>
+{% comment %}
             <li><a href="videos.html" {% if page.tab == 'videos' %}class="selected"{% endif %}>Videos</a></li>
+{% endcomment %}
             <li><a href="outline.html" {% if page.tab == 'outline' %}class="selected"{% endif %}>Outline</a></li>
             <li><a href="projects.html" {% if page.tab == 'projects' %}class="selected"{% endif %}>Projects</a></li>
             <li><a href="talks.html" {% if page.tab == 'talks' %}class="selected"{% endif %}>Talks</a></li>
@@ -87,7 +89,7 @@
     </div> <!-- wrapper -->
 
 
-    {% include footer.html %}
+    {% include footer-2012.html %}
 
 {% if page.generate_toc %}
 <script type="text/javascript">

@@ -1,6 +1,6 @@
 ---
 title: Calendar of Events
-layout: main
+layout: main-2011
 tab: calendar
 ---
 

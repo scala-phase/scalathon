@@ -1,6 +1,6 @@
 ---
 title: FAQ
-layout: main
+layout: main-2011
 tab: faq
 ---
 

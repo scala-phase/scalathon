@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Pragma" content="no-cache">
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<title>{{ page.title }}</title> 
+{% comment %}
+<link rel="stylesheet" type="text/css" href="/css/reset.css" media="screen"> 
+{% endcomment %}
+<link rel="stylesheet" type="text/css" href="/css/style-2011.css" media="screen"> 
+
+{% if page.generate_toc %}
+<script type="text/javascript">
+{% include toc.js %}
+</script>
+{% endif %}
+
+</head> 
+    
+  <body>
+    <div id="wrapper">
+      <div id="header"> 
+        {% include top-sponsors-2012.html %}
+        {% include logo-2011.html %}
+        <div id="menu">
+          <ul id="nav"> 
+            <li><a href="index.html" {% if page.tab == 'home' %}class="selected first"{% else %}class="first"{% endif %}>Home</a></li>
+            <li><a href="videos.html" {% if page.tab == 'videos' %}class="selected"{% endif %}>Videos</a></li>
+            <li><a href="outline.html" {% if page.tab == 'outline' %}class="selected"{% endif %}>Outline</a></li>
+            <li><a href="projects.html" {% if page.tab == 'projects' %}class="selected"{% endif %}>Projects</a></li>
+            <li><a href="talks.html" {% if page.tab == 'talks' %}class="selected"{% endif %}>Talks</a></li>
+            <li><a href="calendar.html" {% if page.tab == 'calendar' %}class="selected"{% endif %}>Calendar</a></li>
+            <li><a href="logistics.html" {% if page.tab == 'logistics' %}class="selected"{% endif %}>Logistics</a></li>
+            <li><a href="register.html" {% if page.tab == 'register' %}class="selected"{% endif %}>Register</a></li>
+            <li><a href="faq.html" {% if page.tab == 'faq' %}class="selected"{% endif %}>FAQ</a></li>
+          </ul>
+        </div> 
+      </div>
+
+{% if page.show_twitter %}
+      <div id="twitter_widget">
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <script>
+            new TWTR.Widget({
+              version: 2,
+              type: 'search',
+              search: '#scalathon OR @scalathon OR scalathon OR "philly area scala enthusiasts"',
+              interval: 6000,
+              title: 'What people are saying', 
+              subject: '#scalathon',
+              width: 250,
+              height: 300,
+              theme: {
+                shell: {
+//                  background: '#6D7B8D',
+                  background: '#2E4A6B',
+                  color: '#ffffff'
+                },
+                tweets: {
+                  background: '#ffffff',
+                  color: '#444444',
+                  links: '#2E4A6B'
+                }
+              },
+              features: {
+                scrollbar: true,
+                loop: false,
+                live: true,
+                hashtags: true,
+                timestamp: true,
+                avatars: true,
+                toptweets: true,
+                behavior: 'all'
+              }
+            }).render().start();
+        </script>
+      </div>
+{% endif %}
+
+      <div id="main">
+{{ content }}
+      </div> 
+
+    </div> <!-- wrapper -->
+
+
+    {% include footer-2011.html %}
+
+{% if page.generate_toc %}
+<script type="text/javascript">
+createTOC();
+</script>
+{% endif %}
+
+  </body>
+</html>

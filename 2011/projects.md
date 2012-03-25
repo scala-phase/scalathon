@@ -1,6 +1,6 @@
 ---
 title: Participating Projects
-layout: main
+layout: main-2011
 tab: projects
 ---
 

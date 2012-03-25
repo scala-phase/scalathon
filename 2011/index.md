@@ -1,6 +1,6 @@
 ---
 title: Scalathon 2011
-layout: main
+layout: main-2011
 show_twitter: true
 tab: home
 ---

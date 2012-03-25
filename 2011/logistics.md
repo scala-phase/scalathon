@@ -1,6 +1,6 @@
 ---
 title: Logistics
-layout: main
+layout: main-2011
 tab: logistics
 ---
 

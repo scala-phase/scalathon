@@ -1,6 +1,6 @@
 ---
 title: Event Outline
-layout: main
+layout: main-2011
 tab: outline
 ---
 

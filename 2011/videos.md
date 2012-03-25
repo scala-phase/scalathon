@@ -1,6 +1,6 @@
 ---
 title: Videos
-layout: main
+layout: main-2011
 tab: videos
 ---
 

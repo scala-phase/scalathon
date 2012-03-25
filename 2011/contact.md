@@ -1,6 +1,6 @@
 ---
 title: Contact
-layout: main
+layout: main-2011
 tab: contact
 ---
 

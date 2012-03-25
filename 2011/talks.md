@@ -1,6 +1,6 @@
 ---
 title: Talks
-layout: main
+layout: main-2011
 tab: talks
 ---
 
