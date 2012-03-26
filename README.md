@@ -70,7 +70,9 @@ run this Rake command:
 
 That command will
 
-* Clone the Twitter Bootstrap repo (the master)
-* Install the appropriate files under `./bootstrap`, if they've changed.
+* Clone the Twitter Bootstrap repo (the master) into a temporary directory.
+* Copy the appropriate files from the cloned repo to the `./bootstrap` folder,
+  if they've changed.
+* Update all Bootstrap CSS files (via the `bootstrap_css` task).
 
-It will *not* update our `custom.less` file (which is good).
+It will *not touch* our `custom.less` file (which is good).
