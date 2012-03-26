@@ -37,9 +37,9 @@ body {
           margin-top: 5px;
           margin-bottom: 0px; }
     #non-navbar-content #content-container #sponsors-sidebar #big-sponsors img.sponsor-icon {
-      height: 50px !important; }
+      height: 32px !important; }
     #non-navbar-content #content-container #sponsors-sidebar #small-sponsors img.sponsor-icon {
-      height: 40px !important; }
+      height: 32px !important; }
   #non-navbar-content #content-container #page-title {
     color: #dd3333;
     font-size: 250%;
