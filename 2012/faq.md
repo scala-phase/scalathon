@@ -55,7 +55,7 @@ are the primary organizers.
 We are very lucky: Many companies are sponsoring Scalathon with financial
 donations.
 
-* Our _Big Fish_ sponsors have donated $1,500 or more to Scalathon.
+* Our _Big Fish_ sponsors have donated $1,000 or more to Scalathon.
 * Our _Little Fish_ sponsors have donated at least $250 to Scalathon.
 
 Thanks to *all* our sponsors!
