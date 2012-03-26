@@ -19,6 +19,15 @@
 // Changing navbar height requires hackage. See
 // https://github.com/twitter/bootstrap/issues/1540
 
+.navbar {
+  width: 100% !important;
+}
+
+.navbar .navbar-inner .container {
+  width: 100%;
+  margin: 0;
+}
+
 .navbar .nav {
   height: @navbarHeight;
   padding-top: ((@navbarHeight - 20)/ 2);
@@ -26,17 +35,14 @@
 
 .navbar .nav > li > a {
   //padding: (@navbarHeight - 20)/2 10px ((@navbarHeight - 20)/ 2  1);
-  padding: (((@navbarHeight - 20) / 2) * 0.8) 20px (((@navbarHeight - 20) / 2) * 1.2);
+  padding: (((@navbarHeight - 0) / 2) * 0.8) 20px (((@navbarHeight - 0) / 2) * 1.2);
 }
 
 .navbar .nav li.active a {
   color: red !important;
+  background: transparent !important;
 }
 
 .navbar .brand {
-  font-family: "Crimson Text", "Times New Roman", serif;
-  font-size: 140%;
   padding: (((@navbarHeight - 20) / 2) * 0.8) 20px (((@navbarHeight - 20) / 2) * 1.2);
 }
-
-@navbarHeight: 65px;

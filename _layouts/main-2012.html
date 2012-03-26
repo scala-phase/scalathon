@@ -35,9 +35,15 @@
   <div id="wrapper">
     {% include navbar-2012.html %}
 
-    <div id="header"> 
+    <div id="header "> 
       {% include top-sponsors-2012.html %}
     </div>
+
+    {% if page.logo_in_content %}
+    <img src="/img/logo-2012.png" class="logo-in-content"/>
+    {% endif %}
+
+    <div id="page-title">{{ page.title }}</div>
 
 {% if page.show_twitter %}
     <div id="twitter_widget">

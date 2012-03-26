@@ -1,13 +1,35 @@
-/* AUTOMATICALLY GENERATED FROM style-2012.scss on 2012-03-25 13:37:37 -0400 */
-/*
-   ---------------------------------------------------------------------------
-   GENERAL
-   ---------------------------------------------------------------------------
-*/
 #wrapper {
-  padding-top: 120px;
+  padding-top: 90px;
   margin-left: 2em;
   margin-right: 2em; }
+  #wrapper #top-sponsors {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #cccccc; }
+    #wrapper #top-sponsors .sponsor-icon {
+      height: 50px !important; }
+  #wrapper #page-title {
+    color: #dd3333;
+    font-size: 250%;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    font-weight: bold;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important; }
+  #wrapper .logo-in-content {
+    height: 100px;
+    float: right;
+    margin-right: 30px; }
   #wrapper li {
     line-height: 1.2em !important; }
   #wrapper p {
@@ -28,27 +50,6 @@
   #wrapper h4 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-
-#top-sponsors {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 10px;
-  margin-right: 10px;
-  border: 1px solid #cccccc; }
-  #top-sponsors .sponsor-icon {
-    height: 50px !important; }
-
-#scalathon-logo img#logo {
-  height: 60px !important; }
 
 div#scalathon-footer {
   width: 100%;
@@ -78,8 +79,8 @@ div#scalathon-footer {
 
 div#twitter_widget {
   margin-left: 20px;
-  margin-right: -40px;
-  margin-top: -10px;
+  margin-right: 0px;
+  margin-top: 0px;
   float: right; }
 
 #calendar {
@@ -116,9 +117,46 @@ img.left {
   border-radius: 10px;
   padding: 10px;
   border: 1px solid #cccccc;
-  -webkit-box-shadow: compact(5px 5px 5px 1px gray, false, false, false, false, false, false, false, false);
-  -moz-box-shadow: compact(5px 5px 5px 1px gray, false, false, false, false, false, false, false, false);
-  box-shadow: compact(5px 5px 5px 1px gray, false, false, false, false, false, false, false, false);
-  float: right; }
+  margin-top: 10px;
+  -webkit-box-shadow: 5px 5px 2px 0 gray;
+  -moz-box-shadow: 5px 5px 2px 0 gray;
+  box-shadow: 5px 5px 2px 0 gray;
+  float: right;
+  background-color: #ffe776;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe776), color-stop(100%, #c9b65f));
+  background-image: -webkit-linear-gradient(top, #ffe776, #c9b65f);
+  background-image: -moz-linear-gradient(top, #ffe776, #c9b65f);
+  background-image: -ms-linear-gradient(top, #ffe776, #c9b65f);
+  background-image: -o-linear-gradient(top, #ffe776, #c9b65f);
+  background-image: linear-gradient(top, #ffe776, #c9b65f); }
   #toc-block .toc-heading {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 120%; }
+  #toc-block ul#toc {
+    padding-top: 5px;
+    padding-left: 0;
+    margin-left: -4px;
+    list-style-type: none;
+    list-style-position: inside;
+    background: transparent; }
+    #toc-block ul#toc li ul {
+      list-style-type: none;
+      list-style-position: inside;
+      padding-left: 0;
+      margin-left: 0px; }
+
+.navbar {
+  margin-left: 0px !important; }
+  .navbar .container {
+    background-color: #3d81ed;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d81ed), color-stop(100%, #183562));
+    background-image: -webkit-linear-gradient(top, #3d81ed, #183562);
+    background-image: -moz-linear-gradient(top, #3d81ed, #183562);
+    background-image: -ms-linear-gradient(top, #3d81ed, #183562);
+    background-image: -o-linear-gradient(top, #3d81ed, #183562);
+    background-image: linear-gradient(top, #3d81ed, #183562); }
+  .navbar #scalathon-logo img#logo {
+    height: 40px !important; }
+  .navbar #scalathon-logo p {
+    font-family: "Crimson Text", "Times New Roman", serif !important;
+    font-size: 170% !important; }

@@ -9,21 +9,14 @@ task :preview => [:css] do |t|
 end
 
 task :css do
-  require 'sass'
-
   FileList['sass/*.scss'].each do |scss|
     css = scss.gsub(/^sass/, 'css').gsub(/\.scss$/, '.css')
     Dir.mkdir('css') if !Dir.exists?('css')
     Dir.chdir('sass') do
       input = File.basename(scss)
-      engine = Sass::Engine.new(File.open(input).readlines.join(''),
-                                :syntax => :scss)
-      out = File.open(File.join('..', css), 'w')
+      out = File.join('..', css)
       puts "#{scss} -> #{css}"
-      out.write("/* AUTOMATICALLY GENERATED FROM #{input} on #{Time.now} */\n")
-      out.write(engine.render)
-      # Force close, to force a flush.
-      out.close
+      sh 'sass', '-r', './bourbon/lib/bourbon.rb', input, out
     end
   end
 end
