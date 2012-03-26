@@ -50,16 +50,13 @@ It's is a product of the [Philly Area Scala Enthusiasts][PHASE]
 ([PHASE][]), the Scala user group in Philadelphia. Yuvi and [Brian Clapper][]
 are the primary organizers.
 
-## What's with all the company logos?
+## What's this "Big Fish", "Little Fish" stuff?
 
 We are very lucky: Many companies are sponsoring Scalathon with financial
 donations.
 
-The company logos at the *top* of each page represent our Big Fish Sponsors,
-companies that have donated $1,500 or more to Scalathon.
-
-The company logos at the *bottom* of each page represent our Little Fish
-Sponsors, companies that have donated at least $250 to Scalathon.
+* Our _Big Fish_ sponsors have donated $1,500 or more to Scalathon.
+* Our _Little Fish_ sponsors have donated at least $250 to Scalathon.
 
 Thanks to *all* our sponsors!
 

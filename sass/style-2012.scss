@@ -1,11 +1,16 @@
 @import "bourbon/bourbon";
 @import "vars";
 
+// ---------------------------------------------------------------------------
+// Variables
+// ---------------------------------------------------------------------------
+
 $border-color: #ccc;
 $rounded-border-radius: 10px;
 $navbar-height: $bootstrapNavbarHeight;
 $header-font: "Crimson Text", "Times New Roman", serif;
 $header-padding: 10px 0px 10px 0px;
+$top-header-color: #dd3333;
 
 $navbar-gradient-top: $bootstrapNavbarBackground;
 $navbar-gradient-bottom: darken($navbar-gradient-top, 40%);
@@ -13,159 +18,169 @@ $navbar-gradient-bottom: darken($navbar-gradient-top, 40%);
 $toc-gradient-top: $navbar-gradient-top;
 $toc-gradient-bottom: $navbar-gradient-bottom;
 
-$page-title-color: #dd3333;
+$page-title-color: $top-header-color;
+$sponsor-sidebar-bgcolor: white;
+
+// ---------------------------------------------------------------------------
+// Local mixins
+// ---------------------------------------------------------------------------
+
+@mixin drop-shadow($offset: 5px, $spread: 2px) {
+  // Drop shadow (lower right)
+  @include box-shadow($offset $offset $spread 0 #999);
+}
 
 // ---------------------------------------------------------------------------
 // General
 // ---------------------------------------------------------------------------
 
 
+html {
+  height: 100% !important;
+}
+
 body {
+  height: 100% !important;
 }
 
-#content-container {
-
-  padding-top: ($navbar-height * 2) + 10px;
-
-  margin: {
-    left: 1em;
-    right: 1em;
-  }
-
-  div#sponsors-sidebar {
-
-    height: 100%;
-
-    @include border-radius($rounded-border-radius);
-    padding: {
-      left: $rounded-border-radius;
-      right: $rounded-border-radius;
-      top: $rounded-border-radius;
-      bottom: $rounded-border-radius;
-    }
-
-    background-color: gray !important;
-    color: red !important;
-
-    margin: {
-      top: 0;
-      bottom: 0;
-      left: 10px;
-      right: 10px;
-    }
-
-    border: 1px solid $border-color;
-
-    .sponsor-icon {
-      height: 50px !important;
-    }
-  }
-
-  #page-title {
-    color: $page-title-color;
-
-    font: {
-      size: 250%;
-      family: $header-font;
-      weight: bold;
-    }
-
-    margin: {
-      top: 30px !important;
-      bottom: 20px !important;
-    }
-  }
-
-  .logo-in-content {
-    height: 100px;
-    float: right;
-    margin-right: 30px;
-  }
-
-  li {
-    line-height: 1.2em !important;
-  }
-
-  p {
-    margin-bottom: 15px !important;
-    line-height: 1.2em !important;
-    margin-left: 1em !important;
-  }
-
-  ul {
-    li {
-      margin-left: 1em;
-    }
-  }
-
-  h1 {
-    font-family: $header-font !important;
-    padding: $header-padding !important;
-  }
-
-  h2 {
-    font-family: $header-font !important;
-    padding: $header-padding !important;
-  }
-
-  h3 {
-    font-family: $header-font !important;
-    padding: $header-padding !important;
-  }
-
-  h4 {
-    font-family: $header-font !important;
-    padding: $header-padding !important;
-  }
-
-  div#twitter-widget {
-    margin: {
-      left: 20px;
-      right: 20px;
-      top: 0px;
-    }
-    float: right;
-  }
+@mixin full-height {
+  // height: auto !important;
+  min-height: 100% !important;
 }
 
-div#scalathon-footer {
-  width: 100%;
-  max-height: 50px;
-  font-size: 12pt;
-  color: #555555;
-  background-color: white;
+#non-navbar-content {
 
-  padding: {
-    left: 0;
-    right: 0;
-    top: 20px;
-    bottom: 0;
-  };
+  padding-top: $navbar-height + 40px;
 
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  margin: {
-    bottom: 50px;
-  }
+  #content-container {
 
-  border-top: 1px solid $border-color;
+    #sponsors-sidebar {
 
-  .footer-left {
-      float: left;
-  }
-  .footer-right {
-      float: right;
-  }
-
-  .footer-center {
       text-align: center;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-  }
+      background: $sponsor-sidebar-bgcolor !important;
 
-  .sponsor-icon {
-    height: 45px !important;
-    margin-top: 10px;
+      @include border-radius($rounded-border-radius);
+      padding: {
+        left: $rounded-border-radius;
+        right: $rounded-border-radius;
+        top: $rounded-border-radius;
+        bottom: $rounded-border-radius;
+      }
+
+      border: 1px solid $border-color;
+      .sponsor-block {
+
+        margin-top: 10px;
+
+        .heading {
+          font: {
+            family: $header-font;
+            size: 140%;
+            color: $top-header-color;
+            weight: bold;
+            style: italic;
+          }
+
+          margin-bottom: 20px;
+          margin-top: 20px;
+        }
+
+        ul {
+          list-style-type: none;
+
+          li {
+            padding: 0;
+            margin: {
+              left: -5px;
+              right: 0;
+              top: 5px;
+              bottom: 0px;
+            }
+          }
+        }
+      }
+
+      #big-sponsors {
+        img.sponsor-icon {
+          height: 50px !important;
+        }
+      }
+
+      #small-sponsors {
+        img.sponsor-icon {
+          height: 40px !important;
+        }
+      }
+    }
+
+    div#page-content {
+    }
+
+    #page-title {
+      color: $page-title-color;
+
+      font: {
+        size: 250%;
+        family: $header-font;
+        weight: bold;
+      }
+
+      margin: {
+        top: 30px !important;
+        bottom: 20px !important;
+      }
+    }
+
+    .logo-in-content {
+      height: 100px;
+      float: right;
+      margin-right: 30px;
+    }
+
+    li {
+      line-height: 1.2em !important;
+    }
+
+    p {
+      margin-bottom: 15px !important;
+      line-height: 1.2em !important;
+      margin-left: 1em !important;
+    }
+
+    ul {
+      li {
+        margin-left: 1em;
+      }
+    }
+
+    h1 {
+      font-family: $header-font !important;
+      padding: $header-padding !important;
+    }
+
+    h2 {
+      font-family: $header-font !important;
+      padding: $header-padding !important;
+    }
+
+    h3 {
+      font-family: $header-font !important;
+      padding: $header-padding !important;
+    }
+
+    h4 {
+      font-family: $header-font !important;
+      padding: $header-padding !important;
+    }
+
+    div#twitter-widget {
+      margin: {
+        left: 20px;
+        right: 20px;
+        top: 0px;
+      }
+      float: right;
+    }
   }
 }
 
@@ -202,10 +217,6 @@ div.center {
 img.left {
   float: left;
   padding-right: 10px;
-}
-
-@mixin drop-shadow {
-  @include box-shadow(5px 5px 2px 0 gray);
 }
 
 // ---------------------------------------------------------------------------

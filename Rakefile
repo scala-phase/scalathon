@@ -22,7 +22,7 @@ end
 
 desc "Generate CSS from Sass input"
 task :css => :sass_bootstrap_defs do
-  FileList['sass/*.scss'].each do |scss|
+  FileList['sass/[A-Za-z0-9]*.scss'].each do |scss|
     css = scss.gsub(/^sass/, 'css').gsub(/\.scss$/, '.css')
     Dir.mkdir('css') if !Dir.exists?('css')
     Dir.chdir('sass') do

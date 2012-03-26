@@ -33,43 +33,54 @@
 
 <body>
   {% include navbar-2012.html %}
+  <!-- 
+      NOTE: Any div-based styling should be done on DIVs that are
+      nested INSIDE the Twitter Bootstrap DIVs.
+  -->
+  <div class="container-fluid" id="non-navbar-content">
+    <div class="row-fluid">
+      <div id="content-container">
+        <div class="span3">
+          <div id="sponsors-sidebar">
+          {% include sponsors-2012.html %}
+          </div>
+        </div>
 
-  <div class="row" id="content-container">
+        <div class="span9">
+          <div id="page-content">
 
-    <div class="span3" id="sponsors-sidebar">
-      Sponsors to go here.
-    </div>
+            {% if page.logo_in_content %}
+            <img src="/img/logo-2012.png" class="logo-in-content"/>
+            {% endif %}
 
-    <div class="span9" id="page-content">
+            <div id="page-title">{{ page.title }}</div>
 
-      {% if page.logo_in_content %}
-      <img src="/img/logo-2012.png" class="logo-in-content"/>
+            {% if page.show_twitter %}
+            {% include twitter-widget.html %}
+            {% endif %}
+        
+            <div id="main">
+            {{ content }}
+            </div> 
+          </div> <!-- page-content -->
+        </div> <!-- span10 -->
+      </div> <!-- content-container -->
+    </div> <!-- row-fluid -->
+    
+    {% if page.generate_toc %}
+      <script type="text/javascript">
+      {% if page.toc_header and (page.toc_header != 'none') %}
+        var heading = "{{ page.toc_header }}"
+      {% else %}
+        var heading = null;
       {% endif %}
-
-      <div id="page-title">{{ page.title }}</div>
-
-      {% if page.show_twitter %}
-      {% include twitter-widget.html %}
-      {% endif %}
-  
-      <div id="main">
-      {{ content }}
-      </div> 
-    </div>
-  </div> <!-- row-fluid -->
-  
-{% if page.generate_toc %}
-  <script type="text/javascript">
-  {% if page.toc_header and (page.toc_header != 'none') %}
-    var heading = "{{ page.toc_header }}"
-  {% else %}
-    var heading = null;
-  {% endif %}
-    $(document).ready(function() {
-      generateTOC('#main', heading);
-    });
-  </script>
-{% endif %}
+        $(document).ready(function() {
+          generateTOC('#main', heading);
+        });
+      </script>
+    {% endif %}
+  </div> <!-- container -->
+</div>
 
 </body>
 </html>

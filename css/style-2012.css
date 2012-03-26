@@ -1,9 +1,14 @@
-#content-container {
-  padding-top: 90px;
-  margin-left: 1em;
-  margin-right: 1em; }
-  #content-container div#sponsors-sidebar {
-    height: 100%;
+html {
+  height: 100% !important; }
+
+body {
+  height: 100% !important; }
+
+#non-navbar-content {
+  padding-top: 80px; }
+  #non-navbar-content #content-container #sponsors-sidebar {
+    text-align: center;
+    background: white !important;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -13,77 +18,65 @@
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: gray !important;
-    color: red !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 10px;
-    margin-right: 10px;
     border: 1px solid #cccccc; }
-    #content-container div#sponsors-sidebar .sponsor-icon {
+    #non-navbar-content #content-container #sponsors-sidebar .sponsor-block {
+      margin-top: 10px; }
+      #non-navbar-content #content-container #sponsors-sidebar .sponsor-block .heading {
+        font-family: "Crimson Text", "Times New Roman", serif;
+        font-size: 140%;
+        font-color: #dd3333;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 20px;
+        margin-top: 20px; }
+      #non-navbar-content #content-container #sponsors-sidebar .sponsor-block ul {
+        list-style-type: none; }
+        #non-navbar-content #content-container #sponsors-sidebar .sponsor-block ul li {
+          padding: 0;
+          margin-left: -5px;
+          margin-right: 0;
+          margin-top: 5px;
+          margin-bottom: 0px; }
+    #non-navbar-content #content-container #sponsors-sidebar #big-sponsors img.sponsor-icon {
       height: 50px !important; }
-  #content-container #page-title {
+    #non-navbar-content #content-container #sponsors-sidebar #small-sponsors img.sponsor-icon {
+      height: 40px !important; }
+  #non-navbar-content #content-container #page-title {
     color: #dd3333;
     font-size: 250%;
     font-family: "Crimson Text", "Times New Roman", serif;
     font-weight: bold;
     margin-top: 30px !important;
     margin-bottom: 20px !important; }
-  #content-container .logo-in-content {
+  #non-navbar-content #content-container .logo-in-content {
     height: 100px;
     float: right;
     margin-right: 30px; }
-  #content-container li {
+  #non-navbar-content #content-container li {
     line-height: 1.2em !important; }
-  #content-container p {
+  #non-navbar-content #content-container p {
     margin-bottom: 15px !important;
     line-height: 1.2em !important;
     margin-left: 1em !important; }
-  #content-container ul li {
+  #non-navbar-content #content-container ul li {
     margin-left: 1em; }
-  #content-container h1 {
+  #non-navbar-content #content-container h1 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #content-container h2 {
+  #non-navbar-content #content-container h2 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #content-container h3 {
+  #non-navbar-content #content-container h3 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #content-container h4 {
+  #non-navbar-content #content-container h4 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #content-container div#twitter-widget {
+  #non-navbar-content #content-container div#twitter-widget {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 0px;
     float: right; }
-
-div#scalathon-footer {
-  width: 100%;
-  max-height: 50px;
-  font-size: 12pt;
-  color: #555555;
-  background-color: white;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 20px;
-  padding-bottom: 0;
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  margin-bottom: 50px;
-  border-top: 1px solid #cccccc; }
-  div#scalathon-footer .footer-left {
-    float: left; }
-  div#scalathon-footer .footer-right {
-    float: right; }
-  div#scalathon-footer .footer-center {
-    text-align: center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto; }
-  div#scalathon-footer .sponsor-icon {
-    height: 45px !important;
-    margin-top: 10px; }
 
 #calendar {
   width: 800px; }
@@ -124,9 +117,9 @@ img.left {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 20px;
-  -webkit-box-shadow: 5px 5px 2px 0 gray;
-  -moz-box-shadow: 5px 5px 2px 0 gray;
-  box-shadow: 5px 5px 2px 0 gray;
+  -webkit-box-shadow: 5px 5px 2px 0 #999999;
+  -moz-box-shadow: 5px 5px 2px 0 #999999;
+  box-shadow: 5px 5px 2px 0 #999999;
   float: right;
   background-color: #3d81ed;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d81ed), color-stop(100%, #082656));
