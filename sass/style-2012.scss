@@ -1,14 +1,14 @@
 @import "bourbon/bourbon";
+@import "vars";
 
 $border-color: #ccc;
 $rounded-border-radius: 10px;
-// $navbar-height MUST match what's in less/custom.less
-$navbar-height: 40px;
+$navbar-height: $bootstrapNavbarHeight;
 $header-font: "Crimson Text", "Times New Roman", serif;
 $header-padding: 10px 0px 10px 0px;
 
-$navbar-gradient-top: #3D81ED;
-$navbar-gradient-bottom: #183562;
+$navbar-gradient-top: $bootstrapNavbarBackground;
+$navbar-gradient-bottom: darken($navbar-gradient-top, 40%);
 
 $toc-gradient-top: $navbar-gradient-top;
 $toc-gradient-bottom: $navbar-gradient-bottom;
@@ -91,7 +91,7 @@ body {
 
   ul {
     li {
-      margin-left: 1em !important;
+      margin-left: 1em;
     }
   }
 
@@ -248,6 +248,7 @@ img.left {
     padding-top: 5px;
     padding-left: 0;
     margin-left: -4px;
+    margin-right: 5px;
     list-style-type: none;
     list-style-position: inside;
     background: transparent;
@@ -267,26 +268,34 @@ img.left {
 // Twitter Bootstrap Overrides (that are easier to manage here than custom.less)
 // ---------------------------------------------------------------------------
 
-.navbar {
-  margin-left: 0px !important;
+$logo-font-size: 16px;
+#wrapper {
+  .navbar {
+    .navbar-inner {
+      .container {
+        ul#navbar-list {
+          li {
+            margin: 0 !important;
+            padding: 0 !important;
+          }
+        }
 
-  .container {
-    @include linear-gradient(top, $navbar-gradient-top, $navbar-gradient-bottom);
-  }
+        @include linear-gradient(top, $navbar-gradient-top, $navbar-gradient-bottom);
 
-  #scalathon-logo {
-    img#logo {
-      height: $navbar-height !important;
-    }
+        #scalathon-logo {
+          img#logo {
+            height: $navbar-height !important;
+          }
 
-    p {
-      font: {
-        family: "Crimson Text", "Times New Roman", serif !important;
-        size: 170% !important;
+          p {
+            font: {
+              size: 120%;
+              family: $header-font;
+            }
+          }
+        }
       }
     }
-
-}
-
+  }
 }
 
