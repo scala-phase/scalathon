@@ -205,7 +205,13 @@ img.left {
   @include border-radius($rounded-border-radius);
   padding: $rounded-border-radius;
   border: 1px solid $border-color;
-  margin-top: 10px;
+
+  margin: {
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 20px;
+  }
 
   @include drop-shadow; 
 

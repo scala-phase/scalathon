@@ -9,11 +9,8 @@ generate_toc: true
 
 Scalathon is an opportunity for the Scala community to come together and improve the Scala ecosystem over two jam packed days.
 
-## Scalathon is about code ##
-
-## Scalathon is collaborative ##
-
-## Scalathon is social ##
+* **Scalathon is about code.**
+* **Scalathon is social.**
 
 ## Scalathon may be for you if ##
 
@@ -40,11 +37,9 @@ Many of these talks will:
 
 We are hoping to provide breakfast and lunch, funding permitting.
 
-At 10:00pm anyone with the energy can head over to a local pub for a happy hour.
-
 ## Sunday ##
 
-Sunday we'll be hacking 9am-5pm. Throughout the day there will be [enrichment talks](talks.html) in the auditorium. These won't be the kind of academic talks you would see at Scala Days. Instead, they will focus on Scalathon's goal of helping Scala developers contribute to the language and its libraries. Many Sunday talks will be tutorials on:
+Sunday we'll be hacking 9am-5pm. Throughout the day there will be [enrichment talks](talks.html). These won't be the kind of academic talks you would see at Scala Days or the Northeast Scala Symposium. Instead, they will focus on Scalathon's goal of helping Scala developers contribute to the language and its libraries. Many Sunday talks will be tutorials on:
 
 * advanced functional programming patterns
 * Scala internals
@@ -52,24 +47,17 @@ Sunday we'll be hacking 9am-5pm. Throughout the day there will be [enrichment ta
 * open source dynamics and community building
 * essential software skills 
 
-We are hoping to provide breakfast and lunch, funding permitting.
-
 
 ## Friday ##
 
+<img src="ping-pong.jpg" class="right">
 
-<img src="ping-pong.jpg" class="left">
-
-Let's be clear: everything about Friday, July 15 is optional and separate from the rest of the hackathon. That's why it's last in the list. If you can't make Friday it won't detract one iota from your hackathon experience.
-
-On Friday from 12pm-2:30pm we'll have a **special meeting of Penn's famous Programming Languages Club**. Some Scala core developers will present on the formalization of Scala, followed by a **catered lunch**.
-
-Then from 2:30pm-8pm we'll have a **documentation spree**! We'll be focusing on documenting the standard library, but you're free to work on any documentation you'd like. This will be a smaller event than the weekend hackathon, so it's a great opportunity to work more intimately with the Scala core team.
-
-At 9pm we'll have a **functional programming quizzo** with Philly Lambda at a local restaurant. If you've never heard of [quizzo](http://en.wikipedia.org/wiki/Quizzo) before, it's a Philadelphia tradition of pub quizzes.
-
-**Note**: To attend the special Programming Languages Club meeting or the documentation spree you must [register](register.html) on meetup.com. That's a *different registration* than the weekend one. You do not need to register to attend the quizzo. It's completely open.
+*More details coming...*
 
 # Our suggestion on the talks ... #
-... is to not go to them. Well, not too many of them. Remember, Scalathon is all about hacking, something you can't do if you're stuck in a lecture hall all day. All talks will be recorded and posted on Vimeo.com after the event. So our advice is to go to a couple talks each day and save the rest for home.
+
+... is to not go to too many of them. Remember, Scalathon is all about 
+hacking, something you can't do if you're stuck in a lecture hall all day. All
+talks will be recorded and posted on Vimeo.com after the event. So our advice
+is to go to a couple talks each day and save the rest for home.
 
