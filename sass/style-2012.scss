@@ -7,6 +7,14 @@ $navbar-height: 40px;
 $header-font: "Crimson Text", "Times New Roman", serif;
 $header-padding: 10px 0px 10px 0px;
 
+$navbar-gradient-top: #3D81ED;
+$navbar-gradient-bottom: #183562;
+
+$toc-gradient-top: $navbar-gradient-top;
+$toc-gradient-bottom: $navbar-gradient-bottom;
+
+$page-title-color: #dd3333;
+
 // ---------------------------------------------------------------------------
 // General
 // ---------------------------------------------------------------------------
@@ -46,7 +54,7 @@ body {
   }
 
   #page-title {
-    color: #dd3333;
+    color: $page-title-color;
 
     font: {
       size: 250%;
@@ -205,6 +213,11 @@ img.left {
   @include border-radius($rounded-border-radius);
   padding: $rounded-border-radius;
   border: 1px solid $border-color;
+  color: white;
+
+  a {
+    color: white;
+  }
 
   margin: {
     top: 10px;
@@ -213,16 +226,20 @@ img.left {
     right: 20px;
   }
 
-  @include drop-shadow; 
+  @include drop-shadow;
 
   float: right;
 
-  @include linear-gradient(top, #FFE776, #C9B65F);
+  @include linear-gradient(top, $toc-gradient-top, $toc-gradient-bottom);
 
   .toc-heading {
+    color: white;
+    text-shadow: 2px 2px 1px black;
+
     font: {
       weight: bold;
-      size: 120%;
+      size: 140%;
+      family: $header-font;
     }
 
   }
@@ -254,7 +271,7 @@ img.left {
   margin-left: 0px !important;
 
   .container {
-    @include linear-gradient(top, #3D81ED, #183562);
+    @include linear-gradient(top, $navbar-gradient-top, $navbar-gradient-bottom);
   }
 
   #scalathon-logo {

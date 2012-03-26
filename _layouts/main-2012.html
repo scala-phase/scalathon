@@ -96,8 +96,13 @@
 
 {% if page.generate_toc %}
   <script type="text/javascript">
+  {% if page.toc_header and (page.toc_header != 'none') %}
+    var heading = "{{ page.toc_header }}"
+  {% else %}
+    var heading = null;
+  {% endif %}
     $(document).ready(function() {
-      generateTOC('#main', 'Table of Contents');
+      generateTOC('#main', heading);
     });
   </script>
 {% endif %}

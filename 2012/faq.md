@@ -3,6 +3,7 @@ title: FAQ
 layout: main-2012
 tab: faq
 generate_toc: true
+toc_header: none
 ---
 
 ## How well do I have to know Scala to participate?
