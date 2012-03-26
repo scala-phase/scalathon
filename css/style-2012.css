@@ -157,11 +157,24 @@ img.left {
   background-image: -ms-linear-gradient(top, #3d81ed, #082656);
   background-image: -o-linear-gradient(top, #3d81ed, #082656);
   background-image: linear-gradient(top, #3d81ed, #082656); }
+  .navbar .navbar-inner .container a:hover {
+    background: transparent !important;
+    color: red !important; }
+  .navbar .navbar-inner .container li.active {
+    background: transparent !important;
+    color: yellow !important; }
+    .navbar .navbar-inner .container li.active a {
+      background: transparent !important; }
   .navbar .navbar-inner .container ul#navbar-list li {
     margin: 0 !important;
     padding: 0 !important; }
+    .navbar .navbar-inner .container ul#navbar-list li.dropdown ul.dropdown-menu li a {
+      color: black !important; }
+    .navbar .navbar-inner .container ul#navbar-list li.dropdown ul.dropdown-menu li.active a {
+      font-weight: bold !important;
+      font-style: italic !important; }
   .navbar .navbar-inner .container .brand #scalathon-logo p {
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Crimson Text", "Times New Roman", serif !important; }
     .navbar .navbar-inner .container .brand #scalathon-logo p img#logo {
       height: 40px !important; }

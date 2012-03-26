@@ -20,17 +20,21 @@
         <ul id="navbar-list" class="nav nav-pills pull-left">
           <li id="navbar-home"><a href="index.html">Home</a></li>
           <li class="divider-vertical"></li>
-          <li id="navbar-outline"><a href="outline.html">Outline</a></li>
+          <li class="dropdown" id="navbar-info">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Tell Me More<b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li id="navbar-outline"><a href="outline.html">Event Outline</a></li>
+              <li id="navbar-calendar"><a href="calendar.html">Calendar</a></li>
+              <li id="navbar-logistics"><a href="logistics.html">Logistics</a></li>
+              <li id="navbar-register"><a href="register.html">How to Register</a></li>
+            </ul>
+          </li>
           <li class="divider-vertical"></li>
           <li id="navbar-projects"><a href="projects.html">Projects</a></li>
           <li class="divider-vertical"></li>
           <li id="navbar-talks"><a href="talks.html">Talks</a></li>
-          <li class="divider-vertical"></li>
-          <li id="navbar-calendar"><a href="calendar.html">Calendar</a></li>
-          <li class="divider-vertical"></li>
-          <li id="navbar-logistics"><a href="logistics.html">Logistics</a></li>
-          <li class="divider-vertical"></li>
-          <li id="navbar-register"><a href="register.html">Register</a></li>
           <li class="divider-vertical"></li>
           <li id="navbar-contact"><a href="contact.html">Contact&nbsp;Us</a></li>
           <li class="divider-vertical"></li>
@@ -47,17 +51,17 @@ String.prototype.endsWith = function(suffix) {
 };
 
 var pathToID = {
-  "/2012"                    : '#navbar-home',
-  "/2012/"                    : '#navbar-home',
-  "/2012/index.html"         : '#navbar-home',
-  "/2012/outline.html"       : '#navbar-outline',
-  "/2012/projects.html"      : '#navbar-projects',
-  "/2012/talks.html"         : '#navbar-talks',
-  "/2012/calendar.html"      : '#navbar-calendar',
-  "/2012/logistics.html"     : '#navbar-logistics',
-  "/2012/register.html"      : '#navbar-register',
-  "/2012/contact.html"      : '#navbar-contact',
-  "/2012/faq.html"           : '#navbar-faq'
+  "/2012"                    : ['#navbar-home'],
+  "/2012/"                   : ['#navbar-home'],
+  "/2012/index.html"         : ['#navbar-home'],
+  "/2012/outline.html"       : ['#navbar-info', '#navbar-outline'],
+  "/2012/calendar.html"      : ['#navbar-info', '#navbar-calendar'],
+  "/2012/logistics.html"     : ['#navbar-info', '#navbar-logistics'],
+  "/2012/register.html"      : ['#navbar-info', '#navbar-register'],
+  "/2012/contact.html"       : ['#navbar-info', '#navbar-contact'],
+  "/2012/projects.html"      : ['#navbar-projects'],
+  "/2012/talks.html"         : ['#navbar-talks'],
+  "/2012/faq.html"           : ['#navbar-faq']
 };
 
 $(document).ready(function() {
@@ -73,9 +77,12 @@ $(document).ready(function() {
 
     return id;
   };
-  var id = mapPathToID(window.location.pathname);
-  if (id != null) {
-    $(id).addClass("active");
+  var ids = mapPathToID(window.location.pathname);
+  if (ids != null) {
+    var i;
+    for (i = 0; i < ids.length; i++) {
+      $(ids[i]).addClass("active");
+    }
   }
 });
 </script>

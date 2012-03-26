@@ -281,18 +281,56 @@ img.left {
 // Twitter Bootstrap Overrides (that are easier to manage here than custom.less)
 // ---------------------------------------------------------------------------
 
-$logo-font-size: 30px;
+@mixin navbar-gradient {
+  @include linear-gradient(top, $navbar-gradient-top, $navbar-gradient-bottom);
+}
+
+$logo-font-size: 20px;
 .navbar {
   .navbar-inner {
     .container {
+      a:hover {
+        background: transparent !important;
+        color: red !important;
+      }
+
+      li.active {
+        background: transparent !important;
+        color: yellow !important;
+
+        a {
+          background: transparent !important;
+        }
+      }
+
       ul#navbar-list {
         li {
           margin: 0 !important;
           padding: 0 !important;
+
+          &.dropdown {
+
+            ul.dropdown-menu {
+              li {
+                a {
+                  color: black !important;
+                }
+
+                &.active {
+                  a {
+                    font: {
+                      weight: bold !important;
+                      style: italic !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
 
-      @include linear-gradient(top, $navbar-gradient-top, $navbar-gradient-bottom);
+      @include navbar-gradient;
 
       .brand {
 

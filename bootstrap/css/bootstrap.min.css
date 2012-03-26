@@ -823,5 +823,4 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .navbar .navbar-inner .container{width:100%;margin:0;}
 .navbar .nav{height:40px;padding-top:10px;}
 .navbar .nav>li>a{padding-top:13px;padding-right:10px;padding-bottom:13px;padding-left:10px;}
-.navbar .nav li.active a{color:red !important;background:transparent !important;}
 .navbar .brand{padding-top:40px;padding:8px 20px 12px;}
