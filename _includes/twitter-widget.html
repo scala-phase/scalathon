@@ -1,0 +1,37 @@
+<div id="twitter-widget">
+  <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+  <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: '#scalathon OR @scalathon OR scalathon OR "philly area scala enthusiasts"',
+        interval: 6000,
+        title: 'What people are saying', 
+        subject: '#scalathon',
+        width: 250,
+        height: 300,
+        theme: {
+          shell: {
+                background: '#6D7B8D',
+            background: '#2E4A6B',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#2E4A6B'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+  </script>
+</div>
