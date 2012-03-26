@@ -8,6 +8,7 @@ The 2012 version of the page uses the following technologies:
 * [Jekyll](http://jekyllrb.com/)
 * Rake
 * [Sass][]
+* [Bourbon](http://thoughtbot.com/bourbon/)
 
 Twitter Bootstrap is already folded into the project, though it can be
 customized and updated.
