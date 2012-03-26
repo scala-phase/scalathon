@@ -75,14 +75,13 @@ body {
         .heading {
           font: {
             family: $header-font;
-            size: 140%;
+            size: 150%;
             color: $top-header-color;
             weight: bold;
-            style: italic;
           }
 
-          margin-bottom: 20px;
-          margin-top: 20px;
+          margin-bottom: 40px;
+          margin-top: 40px;
         }
 
         ul {

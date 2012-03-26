@@ -23,12 +23,11 @@ body {
       margin-top: 10px; }
       #non-navbar-content #content-container #sponsors-sidebar .sponsor-block .heading {
         font-family: "Crimson Text", "Times New Roman", serif;
-        font-size: 140%;
+        font-size: 150%;
         font-color: #dd3333;
         font-weight: bold;
-        font-style: italic;
-        margin-bottom: 20px;
-        margin-top: 20px; }
+        margin-bottom: 40px;
+        margin-top: 40px; }
       #non-navbar-content #content-container #sponsors-sidebar .sponsor-block ul {
         list-style-type: none; }
         #non-navbar-content #content-container #sponsors-sidebar .sponsor-block ul li {
