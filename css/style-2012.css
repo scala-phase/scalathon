@@ -52,6 +52,11 @@
   #wrapper h4 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
+  #wrapper div#twitter-widget {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    float: right; }
 
 div#scalathon-footer {
   width: 100%;
@@ -78,12 +83,6 @@ div#scalathon-footer {
   div#scalathon-footer .sponsor-icon {
     height: 45px !important;
     margin-top: 10px; }
-
-div#twitter_widget {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 0px;
-  float: right; }
 
 #calendar {
   width: 800px; }

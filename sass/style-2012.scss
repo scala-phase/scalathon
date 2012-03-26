@@ -114,6 +114,15 @@ body {
     font-family: $header-font !important;
     padding: $header-padding !important;
   }
+
+  div#twitter-widget {
+    margin: {
+      left: 20px;
+      right: 20px;
+      top: 0px;
+    }
+    float: right;
+  }
 }
 
 div#scalathon-footer {
@@ -155,15 +164,6 @@ div#scalathon-footer {
     height: 45px !important;
     margin-top: 10px;
   }
-}
-
-div#twitter_widget {
-  margin: {
-    left: 20px;
-    right: 20px;
-    top: 0px;
-  }
-  float: right;
 }
 
 #calendar {
