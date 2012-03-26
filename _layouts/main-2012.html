@@ -32,68 +32,32 @@
 </head> 
 
 <body>
-  <div id="wrapper">
-    {% include navbar-2012.html %}
+  {% include navbar-2012.html %}
 
-    <div id="header "> 
-      {% include top-sponsors-2012.html %}
+  <div class="row" id="content-container">
+
+    <div class="span3" id="sponsors-sidebar">
+      Sponsors to go here.
     </div>
 
-    {% if page.logo_in_content %}
-    <img src="/img/logo-2012.png" class="logo-in-content"/>
-    {% endif %}
+    <div class="span9" id="page-content">
 
-    <div id="page-title">{{ page.title }}</div>
+      {% if page.logo_in_content %}
+      <img src="/img/logo-2012.png" class="logo-in-content"/>
+      {% endif %}
 
-{% if page.show_twitter %}
-    <div id="twitter-widget">
-      <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-      <script>
-          new TWTR.Widget({
-            version: 2,
-            type: 'search',
-            search: '#scalathon OR @scalathon OR scalathon OR "philly area scala enthusiasts"',
-            interval: 6000,
-            title: 'What people are saying', 
-            subject: '#scalathon',
-            width: 250,
-            height: 300,
-            theme: {
-              shell: {
-//                  background: '#6D7B8D',
-                background: '#2E4A6B',
-                color: '#ffffff'
-              },
-              tweets: {
-                background: '#ffffff',
-                color: '#444444',
-                links: '#2E4A6B'
-              }
-            },
-            features: {
-              scrollbar: true,
-              loop: false,
-              live: true,
-              hashtags: true,
-              timestamp: true,
-              avatars: true,
-              toptweets: true,
-              behavior: 'all'
-            }
-          }).render().start();
-      </script>
+      <div id="page-title">{{ page.title }}</div>
+
+      {% if page.show_twitter %}
+      {% include twitter-widget.html %}
+      {% endif %}
+  
+      <div id="main">
+      {{ content }}
+      </div> 
     </div>
-{% endif %}
-
-    <div id="main">
-{{ content }}
-    </div> 
-
-  </div> <!-- wrapper -->
-
-
-  {% include footer-2012.html %}
-
+  </div> <!-- row-fluid -->
+  
 {% if page.generate_toc %}
   <script type="text/javascript">
   {% if page.toc_header and (page.toc_header != 'none') %}

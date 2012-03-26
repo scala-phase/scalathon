@@ -23,10 +23,19 @@ $page-title-color: #dd3333;
 body {
 }
 
-#wrapper {
+#content-container {
+
   padding-top: ($navbar-height * 2) + 10px;
 
-  #top-sponsors {
+  margin: {
+    left: 1em;
+    right: 1em;
+  }
+
+  div#sponsors-sidebar {
+
+    height: 100%;
+
     @include border-radius($rounded-border-radius);
     padding: {
       left: $rounded-border-radius;
@@ -35,9 +44,8 @@ body {
       bottom: $rounded-border-radius;
     }
 
-    .logo-separator {
-      width: 1em !important;
-    }
+    background-color: gray !important;
+    color: red !important;
 
     margin: {
       top: 0;
@@ -72,11 +80,6 @@ body {
     height: 100px;
     float: right;
     margin-right: 30px;
-  }
-
-  margin: {
-    left: 2em;
-    right: 2em;
   }
 
   li {
@@ -268,29 +271,30 @@ img.left {
 // Twitter Bootstrap Overrides (that are easier to manage here than custom.less)
 // ---------------------------------------------------------------------------
 
-$logo-font-size: 16px;
-#wrapper {
-  .navbar {
-    .navbar-inner {
-      .container {
-        ul#navbar-list {
-          li {
-            margin: 0 !important;
-            padding: 0 !important;
-          }
+$logo-font-size: 30px;
+.navbar {
+  .navbar-inner {
+    .container {
+      ul#navbar-list {
+        li {
+          margin: 0 !important;
+          padding: 0 !important;
         }
+      }
 
-        @include linear-gradient(top, $navbar-gradient-top, $navbar-gradient-bottom);
+      @include linear-gradient(top, $navbar-gradient-top, $navbar-gradient-bottom);
+
+      .brand {
 
         #scalathon-logo {
-          img#logo {
-            height: $navbar-height !important;
-          }
-
           p {
+            img#logo {
+              height: $navbar-height !important;
+            }
+
             font: {
-              size: 120%;
-              family: $header-font;
+              size: $logo-font-size;
+              family: $header-font !important;
             }
           }
         }

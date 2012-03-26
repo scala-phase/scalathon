@@ -1,8 +1,9 @@
-#wrapper {
+#content-container {
   padding-top: 90px;
-  margin-left: 2em;
-  margin-right: 2em; }
-  #wrapper #top-sponsors {
+  margin-left: 1em;
+  margin-right: 1em; }
+  #content-container div#sponsors-sidebar {
+    height: 100%;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -12,47 +13,47 @@
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: gray !important;
+    color: red !important;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
     border: 1px solid #cccccc; }
-    #wrapper #top-sponsors .logo-separator {
-      width: 1em !important; }
-    #wrapper #top-sponsors .sponsor-icon {
+    #content-container div#sponsors-sidebar .sponsor-icon {
       height: 50px !important; }
-  #wrapper #page-title {
+  #content-container #page-title {
     color: #dd3333;
     font-size: 250%;
     font-family: "Crimson Text", "Times New Roman", serif;
     font-weight: bold;
     margin-top: 30px !important;
     margin-bottom: 20px !important; }
-  #wrapper .logo-in-content {
+  #content-container .logo-in-content {
     height: 100px;
     float: right;
     margin-right: 30px; }
-  #wrapper li {
+  #content-container li {
     line-height: 1.2em !important; }
-  #wrapper p {
+  #content-container p {
     margin-bottom: 15px !important;
     line-height: 1.2em !important;
     margin-left: 1em !important; }
-  #wrapper ul li {
+  #content-container ul li {
     margin-left: 1em; }
-  #wrapper h1 {
+  #content-container h1 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #wrapper h2 {
+  #content-container h2 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #wrapper h3 {
+  #content-container h3 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #wrapper h4 {
+  #content-container h4 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #wrapper div#twitter-widget {
+  #content-container div#twitter-widget {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 0px;
@@ -156,7 +157,7 @@ img.left {
       padding-left: 0;
       margin-left: 0px; }
 
-#wrapper .navbar .navbar-inner .container {
+.navbar .navbar-inner .container {
   background-color: #3d81ed;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d81ed), color-stop(100%, #082656));
   background-image: -webkit-linear-gradient(top, #3d81ed, #082656);
@@ -164,11 +165,11 @@ img.left {
   background-image: -ms-linear-gradient(top, #3d81ed, #082656);
   background-image: -o-linear-gradient(top, #3d81ed, #082656);
   background-image: linear-gradient(top, #3d81ed, #082656); }
-  #wrapper .navbar .navbar-inner .container ul#navbar-list li {
+  .navbar .navbar-inner .container ul#navbar-list li {
     margin: 0 !important;
     padding: 0 !important; }
-  #wrapper .navbar .navbar-inner .container #scalathon-logo img#logo {
-    height: 40px !important; }
-  #wrapper .navbar .navbar-inner .container #scalathon-logo p {
-    font-size: 120%;
-    font-family: "Crimson Text", "Times New Roman", serif; }
+  .navbar .navbar-inner .container .brand #scalathon-logo p {
+    font-size: 30px;
+    font-family: "Crimson Text", "Times New Roman", serif !important; }
+    .navbar .navbar-inner .container .brand #scalathon-logo p img#logo {
+      height: 40px !important; }
