@@ -25,10 +25,10 @@ body {
       right: $rounded-border-radius;
       top: $rounded-border-radius;
       bottom: $rounded-border-radius;
+    }
 
-      .logo-separator {
-        width: 1em !important;
-      }
+    .logo-separator {
+      width: 1em !important;
     }
 
     margin: {
@@ -151,8 +151,8 @@ div#scalathon-footer {
 
 div#twitter_widget {
   margin: {
-    left:20px;
-    right: 0px;
+    left: 20px;
+    right: 20px;
     top: 0px;
   }
   float: right;

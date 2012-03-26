@@ -17,6 +17,8 @@
     margin-left: 10px;
     margin-right: 10px;
     border: 1px solid #cccccc; }
+    #wrapper #top-sponsors .logo-separator {
+      width: 1em !important; }
     #wrapper #top-sponsors .sponsor-icon {
       height: 50px !important; }
   #wrapper #page-title {
@@ -79,7 +81,7 @@ div#scalathon-footer {
 
 div#twitter_widget {
   margin-left: 20px;
-  margin-right: 0px;
+  margin-right: 20px;
   margin-top: 0px;
   float: right; }
 
