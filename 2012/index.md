@@ -13,9 +13,6 @@ logo_in_content: true
 To get Scala developers contributing to the language, its tools, and its
 libraries.
 
-*For Scalathon, 2011, information (including links to talks and videos), please
-see the [Scalathon 2011](/2011/) page.*
-
 # When & Where
 
 * Scalathon 2012 will held **July 27-29, 2012** in the suburbs of
