@@ -21,15 +21,25 @@ Scalathon is an opportunity for the Scala community to come together and improve
 * You think Scala could be better documented.
 * You want to promote your awesome library.
 
-<img src="social.jpg" class="left"/>
+<img src="social.jpg" class="left photo"/>
 
 # Event outline
 
+## Friday
+
+On Friday, [Typesafe](http://typesafe.com/) will be holding a 2-hour
+business session. Details and registration will be coming soon.
+
 ## Saturday
 
-Saturday we'll be hacking all day, 9am-10pm. Throughout the day there will be short talks in the auditorium by representatives of various [Scala projects](projects.html). These talks are all about welcoming newcomers to the project. 
+Saturday we'll be hacking all day. Saturday evening, 
+[Novus Partners](http://www.novus.com/) will be sponsoring dinner and drinks.
 
-<img src="talks.jpg" class="right"/>
+Throughout the day there will be short talks in the auditorium by
+representatives of various [Scala projects](projects.html). These talks are all
+about welcoming newcomers to the project.
+
+<img src="talks.jpg" class="right photo"/>
 
 Many of these talks will:
 * highlight bite-sized bugs appropriate for new contributors
@@ -48,12 +58,7 @@ Sunday we'll be hacking 9am-5pm. Throughout the day there will be [enrichment ta
 * open source dynamics and community building
 * essential software skills 
 
-
-## Friday
-
-<img src="ping-pong.jpg" class="right">
-
-*More details coming...*
+<img src="ping-pong.jpg" class="right photo">
 
 # Our suggestion on the talks...
 
