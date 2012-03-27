@@ -50,13 +50,14 @@ It's is a product of the [Philly Area Scala Enthusiasts][PHASE]
 ([PHASE][]), the Scala user group in Philadelphia. Yuvi and [Brian Clapper][]
 are the primary organizers.
 
-## What's this "Big Fish", "Little Fish" stuff?
+## What are the various sponsorship levels.
 
 We are very lucky: Many companies are sponsoring Scalathon with financial
 donations.
 
-* Our _Big Fish_ sponsors have donated $1,000 or more to Scalathon.
-* Our _Little Fish_ sponsors have donated at least $250 to Scalathon.
+* Gold sponsors have donated $2,000 or more.
+* Silver sponsors have donated between $1,000 and $1,999.
+* Bronze sponsors have donated between $250 and $999.
 
 Thanks to *all* our sponsors!
 
