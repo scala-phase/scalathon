@@ -124,13 +124,13 @@ img.left {
   -moz-box-shadow: 5px 5px 2px 0 #999999;
   box-shadow: 5px 5px 2px 0 #999999;
   float: right;
-  background-color: #3d81ed;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d81ed), color-stop(100%, #082656));
-  background-image: -webkit-linear-gradient(top, #3d81ed, #082656);
-  background-image: -moz-linear-gradient(top, #3d81ed, #082656);
-  background-image: -ms-linear-gradient(top, #3d81ed, #082656);
-  background-image: -o-linear-gradient(top, #3d81ed, #082656);
-  background-image: linear-gradient(top, #3d81ed, #082656); }
+  background-color: #9c9c9c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9c9c9c), color-stop(100%, #363636));
+  background-image: -webkit-linear-gradient(top, #9c9c9c, #363636);
+  background-image: -moz-linear-gradient(top, #9c9c9c, #363636);
+  background-image: -ms-linear-gradient(top, #9c9c9c, #363636);
+  background-image: -o-linear-gradient(top, #9c9c9c, #363636);
+  background-image: linear-gradient(top, #9c9c9c, #363636); }
   #toc-block a {
     color: white; }
   #toc-block .toc-heading {
@@ -154,13 +154,13 @@ img.left {
       margin-left: 0px; }
 
 .navbar .navbar-inner .container {
-  background-color: #3d81ed;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d81ed), color-stop(100%, #082656));
-  background-image: -webkit-linear-gradient(top, #3d81ed, #082656);
-  background-image: -moz-linear-gradient(top, #3d81ed, #082656);
-  background-image: -ms-linear-gradient(top, #3d81ed, #082656);
-  background-image: -o-linear-gradient(top, #3d81ed, #082656);
-  background-image: linear-gradient(top, #3d81ed, #082656); }
+  background-color: #9c9c9c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9c9c9c), color-stop(100%, #363636));
+  background-image: -webkit-linear-gradient(top, #9c9c9c, #363636);
+  background-image: -moz-linear-gradient(top, #9c9c9c, #363636);
+  background-image: -ms-linear-gradient(top, #9c9c9c, #363636);
+  background-image: -o-linear-gradient(top, #9c9c9c, #363636);
+  background-image: linear-gradient(top, #9c9c9c, #363636); }
   .navbar .navbar-inner .container a:hover {
     background: transparent !important;
     color: red !important; }
