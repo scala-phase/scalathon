@@ -6,6 +6,9 @@ tab: home
 logo_in_content: true
 ---
 
+**This site is currently a work in progress, as we iron out the details for
+Scalathon 2012. Stop back often!**
+
 <div style="float: right"><a href="contact.html">Contact us</a></div>
 
 # Goal

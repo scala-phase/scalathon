@@ -4,13 +4,7 @@ layout: main-2012
 tab: register
 ---
 
-# Saturday and Sunday #
-
-Registration for Saturday and Sunday aren't open yet. Check back soon.
-
-# Friday night functional programming quizzo #
-
-No registration is necessary. See you there!
-
-# Friday #
-
+We're still working out the details. When registration is open, this page
+will contain all the details. Follow
+[@scalathon](http://twitter.com/#!/scalathon) on Twitter, to keep abreast
+of all the Scalathon developments, as they happen!
