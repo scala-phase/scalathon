@@ -6,6 +6,12 @@ body {
 
 #non-navbar-content {
   padding-top: 80px; }
+  #non-navbar-content #content-container img.photo {
+    -webkit-box-shadow: 5px 5px 2px 0 #444444;
+    -moz-box-shadow: 5px 5px 2px 0 #444444;
+    box-shadow: 5px 5px 2px 0 #444444;
+    margin: 15px;
+    padding: 0 !important; }
   #non-navbar-content #content-container #sponsors-sidebar {
     text-align: center;
     background: white !important;
@@ -36,9 +42,7 @@ body {
           margin-right: 0;
           margin-top: 5px;
           margin-bottom: 0px; }
-    #non-navbar-content #content-container #sponsors-sidebar #big-sponsors img.sponsor-icon {
-      height: 32px !important; }
-    #non-navbar-content #content-container #sponsors-sidebar #small-sponsors img.sponsor-icon {
+    #non-navbar-content #content-container #sponsors-sidebar #gold-sponsors img.sponsor-icon, #non-navbar-content #content-container #sponsors-sidebar #silver-sponsors img.sponsor-icon, #non-navbar-content #content-container #sponsors-sidebar #bronze-sponsors img.sponsor-icon {
       height: 32px !important; }
   #non-navbar-content #content-container #page-title {
     color: #dd3333;

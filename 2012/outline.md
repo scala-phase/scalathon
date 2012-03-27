@@ -21,7 +21,7 @@ Scalathon is an opportunity for the Scala community to come together and improve
 * You think Scala could be better documented.
 * You want to promote your awesome library.
 
-<img src="social.jpg" class="left photo"/>
+<img src="social.jpg" width="188" height="280" class="left photo"/>
 
 # Event outline
 
@@ -39,7 +39,7 @@ Throughout the day there will be short talks in the auditorium by
 representatives of various [Scala projects](projects.html). These talks are all
 about welcoming newcomers to the project.
 
-<img src="talks.jpg" class="right photo"/>
+<img src="talks.jpg" width="272" height="182" class="right photo"/>
 
 Many of these talks will:
 * highlight bite-sized bugs appropriate for new contributors
@@ -58,7 +58,7 @@ Sunday we'll be hacking 9am-5pm. Throughout the day there will be [enrichment ta
 * open source dynamics and community building
 * essential software skills 
 
-<img src="ping-pong.jpg" class="right photo">
+<img src="ping-pong.jpg" width="272" height="182" class="right photo">
 
 # Our suggestion on the talks...
 

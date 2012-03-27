@@ -25,9 +25,9 @@ $sponsor-sidebar-bgcolor: white;
 // Local mixins
 // ---------------------------------------------------------------------------
 
-@mixin drop-shadow($offset: 5px, $spread: 2px) {
+@mixin drop-shadow($offset: 5px, $spread: 2px, $color: #999) {
   // Drop shadow (lower right)
-  @include box-shadow($offset $offset $spread 0 #999);
+  @include box-shadow($offset $offset $spread 0 $color);
 }
 
 // ---------------------------------------------------------------------------
@@ -53,6 +53,12 @@ body {
   padding-top: $navbar-height + 40px;
 
   #content-container {
+
+    img.photo {
+      @include drop-shadow($color: #444);
+      margin: 15px;
+      padding: 0 !important;
+    }
 
     #sponsors-sidebar {
 
