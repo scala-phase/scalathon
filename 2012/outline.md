@@ -35,22 +35,29 @@ business session. Details and registration will be coming soon.
 Saturday we'll be hacking all day. Saturday evening, 
 [Novus Partners](http://www.novus.com/) will be sponsoring dinner and drinks.
 
-Throughout the day there will be short talks in the auditorium by
-representatives of various [Scala projects](projects.html). These talks are all
-about welcoming newcomers to the project.
+Throughout the day there will be short talks, from representatives of various
+[Scala projects](projects.html). These talks are all about welcoming newcomers
+to the project.
 
 <img src="talks.jpg" width="272" height="182" class="right photo"/>
 
 Many of these talks will:
+
 * highlight bite-sized bugs appropriate for new contributors
 * give a crash course on the project's source code
-* describe the project's build-modify-distribute chain
+* describe the project's build-modify-publish chain
 
 We are hoping to provide breakfast and lunch, funding permitting.
 
 ## Sunday
 
-Sunday we'll be hacking 9am-5pm. Throughout the day there will be [enrichment talks](talks.html). These won't be the kind of academic talks you would see at Scala Days or the Northeast Scala Symposium. Instead, they will focus on Scalathon's goal of helping Scala developers contribute to the language and its libraries. Many Sunday talks will be tutorials on:
+Sunday we'll be hacking 9am-5pm. Throughout the day there will be
+[enrichment talks](talks.html).
+
+These won't be the kind of academic talks you would see at Scala Days or the
+[Northeast Scala Symposium](http://nescala.org/). Instead, they will focus on
+Scalathon's goal of helping Scala developers contribute to the language and its
+libraries. Many Sunday talks will be tutorials on:
 
 * advanced functional programming patterns
 * Scala internals
