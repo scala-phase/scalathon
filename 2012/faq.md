@@ -50,7 +50,7 @@ It's is a product of the [Philly Area Scala Enthusiasts][PHASE]
 ([PHASE][]), the Scala user group in Philadelphia. Yuvi and [Brian Clapper][]
 are the primary organizers.
 
-## What are the various sponsorship levels.
+## What are the various sponsorship levels?
 
 We are very lucky: Many companies are sponsoring Scalathon with financial
 donations.
