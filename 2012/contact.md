@@ -6,7 +6,7 @@ tab: contact
 
 [![twitter ymasory][tw-img]][tw-y] [Yuvi Masory][]: general organizer
 
-[![twitter brianclapper][tw-bmc]][tw-bmc] [Brian Clapper][]: all things registration, meetup.com, financial
+[![twitter brianclapper][tw-img]][tw-bmc] [Brian Clapper][]: all things registration, meetup.com, financial
 
 [Colleen Connor][]: venue coordination
 
