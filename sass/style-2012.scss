@@ -30,6 +30,16 @@ $sponsor-sidebar-bgcolor: white;
   @include box-shadow($offset $offset $spread 0 $color);
 }
 
+@mixin rounded-border($radius: $rounded-border-radius) {
+    @include border-radius($radius);
+    padding: {
+      left: $rounded-border-radius;
+      right: $rounded-border-radius;
+      top: $rounded-border-radius;
+      bottom: $rounded-border-radius;
+    }
+}
+
 // ---------------------------------------------------------------------------
 // General
 // ---------------------------------------------------------------------------
@@ -43,20 +53,44 @@ body {
   height: 100% !important;
 }
 
+body.error-page {
+  @include rounded-border;
+  border: 1px solid gray;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto !important;
+}
+
 @mixin full-height {
   // height: auto !important;
   min-height: 100% !important;
 }
 
+.logo-in-content {
+  height: 100px;
+  float: right;
+  margin-right: 30px;
+}
+
+#page-title {
+  color: $page-title-color;
+
+  font: {
+    size: 250%;
+    family: $header-font;
+    weight: bold;
+  }
+
+  margin: {
+    top: 30px !important;
+    bottom: 20px !important;
+  }
+}
+
 #main-content {
 
   padding-top: $navbar-height + 40px;
-
-  .logo-in-content {
-    height: 100px;
-    float: right;
-    margin-right: 30px;
-  }
 
   #content-container {
 
@@ -71,13 +105,7 @@ body {
       text-align: center;
       background: $sponsor-sidebar-bgcolor !important;
 
-      @include border-radius($rounded-border-radius);
-      padding: {
-        left: $rounded-border-radius;
-        right: $rounded-border-radius;
-        top: $rounded-border-radius;
-        bottom: $rounded-border-radius;
-      }
+      @include rounded-border;
 
       border: 1px solid $border-color;
       .sponsor-block {
@@ -119,21 +147,6 @@ body {
     }
 
     div#page-content {
-    }
-
-    #page-title {
-      color: $page-title-color;
-
-      font: {
-        size: 250%;
-        family: $header-font;
-        weight: bold;
-      }
-
-      margin: {
-        top: 30px !important;
-        bottom: 20px !important;
-      }
     }
 
     li {
