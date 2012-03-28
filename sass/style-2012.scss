@@ -48,9 +48,15 @@ body {
   min-height: 100% !important;
 }
 
-#non-navbar-content {
+#main-content {
 
   padding-top: $navbar-height + 40px;
+
+  .logo-in-content {
+    height: 100px;
+    float: right;
+    margin-right: 30px;
+  }
 
   #content-container {
 
@@ -128,12 +134,6 @@ body {
         top: 30px !important;
         bottom: 20px !important;
       }
-    }
-
-    .logo-in-content {
-      height: 100px;
-      float: right;
-      margin-right: 30px;
     }
 
     li {
