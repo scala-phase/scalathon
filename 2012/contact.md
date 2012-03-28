@@ -8,12 +8,13 @@ tab: contact
 
 [![twitter brianclapper][tw-img]][tw-bmc] [Brian Clapper][]: all things registration, meetup.com, financial
 
-[Colleen Connor][]: venue coordination
+[![twitter cmconnor74][tw-img]][tw-colleen] [Colleen Connor][]: venue coordination
 
 [Yuvi Masory]: mailto:contact@scalathon.org
 [Brian Clapper]: mailto:register@scalathon.org
 [Colleen Connor]: mailto:venues@scalathon.org
 
-  [tw-y]: http://twitter.com/#!/ymasory
-  [tw-img]: /img/twitter32.png
-  [tw-bmc]: http://twitter.com/#!/brianclapper
+[tw-y]: http://twitter.com/#!/ymasory
+[tw-img]: /img/twitter32.png
+[tw-bmc]: http://twitter.com/#!/brianclapper
+[tw-colleen]: http://twitter.com/#!/cmconnor74
