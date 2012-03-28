@@ -4,15 +4,19 @@ html {
 body {
   height: 100% !important; }
 
-#non-navbar-content {
+#main-content {
   padding-top: 80px; }
-  #non-navbar-content #content-container img.photo {
+  #main-content .logo-in-content {
+    height: 100px;
+    float: right;
+    margin-right: 30px; }
+  #main-content #content-container img.photo {
     -webkit-box-shadow: 5px 5px 2px 0 #444444;
     -moz-box-shadow: 5px 5px 2px 0 #444444;
     box-shadow: 5px 5px 2px 0 #444444;
     margin: 15px;
     padding: 0 !important; }
-  #non-navbar-content #content-container #sponsors-sidebar {
+  #main-content #content-container #sponsors-sidebar {
     text-align: center;
     background: white !important;
     -webkit-border-radius: 10px;
@@ -25,57 +29,53 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid #cccccc; }
-    #non-navbar-content #content-container #sponsors-sidebar .sponsor-block {
+    #main-content #content-container #sponsors-sidebar .sponsor-block {
       margin-top: 10px; }
-      #non-navbar-content #content-container #sponsors-sidebar .sponsor-block .heading {
+      #main-content #content-container #sponsors-sidebar .sponsor-block .heading {
         font-family: "Crimson Text", "Times New Roman", serif;
         font-size: 150%;
         font-color: #dd3333;
         font-weight: bold;
         margin-bottom: 40px;
         margin-top: 40px; }
-      #non-navbar-content #content-container #sponsors-sidebar .sponsor-block ul {
+      #main-content #content-container #sponsors-sidebar .sponsor-block ul {
         list-style-type: none; }
-        #non-navbar-content #content-container #sponsors-sidebar .sponsor-block ul li {
+        #main-content #content-container #sponsors-sidebar .sponsor-block ul li {
           padding: 0;
           margin-left: -5px;
           margin-right: 0;
           margin-top: 5px;
           margin-bottom: 0px; }
-    #non-navbar-content #content-container #sponsors-sidebar #gold-sponsors img.sponsor-icon, #non-navbar-content #content-container #sponsors-sidebar #silver-sponsors img.sponsor-icon, #non-navbar-content #content-container #sponsors-sidebar #bronze-sponsors img.sponsor-icon {
+    #main-content #content-container #sponsors-sidebar #gold-sponsors img.sponsor-icon, #main-content #content-container #sponsors-sidebar #silver-sponsors img.sponsor-icon, #main-content #content-container #sponsors-sidebar #bronze-sponsors img.sponsor-icon {
       height: 32px !important; }
-  #non-navbar-content #content-container #page-title {
+  #main-content #content-container #page-title {
     color: #dd3333;
     font-size: 250%;
     font-family: "Crimson Text", "Times New Roman", serif;
     font-weight: bold;
     margin-top: 30px !important;
     margin-bottom: 20px !important; }
-  #non-navbar-content #content-container .logo-in-content {
-    height: 100px;
-    float: right;
-    margin-right: 30px; }
-  #non-navbar-content #content-container li {
+  #main-content #content-container li {
     line-height: 1.2em !important; }
-  #non-navbar-content #content-container p {
+  #main-content #content-container p {
     margin-bottom: 15px !important;
     line-height: 1.2em !important;
     margin-left: 1em !important; }
-  #non-navbar-content #content-container ul li {
+  #main-content #content-container ul li {
     margin-left: 1em; }
-  #non-navbar-content #content-container h1 {
+  #main-content #content-container h1 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #non-navbar-content #content-container h2 {
+  #main-content #content-container h2 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #non-navbar-content #content-container h3 {
+  #main-content #content-container h3 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #non-navbar-content #content-container h4 {
+  #main-content #content-container h4 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #non-navbar-content #content-container div#twitter-widget {
+  #main-content #content-container div#twitter-widget {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 0px;
