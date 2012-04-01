@@ -41,6 +41,13 @@ body.error-page {
     box-shadow: 5px 5px 2px 0 #444444;
     margin: 15px;
     padding: 0 !important; }
+  @media (min-width: 768px) {
+    #main-content #content-container #sponsors-sidebar {
+      position: fixed;
+      left: 20px;
+      top: 80px; }
+    #main-content #content-container #page-content {
+      padding-left: 180px; } }
   #main-content #content-container #sponsors-sidebar {
     text-align: center;
     background: white !important;

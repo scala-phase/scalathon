@@ -19,7 +19,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script src="/js/jquery.tableofcontents.min.js" type="text/javascript"></script>
 
-
 {% include bootstrap.js.html %}
 
 {% if page.generate_toc %}
@@ -33,12 +32,17 @@
 <body>
   {% include navbar-2012.html %}
   <!-- 
-      NOTE: Any div-based styling should be done on DIVs that are
-      nested INSIDE the Twitter Bootstrap DIVs.
+    NOTE: Any div-based styling should be done on DIVs that are nested INSIDE
+          the Twitter Bootstrap DIVs.
   -->
   <div class="container-fluid" id="main-content">
     <div class="row-fluid">
       <div id="content-container">
+        <!--
+          WARNING: If you change the following "span3" or the "span9" on
+                   #page-content, you MUST change the appropriate fixed sidebar
+                   values in sass/styles-2012.scss
+        -->
         <div class="span3">
           <div id="sponsors-sidebar">
           {% include sponsors-2012.html %}

@@ -88,9 +88,10 @@ body.error-page {
   }
 }
 
+$main-content-padding: $navbar-height + 40px;
 #main-content {
 
-  padding-top: $navbar-height + 40px;
+  padding-top: $main-content-padding;
 
   #content-container {
 
@@ -99,6 +100,34 @@ body.error-page {
       margin: 15px;
       padding: 0 !important;
     }
+
+    // ----------------------------------------------------------------------
+    // FIXED SIDEBAR DEFS
+    // ----------------------------------------------------------------------
+
+    // If the browser is large enough, use a fixed sponsor sidebar, ensuring
+    // that it's always present. For smaller screens, though, skip the
+    // fixed sidebar; it screws up the responsive rendering. See 
+    // http://stackoverflow.com/questions/9350818/
+
+    @media (min-width: 768px) {
+      #sponsors-sidebar {
+        position: fixed;
+        left: 20px;
+        top: $main-content-padding;
+      }
+
+      #page-content {
+        // NOTE: If you change the multiplier, be sure to change the "span3"
+        // in _layouts/main-2012.html
+        padding-left: $bootstrapGridColumnWidth * 3;
+      }
+    }
+
+    // ----------------------------------------------------------------------
+    // END FIXED SIDEBAR DEFS
+    // ----------------------------------------------------------------------
+
 
     #sponsors-sidebar {
 
