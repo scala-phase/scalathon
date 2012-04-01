@@ -89,6 +89,7 @@ body.error-page {
 }
 
 $main-content-padding: $navbar-height + 40px;
+
 #main-content {
 
   padding-top: $main-content-padding;
@@ -110,17 +111,20 @@ $main-content-padding: $navbar-height + 40px;
     // fixed sidebar; it screws up the responsive rendering. See 
     // http://stackoverflow.com/questions/9350818/
 
+    $sponsor-sidebar-width: ($bootstrapGridColumnWidth + $bootstrapGridGutterWidth) * 3;
+
     @media (min-width: 768px) {
       #sponsors-sidebar {
         position: fixed;
         left: 20px;
         top: $main-content-padding;
+        width: $sponsor-sidebar-width;
       }
 
       #page-content {
         // NOTE: If you change the multiplier, be sure to change the "span3"
         // in _layouts/main-2012.html
-        padding-left: $bootstrapGridColumnWidth * 3;
+        padding-left: $sponsor-sidebar-width;
       }
     }
 
