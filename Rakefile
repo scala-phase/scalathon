@@ -1,4 +1,20 @@
+# Build the Scalathon web site
+# ---------------------------------------------------------------------------
+
 require 'tmpdir'
+require 'git'
+
+# ---------------------------------------------------------------------------
+# Functions used outside tasks
+# ---------------------------------------------------------------------------
+
+def tmpdir(prefix)
+  File.join(Dir::tmpdir, Dir::Tmpname.make_tmpname(prefix, 'dir'))
+end
+
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
 
 TWITTER_BOOTSTRAP_MASTER = 'https://github.com/twitter/bootstrap'
 SASS_TWITTER_BOOTSTRAP_MASTER = 'https://github.com/jlong/sass-twitter-bootstrap'
@@ -10,10 +26,6 @@ BOOTSTRAP_URL = ENV['BOOTSTRAP_URL'] || TWITTER_BOOTSTRAP_MASTER
 # Ditto
 SASS_BOOTSTRAP_URL = ENV['SASS_BOOTSTRAP_URL'] || SASS_TWITTER_BOOTSTRAP_MASTER
 
-def tmpdir(prefix)
-  File.join(Dir::tmpdir, Dir::Tmpname.make_tmpname(prefix, 'dir'))
-end
-
 GIT_TEMP = tmpdir('git-scalathon')
 
 BOOTSTRAP_SUBDIR = 'bootstrap'
@@ -21,6 +33,10 @@ BOOTSTRAP_SOURCE = File.join(GIT_TEMP, BOOTSTRAP_SUBDIR)
 
 SASS_BOOTSTRAP_SUBDIR = 'sass-twitter-bootstrap'
 SASS_BOOTSTRAP_SOURCE = File.join(GIT_TEMP, SASS_BOOTSTRAP_SUBDIR)
+
+# ---------------------------------------------------------------------------
+# Tasks
+# ---------------------------------------------------------------------------
 
 task :default => :jekyll
 
@@ -44,7 +60,7 @@ task :css do
   end
 end
 
-# For Twitter Bootstrap. Requires git and lessc (and node.js)
+# For Twitter Bootstrap. Requires git.
 
 desc "Build (or rebuild) the Twitter Bootstrap stuff."
 task :bootstrap => [
@@ -111,12 +127,14 @@ task :bootstrap_git do
 end
 
 # ----------------------------------------------------------------------------
+# Functions used within tasks
+# ---------------------------------------------------------------------------
 
 def git_clone(url, parent_dir, child_dir)
   FileUtils.mkdir_p parent_dir
   Dir.chdir(parent_dir) do
-    puts "In #{parent_dir}"
-    sh 'git', 'clone', url, child_dir
+    puts "In #{parent_dir}:\n    Cloning #{url}"
+    Git.clone(url, child_dir)
   end
 end
 
