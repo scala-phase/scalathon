@@ -2,12 +2,13 @@
 
 The 2012 version of the page uses the following technologies:
 
-* [Twitter Bootstrap][] (which, in turn, uses [Less][])
-* [Node.js][] (if you customize Twitter Bootstrap)
+* [Twitter Bootstrap][]
+* [Sass-Twitter-Bootstrap][], which contains [Sass][] ports of Twitter's
+  [Less][] CSS files.
+* [Sass][]
 * Ruby
 * [Jekyll][]
 * Rake
-* [Sass][]
 * [Bourbon][]
 
 Twitter Bootstrap is already folded into the project, though it can be
@@ -25,50 +26,6 @@ Have `bundler` install everything else, courtesy of the `Gemfile` in this
 directory:
 
     $ bundle install
-
-### If you're planning to customize the Twitter Bootstrap package
-
-If you're planning to customize Twitter Bootstrap, you'll need some additional
-software. (If not, skip this section.)
-
-Twitter Bootstrap uses [Less][], rather than [Sass][], for CSS. To customize
-the Bootstrap styling, you must first install:
-
-* [Node.js][]
-* [npm][], the Node Package Manager
-* [Less][]
-
-##### Install node.js
-
-First, install [Node.js][]. On Mac OS X, the easiest way to install it is
-via [Homebrew][]:
-
-    $ brew install node
-
-If you're using Windows, use the MSI from the [Node.js][] home page.
-
-On Linux and other Unix-like systems, it's easiest to build from source. You'll
-need the usual build tools (GCC, Make, etc.).
-
-    $ git clone https://github.com/joyent/node.git
-    $ cd node
-    $ ./configure --prefix $HOME/local # Choose your favorite prefix
-    $ make
-    $ make install
-
-##### Install npm
-
-Next, install the Node Package Manager. Easy instructions are on the
-[npm][] web site.
-
-##### Install LESS
-
-Once npm is installed, installing LESS is trivial:
-
-    $ npm install less
-
-The binary will end up in `$HOME/node_modules/.bin`, so make sure that
-directory is in your path.
 
 ## Building the Scalathon site
 
@@ -99,41 +56,37 @@ To publish the site to GitHub, *always* run Rake first. Here are the steps:
 
 ## Styling
 
-### To customize the look and feel (except for Twitter Bootstrap)
+### To customize the look and feel
 
 Customize `sass/styles.scss`. Then, rebuild the site. Note that this file
 is a [Sass][] input file, so edit accordingly.
 
-Note that Twitter Bootstrap is *not* controlled via `styles.scss`. There *are*
-a few Bootstrap-specific rules in `style.scss`, though; these rules are marked,
-and they are applied as overrides to Bootstrap styles. (They're in the Sass
-file, for convenience and ease of use.)
+Twitter Bootstrap customization is also controlled in `styles.scss`, courtesy
+of [Sass-Twitter-Bootstrap][]. The Twitter Bootstrap LESS variables that are
+documented on the  [Twitter Bootstrap][] web site are available as Sass
+variables, inside `styles.scss`. For example, the LESS variable `@navbarHeight`
+is `$navbarHeight`, inside the Sass file. The names are the same, but the
+syntax is pure Sass.
 
-[Sass]: http://sass-lang.com
+## Updating Twitter Bootstrap and Sass-Twitter-Bootstrap
 
-### To customize the Twitter Bootstrap portion
-
-Edit `bootstrap/less/custom.less`. See
-<http://twitter.github.com/bootstrap/less.html> for a list of things you can
-customize. Then, run:
-
-    $ bundle exec rake bootstrap_css
-
-to update the appropriate CSS files.
-
-## Updating Twitter Bootstrap
-
-To install a new copy of Twitter Bootstrap (e.g., to pick up some bug fixes),
-run this Rake command:
+To update the installed files from Twitter Bootstrap and Sass-Twitter-Bootstrap
+(e.g., to pick up some bug fixes), run this Rake command:
 
     $ bundle exec rake bootstrap
 
 That command will
 
 * Clone the Twitter Bootstrap repo (the master) into a temporary directory.
-* Copy the appropriate files from the cloned repo to the `./bootstrap` folder,
-  if they've changed.
-* Update all Bootstrap CSS files (via the `bootstrap_css` task).
+* Copy the appropriate files from the cloned repo to the `./bootstrap`
+  directory, if they've changed.
+* Compile all Bootstrap Javascript files into minified versions, storing the
+  results in `./bootstrap/js`.
+* Create `./_includes/bootstrap.js.html`, which pulls in the Bootstrap
+  Javascript
+* Clone the Sass-Twitter-Bootstrap repo into a temporary directory.
+* Copy the appropriate Sass files from the cloned repo into the
+  `./bootstrap/sass` directory.
 
 It will *not touch* our `custom.less` file (which is good).
 
@@ -144,3 +97,5 @@ It will *not touch* our `custom.less` file (which is good).
 [Node.js]: http://nodejs.org/
 [npm]: http://npmjs.org/
 [Homebrew]: http://mxcl.github.com/homebrew/
+[Sass-Twitter-Bootstrap]: https://github.com/jlong/sass-twitter-bootstrap
+[Sass]: http://sass-lang.com
