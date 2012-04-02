@@ -22,9 +22,6 @@ BOOTSTRAP_SOURCE = File.join(GIT_TEMP, BOOTSTRAP_SUBDIR)
 SASS_BOOTSTRAP_SUBDIR = 'sass-twitter-bootstrap'
 SASS_BOOTSTRAP_SOURCE = File.join(GIT_TEMP, SASS_BOOTSTRAP_SUBDIR)
 
-BOOTSTRAP_CUSTOM_LESS = 'bootstrap/less/custom.less'
-SASS_VARS = 'sass/_vars.scss'
-
 task :default => :jekyll
 
 desc "Build the site"
@@ -44,26 +41,6 @@ task :css do
     Dir.mkdir('css') if !Dir.exists?('css')
     puts "#{scss} -> #{css}"
     sh 'sass', '-r', './sass/bourbon/lib/bourbon.rb', scss, css
-  end
-end
-
-desc "Extract the variables from custom.less into defs.scss, for sharing"
-task :sass_bootstrap_defs do
-  puts "#{BOOTSTRAP_CUSTOM_LESS} -> #{SASS_VARS}"
-  vars = []
-  File.open(BOOTSTRAP_CUSTOM_LESS) do |f|
-    f.each_line do |l|
-      l = l.chomp
-      if l =~ /^@(.)([^:]+)(:.*)$/
-        vars << "$bootstrap#{$1.upcase}#{$2}#{$3}"
-      end
-    end
-  end
-
-  File.open(SASS_VARS, 'w') do |f|
-    f.write("// AUTOMATICALLY GENERATED FROM #{BOOTSTRAP_CUSTOM_LESS}\n")
-    f.write("// DO NOT EDIT!\n")
-    vars.each {|line| f.write("#{line}\n")}
   end
 end
 
