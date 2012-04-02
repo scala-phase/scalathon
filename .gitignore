@@ -1,5 +1,6 @@
 _site
 sass/.sass-cache
+.sass-cache
 css/_*.scss
 *.sublime-*
 .envrc

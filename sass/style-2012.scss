@@ -1,5 +1,23 @@
 @import "bourbon/bourbon";
-@import "vars";
+@import "bootstrap/sass/bootstrap.scss";
+@import "bootstrap/sass/responsive.scss";
+
+// ---------------------------------------------------------------------------
+// Twitter Bootstrap Variables
+// ---------------------------------------------------------------------------
+
+$navbarBackground: #9c9c9c;
+$navbarBackgroundHighlight: #9c9c9c;
+$navbarLinkColor: $white;
+$navbarLinkColorHover: $yellow;
+$navbarHeight: 40px;
+$navbarFontSize: 14px;
+
+$baseFontFamily: Helvetica, Arial, Verdana, sans-serif;
+$baseFontSize: 16px;
+
+$gridColumnWidth: 60px;
+$gridGutterWidth: 20px;
 
 // ---------------------------------------------------------------------------
 // Variables
@@ -7,12 +25,12 @@
 
 $border-color: #ccc;
 $rounded-border-radius: 10px;
-$navbar-height: $bootstrapNavbarHeight;
+$navbar-height: $navbarHeight;
 $header-font: "Crimson Text", "Times New Roman", serif;
 $header-padding: 10px 0px 10px 0px;
 $top-header-color: #dd3333;
 
-$navbar-gradient-top: $bootstrapNavbarBackground;
+$navbar-gradient-top: $navbarBackground;
 $navbar-gradient-bottom: darken($navbar-gradient-top, 40%);
 
 $toc-gradient-top: $navbar-gradient-top;
@@ -111,7 +129,7 @@ $main-content-padding: $navbar-height + 40px;
     // fixed sidebar; it screws up the responsive rendering. See 
     // http://stackoverflow.com/questions/9350818/
 
-    $sponsor-sidebar-width: ($bootstrapGridColumnWidth + $bootstrapGridGutterWidth) * 3;
+    $sponsor-sidebar-width: ($gridColumnWidth + $gridGutterWidth) * 3;
 
     @media (min-width: 768px) {
       #sponsors-sidebar {
@@ -324,7 +342,7 @@ img.left {
 }
 
 // ---------------------------------------------------------------------------
-// Twitter Bootstrap Overrides (that are easier to manage here than custom.less)
+// Twitter Bootstrap Overrides
 // ---------------------------------------------------------------------------
 
 @mixin navbar-gradient {
@@ -333,8 +351,28 @@ img.left {
 
 $logo-font-size: 20px;
 .navbar {
+
+  width: 100% !important;
+  margin-left: 0px !important;
+  font-size: $navbarFontSize !important;
+
+  .nav {
+    height: $navbarHeight;
+    padding-top: (($navbarHeight - 20)/ 2);
+
+    & > li > a {
+      padding-top: ($navbarHeight - $navbarFontSize) / 2;
+      padding-right: 10px;
+      padding-bottom: ($navbarHeight - $navbarFontSize) / 2;
+      padding-left: 10px;
+    }
+  }
+
   .navbar-inner {
     .container {
+      width: 100%;
+      margin: 0;
+
       a:hover {
         background: transparent !important;
         color: red !important;
@@ -379,6 +417,8 @@ $logo-font-size: 20px;
       @include navbar-gradient;
 
       .brand {
+        padding-top: $navbarHeight;
+        padding: ((($navbarHeight - 20) / 2) * 0.8) 20px ((($navbarHeight - 20) / 2) * 1.2);
 
         #scalathon-logo {
           p {
