@@ -25,7 +25,6 @@ $gridGutterWidth: 20px;
 
 $border-color: #ccc;
 $rounded-border-radius: 10px;
-$navbar-height: $navbarHeight;
 $header-font: "Crimson Text", "Times New Roman", serif;
 $header-padding: 10px 0px 10px 0px;
 $top-header-color: #dd3333;
@@ -49,13 +48,13 @@ $sponsor-sidebar-bgcolor: white;
 }
 
 @mixin rounded-border($radius: $rounded-border-radius) {
-    @include border-radius($radius);
-    padding: {
-      left: $rounded-border-radius;
-      right: $rounded-border-radius;
-      top: $rounded-border-radius;
-      bottom: $rounded-border-radius;
-    }
+  @include border-radius($radius);
+  padding: {
+    left: $rounded-border-radius;
+    right: $rounded-border-radius;
+    top: $rounded-border-radius;
+    bottom: $rounded-border-radius;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -106,7 +105,7 @@ body.error-page {
   }
 }
 
-$main-content-padding: $navbar-height + 40px;
+$main-content-padding: $navbarHeight + 40px;
 
 #main-content {
 
@@ -423,7 +422,7 @@ $logo-font-size: 20px;
         #scalathon-logo {
           p {
             img#logo {
-              height: $navbar-height !important;
+              height: $navbarHeight !important;
             }
 
             font: {
