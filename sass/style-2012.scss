@@ -189,9 +189,21 @@ $main-content-padding-top: $navbarHeight + 40px;
       }
     }
 
-    #gold-sponsors, #silver-sponsors, #bronze-sponsors {
+   .sponsor-block {
       img.sponsor-icon {
           height: 32px !important;
+      }
+
+      ul {
+        margin: 0;
+        li {
+          margin: {
+            top: 10px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
+        }
       }
     }
   }
