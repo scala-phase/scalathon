@@ -4360,8 +4360,7 @@ body.error-page {
   margin-bottom: 20px !important; }
 
 #main-content {
-  padding-top: 80px;
-  border: 1px dotted red; }
+  padding-top: 80px; }
   #main-content img.photo {
     -webkit-box-shadow: 5px 5px 2px 0 #444444;
     -moz-box-shadow: 5px 5px 2px 0 #444444;
