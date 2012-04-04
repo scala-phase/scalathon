@@ -105,144 +105,145 @@ body.error-page {
   }
 }
 
-$main-content-padding: $navbarHeight + 40px;
+$main-content-padding-top: $navbarHeight + 40px;
 
 #main-content {
 
-  padding-top: $main-content-padding;
+  padding-top: $main-content-padding-top;
 
-  #content-container {
+  img.photo {
+    @include drop-shadow($color: #444);
+    margin: 15px;
+    padding: 0 !important;
+  }
 
-    img.photo {
-      @include drop-shadow($color: #444);
-      margin: 15px;
-      padding: 0 !important;
-    }
+  // ----------------------------------------------------------------------
+  // FIXED SIDEBAR DEFS
+  // ----------------------------------------------------------------------
 
-    // ----------------------------------------------------------------------
-    // FIXED SIDEBAR DEFS
-    // ----------------------------------------------------------------------
+  // If the browser is large enough, use a fixed sponsor sidebar, ensuring
+  // that it's always present. For smaller screens, though, skip the
+  // fixed sidebar; it screws up the responsive rendering. See 
+  // http://stackoverflow.com/questions/9350818/
 
-    // If the browser is large enough, use a fixed sponsor sidebar, ensuring
-    // that it's always present. For smaller screens, though, skip the
-    // fixed sidebar; it screws up the responsive rendering. See 
-    // http://stackoverflow.com/questions/9350818/
+  $sponsor-sidebar-width: ($gridColumnWidth + $gridGutterWidth) * 2;
 
-    $sponsor-sidebar-width: ($gridColumnWidth + $gridGutterWidth) * 3;
-
-    @media (min-width: 768px) {
-      #sponsors-sidebar {
-        position: fixed;
-        left: 20px;
-        top: $main-content-padding;
-        width: $sponsor-sidebar-width;
-      }
-
-      #page-content {
-        // NOTE: If you change the multiplier, be sure to change the "span3"
-        // in _layouts/main-2012.html
-        padding-left: $sponsor-sidebar-width;
-      }
-    }
-
-    // ----------------------------------------------------------------------
-    // END FIXED SIDEBAR DEFS
-    // ----------------------------------------------------------------------
-
-
+  @media (min-width: 768px) {
     #sponsors-sidebar {
+      position: fixed;
+      left: 20px;
+      top: $main-content-padding-top;
+      width: $sponsor-sidebar-width;
+    }
 
-      text-align: center;
-      background: $sponsor-sidebar-bgcolor !important;
+    #page-content {
+      // NOTE: If you change the multiplier, be sure to change the "span3"
+      // in _layouts/main-2012.html
+      padding-left: $sponsor-sidebar-width;
+    }
+  }
 
-      @include rounded-border;
+  // ----------------------------------------------------------------------
+  // END FIXED SIDEBAR DEFS
+  // ----------------------------------------------------------------------
 
-      border: 1px solid $border-color;
-      .sponsor-block {
 
-        margin-top: 10px;
+  #sponsors-sidebar {
+    margin-right: 10px !important;
 
-        .heading {
-          font: {
-            family: $header-font;
-            size: 150%;
-            color: $top-header-color;
-            weight: bold;
-          }
+    text-align: center;
+    background: $sponsor-sidebar-bgcolor !important;
 
-          margin-bottom: 40px;
-          margin-top: 40px;
+    @include rounded-border;
+
+    border: 1px solid $border-color;
+
+    .sponsor-block {
+
+      margin-top: 10px;
+
+      .heading {
+        font: {
+          family: $header-font;
+          size: 150%;
+          color: $top-header-color;
+          weight: bold;
         }
 
-        ul {
-          list-style-type: none;
-
-          li {
-            padding: 0;
-            margin: {
-              left: -5px;
-              right: 0;
-              top: 5px;
-              bottom: 0px;
-            }
-          }
-        }
+        margin-bottom: 40px;
+        margin-top: 40px;
       }
 
-      #gold-sponsors, #silver-sponsors, #bronze-sponsors {
-        img.sponsor-icon {
-            height: 32px !important;
+      ul {
+        list-style-type: none;
+
+        li {
+          padding: 0;
+          margin: {
+            left: -5px;
+            right: 0;
+            top: 5px;
+            bottom: 0px;
+          }
         }
       }
     }
 
-    div#page-content {
+    #gold-sponsors, #silver-sponsors, #bronze-sponsors {
+      img.sponsor-icon {
+          height: 32px !important;
+      }
     }
+  }
 
+  div#page-content {
+    margin-left: 10px;
+    width: 95% !important;
+  }
+
+  li {
+    line-height: 1.2em !important;
+  }
+
+  p {
+    margin-bottom: 15px !important;
+    line-height: 1.2em !important;
+    margin-left: 1em !important;
+  }
+
+  ul {
     li {
-      line-height: 1.2em !important;
+      margin-left: 1em;
     }
+  }
 
-    p {
-      margin-bottom: 15px !important;
-      line-height: 1.2em !important;
-      margin-left: 1em !important;
-    }
+  h1 {
+    font-family: $header-font !important;
+    padding: $header-padding !important;
+  }
 
-    ul {
-      li {
-        margin-left: 1em;
-      }
-    }
+  h2 {
+    font-family: $header-font !important;
+    padding: $header-padding !important;
+  }
 
-    h1 {
-      font-family: $header-font !important;
-      padding: $header-padding !important;
-    }
+  h3 {
+    font-family: $header-font !important;
+    padding: $header-padding !important;
+  }
 
-    h2 {
-      font-family: $header-font !important;
-      padding: $header-padding !important;
-    }
+  h4 {
+    font-family: $header-font !important;
+    padding: $header-padding !important;
+  }
 
-    h3 {
-      font-family: $header-font !important;
-      padding: $header-padding !important;
+  div#twitter-widget {
+    margin: {
+      left: 20px;
+      right: 20px;
+      top: 0px;
     }
-
-    h4 {
-      font-family: $header-font !important;
-      padding: $header-padding !important;
-    }
-
-    div#twitter-widget {
-      margin: {
-        left: 20px;
-        right: 20px;
-        top: 0px;
-      }
-      float: right;
-    }
+    float: right;
   }
 }
 

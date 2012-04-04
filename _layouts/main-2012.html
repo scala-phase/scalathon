@@ -37,19 +37,19 @@
   -->
   <div class="container-fluid" id="main-content">
     <div class="row-fluid">
-      <div id="content-container">
+
         <!--
           WARNING: If you change the following "span3" or the "span9" on
                    #page-content, you MUST change the appropriate fixed sidebar
                    values in sass/styles-2012.scss
         -->
-        <div class="span3">
+        <div class="span2">
           <div id="sponsors-sidebar">
           {% include sponsors-2012.html %}
           </div>
         </div>
 
-        <div class="span9">
+        <div class="span10">
           <div id="page-content">
 
             {% if page.logo_in_content %}
@@ -67,7 +67,7 @@
             </div> 
           </div> <!-- page-content -->
         </div> <!-- span10 -->
-      </div> <!-- content-container -->
+
     </div> <!-- row-fluid -->
     
     {% if page.generate_toc %}

@@ -1,7 +1,7 @@
 ---
 title: Scalathon 2012
 layout: main-2012
-show_twitter: true
+show_twitter: false
 tab: home
 logo_in_content: true
 ---

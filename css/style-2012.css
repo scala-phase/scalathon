@@ -4360,22 +4360,24 @@ body.error-page {
   margin-bottom: 20px !important; }
 
 #main-content {
-  padding-top: 80px; }
-  #main-content #content-container img.photo {
+  padding-top: 80px;
+  border: 1px dotted red; }
+  #main-content img.photo {
     -webkit-box-shadow: 5px 5px 2px 0 #444444;
     -moz-box-shadow: 5px 5px 2px 0 #444444;
     box-shadow: 5px 5px 2px 0 #444444;
     margin: 15px;
     padding: 0 !important; }
   @media (min-width: 768px) {
-    #main-content #content-container #sponsors-sidebar {
+    #main-content #sponsors-sidebar {
       position: fixed;
       left: 20px;
       top: 80px;
-      width: 240px; }
-    #main-content #content-container #page-content {
-      padding-left: 240px; } }
-  #main-content #content-container #sponsors-sidebar {
+      width: 160px; }
+    #main-content #page-content {
+      padding-left: 160px; } }
+  #main-content #sponsors-sidebar {
+    margin-right: 10px !important;
     text-align: center;
     background: white !important;
     -webkit-border-radius: 10px;
@@ -4386,46 +4388,49 @@ body.error-page {
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid #cccccc; }
-    #main-content #content-container #sponsors-sidebar .sponsor-block {
+    #main-content #sponsors-sidebar .sponsor-block {
       margin-top: 10px; }
-      #main-content #content-container #sponsors-sidebar .sponsor-block .heading {
+      #main-content #sponsors-sidebar .sponsor-block .heading {
         font-family: "Crimson Text", "Times New Roman", serif;
         font-size: 150%;
         font-color: #dd3333;
         font-weight: bold;
         margin-bottom: 40px;
         margin-top: 40px; }
-      #main-content #content-container #sponsors-sidebar .sponsor-block ul {
+      #main-content #sponsors-sidebar .sponsor-block ul {
         list-style-type: none; }
-        #main-content #content-container #sponsors-sidebar .sponsor-block ul li {
+        #main-content #sponsors-sidebar .sponsor-block ul li {
           padding: 0;
           margin-left: -5px;
           margin-right: 0;
           margin-top: 5px;
           margin-bottom: 0px; }
-    #main-content #content-container #sponsors-sidebar #gold-sponsors img.sponsor-icon, #main-content #content-container #sponsors-sidebar #silver-sponsors img.sponsor-icon, #main-content #content-container #sponsors-sidebar #bronze-sponsors img.sponsor-icon {
+    #main-content #sponsors-sidebar #gold-sponsors img.sponsor-icon, #main-content #sponsors-sidebar #silver-sponsors img.sponsor-icon, #main-content #sponsors-sidebar #bronze-sponsors img.sponsor-icon {
       height: 32px !important; }
-  #main-content #content-container li {
+  #main-content div#page-content {
+    margin-left: 10px;
+    width: 95% !important; }
+  #main-content li {
     line-height: 1.2em !important; }
-  #main-content #content-container p {
+  #main-content p {
     margin-bottom: 15px !important;
     line-height: 1.2em !important;
     margin-left: 1em !important; }
-  #main-content #content-container ul li {
+  #main-content ul li {
     margin-left: 1em; }
-  #main-content #content-container h1 {
+  #main-content h1 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #main-content #content-container h2 {
+  #main-content h2 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #main-content #content-container h3 {
+  #main-content h3 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #main-content #content-container h4 {
+  #main-content h4 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
     padding: 10px 0px 10px 0px !important; }
-  #main-content #content-container div#twitter-widget {
+  #main-content div#twitter-widget {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 0px;
