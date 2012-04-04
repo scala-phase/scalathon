@@ -126,9 +126,9 @@ $main-content-padding-top: $navbarHeight + 40px;
   // fixed sidebar; it screws up the responsive rendering. See 
   // http://stackoverflow.com/questions/9350818/
 
-  $sponsor-sidebar-width: ($gridColumnWidth + $gridGutterWidth) * 2;
+  $sponsor-sidebar-width: ($gridColumnWidth + $gridGutterWidth) * 3;
 
-  @media (min-width: 768px) {
+  @media (min-width: 960px) {
     #sponsors-sidebar {
       position: fixed;
       left: 20px;

@@ -4367,14 +4367,14 @@ body.error-page {
     box-shadow: 5px 5px 2px 0 #444444;
     margin: 15px;
     padding: 0 !important; }
-  @media (min-width: 768px) {
+  @media (min-width: 960px) {
     #main-content #sponsors-sidebar {
       position: fixed;
       left: 20px;
       top: 80px;
-      width: 160px; }
+      width: 240px; }
     #main-content #page-content {
-      padding-left: 160px; } }
+      padding-left: 240px; } }
   #main-content #sponsors-sidebar {
     margin-right: 10px !important;
     text-align: center;
