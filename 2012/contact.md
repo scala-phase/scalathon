@@ -4,9 +4,9 @@ layout: main-2012
 tab: contact
 ---
 
-[![twitter ymasory][tw-img]][tw-y] [Yuvi Masory][]: general organizer
+[![twitter ymasory][tw-img]][tw-y] [Yuvi Masory][]: general organizer, financial matters
 
-[![twitter brianclapper][tw-img]][tw-bmc] [Brian Clapper][]: all things registration, meetup.com, financial
+[![twitter brianclapper][tw-img]][tw-bmc] [Brian Clapper][]: all things registration, meetup.com, *scalathon.org* web site
 
 [![twitter cmconnor74][tw-img]][tw-colleen] [Colleen Connor][]: venue coordination
 
@@ -18,3 +18,4 @@ tab: contact
 [tw-img]: /img/twitter32.png
 [tw-bmc]: http://twitter.com/#!/brianclapper
 [tw-colleen]: http://twitter.com/#!/cmconnor74
+[tw-jamie]: http://twitter.com/#!/jamie_allen

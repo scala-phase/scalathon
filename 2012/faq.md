@@ -61,12 +61,36 @@ donations.
 
 Thanks to *all* our sponsors!
 
+## What technologies did you use for the web site?
+
+*scalathon.org* is hosted on [GitHub Pages][], so it's using [Jekyll][],
+because that's what drives GitHub Pages. In addition, we use:
+
+* [Sass][], for enhanced CSS goodness.
+* [Bourbon][], for enhanced Sass goodness.
+* [Twitter Bootstrap][], with the responsive add-ons, to try to make the
+  site a little friendlier for mobile devices, as well as regular computers.
+* [Sass-Twitter-Bootstrap][], so we can use all the Twitter Bootstrap CSS
+  customizations directly from Sass.
+* [Rake][], to tie all those technologies together.
+
 ## Who made the logo?
 
 Brian Clapper. (Blame him.)
 
 [email]: mailto:contact@scalathon.org
 [Yuvi Masory]: contact.html
+[Github Pages]: http://pages.github.com/
 [Brian Clapper]: contact.html
 [PHASE]: http://www.meetup.com/scala-phase/
+[Twitter Bootstrap]: http://twitter.github.com/bootstrap/
+[Bourbon]: http://thoughtbot.com/bourbon/
+[Jekyll]: http://jekyllrb.com/
+[Node.js]: http://nodejs.org/
+[Sass-Twitter-Bootstrap]: https://github.com/jlong/sass-twitter-bootstrap
+[Sass]: http://sass-lang.com
+[Less]: http://lesscss.org/
+[Rake]: http://rake.rubyforge.org/
+[Ruby]: http://ruby-lang.org/
+
 

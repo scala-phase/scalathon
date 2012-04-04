@@ -6,9 +6,9 @@ The 2012 version of the page uses the following technologies:
 * [Sass-Twitter-Bootstrap][], which contains [Sass][] ports of Twitter's
   [Less][] CSS files.
 * [Sass][]
-* Ruby
+* [Ruby][]
 * [Jekyll][]
-* Rake
+* [Rake][]
 * [Bourbon][]
 
 Twitter Bootstrap is already folded into the project, though it can be
@@ -94,8 +94,7 @@ It will *not touch* our `custom.less` file (which is good).
 [Twitter Bootstrap]: http://twitter.github.com/bootstrap/
 [Bourbon]: http://thoughtbot.com/bourbon/
 [Jekyll]: http://jekyllrb.com/
-[Node.js]: http://nodejs.org/
-[npm]: http://npmjs.org/
-[Homebrew]: http://mxcl.github.com/homebrew/
 [Sass-Twitter-Bootstrap]: https://github.com/jlong/sass-twitter-bootstrap
 [Sass]: http://sass-lang.com
+[Rake]: http://rake.rubyforge.org/
+[Ruby]: http://ruby-lang.org/
