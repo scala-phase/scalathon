@@ -4386,6 +4386,7 @@ body.error-page {
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    visibility: visible;
     border: 1px solid #cccccc; }
     #main-content #sponsors-sidebar .sponsor-block {
       margin-top: 10px; }
@@ -4397,6 +4398,7 @@ body.error-page {
         margin-bottom: 40px;
         margin-top: 40px; }
       #main-content #sponsors-sidebar .sponsor-block ul {
+        margin: 0;
         list-style-type: none; }
         #main-content #sponsors-sidebar .sponsor-block ul li {
           padding: 0;
@@ -4404,15 +4406,8 @@ body.error-page {
           margin-right: 0;
           margin-top: 5px;
           margin-bottom: 0px; }
-    #main-content #sponsors-sidebar .sponsor-block img.sponsor-icon {
-      height: 32px !important; }
-    #main-content #sponsors-sidebar .sponsor-block ul {
-      margin: 0; }
-      #main-content #sponsors-sidebar .sponsor-block ul li {
-        margin-top: 10px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0; }
+      #main-content #sponsors-sidebar .sponsor-block img.sponsor-icon {
+        height: 32px !important; }
   #main-content div#page-content {
     margin-left: 10px;
     width: 95% !important; }

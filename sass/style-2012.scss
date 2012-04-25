@@ -156,6 +156,7 @@ $main-content-padding-top: $navbarHeight + 40px;
 
     @include rounded-border;
 
+    visibility: visible;
     border: 1px solid $border-color;
 
     .sponsor-block {
@@ -175,10 +176,13 @@ $main-content-padding-top: $navbarHeight + 40px;
       }
 
       ul {
+        margin: 0;
+
         list-style-type: none;
 
         li {
           padding: 0;
+
           margin: {
             left: -5px;
             right: 0;
@@ -187,23 +191,9 @@ $main-content-padding-top: $navbarHeight + 40px;
           }
         }
       }
-    }
 
-   .sponsor-block {
       img.sponsor-icon {
           height: 32px !important;
-      }
-
-      ul {
-        margin: 0;
-        li {
-          margin: {
-            top: 10px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-          }
-        }
       }
     }
   }

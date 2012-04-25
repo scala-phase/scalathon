@@ -61,6 +61,17 @@ donations.
 
 Thanks to *all* our sponsors!
 
+## Why don't I see the sponsors?
+
+The most likely culprit is [AdBlock](http://adblockplus.org/en/). Either
+disable your AdBlock extension, or add an exception rule for _scalathon.org_:
+
+    @@http://scalathon.org/
+
+## Why is there an empty box on the left of this web page?
+
+See the previous question.
+
 ## What technologies did you use for the web site?
 
 *scalathon.org* is hosted on [GitHub Pages][], so it's using [Jekyll][],
