@@ -55,9 +55,28 @@ are the primary organizers.
 We are very lucky: Many companies are sponsoring Scalathon with financial
 donations.
 
-* Gold sponsors have donated $2,000 or more.
-* Silver sponsors have donated between $1,000 and $1,999.
-* Bronze sponsors have donated between $250 and $999.
+**Gold Sponsors**
+
+Gold sponsors have donated $2,000 or more. There are only three or four of
+these to go around. An entire event (e.g., a happy hour or dinner) is named for
+each Gold Sponsor. Signage and thanks are a prominent part of that event. The
+special name for the event is used consistently throughout all our literature.
+Gold sponsorship also comes with all the Silver sponsor benefits.
+
+**Silver Sponsor**
+
+Silver sponsors have donated between $1,000 and $1,999. This sponsorship level
+comes with a booth at the event. It puts the sponsor's logo on every page of
+the website. Silver sponsors  will be verbally thanked in the opening remarks.
+Silver sponsors receive advertising benefits via our listserv and Twitter
+account.
+
+**Bronze Sponsor**
+
+Bronze sponsors have donated between $250 and $999. They get thanks on the
+website, below the Gold and Silver sponsors; they are also mentioned  in all
+advertising material. Bronze sponsors only receive limited contact with
+attendees or their email inboxes.
 
 Thanks to *all* our sponsors!
 
@@ -67,6 +86,8 @@ The most likely culprit is [AdBlock](http://adblockplus.org/en/). Either
 disable your AdBlock extension, or add an exception rule for _scalathon.org_:
 
     @@http://scalathon.org/
+
+See <http://adblockplus.org/en/filters> for more details on AdBlock filters.
 
 ## Why is there an empty box on the left of this web page?
 
