@@ -18,9 +18,8 @@ libraries.
 
 # When & Where
 
-Scalathon 2012 will held **July 27-29, 2012** in the suburbs of
-**[Philadelphia](http://en.wikipedia.org/wiki/Philadelphia), Pennsylvania**,
-at a location to be announced soon.
+Scalathon 2012 will held **July 27-29, 2012** at the
+[Valley Forge Casino Resort][], in suburban [Philadelphia][], Pennsylvania.
 
 # Registration
 
@@ -33,3 +32,6 @@ Space will be limited to 150 attendees.
 * Follow [@scalathon](http://twitter.com/#!/scalathon) on Twitter.
 * [Join the mailing list](http://groups.google.com/group/scalathon).
 * Join us in #scalathon on *freenode* IRC.
+
+[Valley Forge Casino Resort]: https://www.vfcasino.com/
+[Philadelphia]: http://en.wikipedia.org/wiki/Philadelphia
