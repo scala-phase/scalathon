@@ -23,9 +23,8 @@ Scalathon 2012 will held **July 27-29, 2012** at the
 
 # Registration
 
-Registration will be open soon. Stay tuned.
-
-Space will be limited to 150 attendees.
+Registration is $50 and covers all three days. Space is limited to 150
+attendees. Please register on the [Scalathon 2012 Meetup page][].
 
 # Keep Up to Date
 
@@ -35,3 +34,4 @@ Space will be limited to 150 attendees.
 
 [Valley Forge Casino Resort]: https://www.vfcasino.com/
 [Philadelphia]: http://en.wikipedia.org/wiki/Philadelphia
+[Scalathon 2012 Meetup page]: http://www.meetup.com/scala-phase/events/62752272/
