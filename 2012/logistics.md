@@ -15,9 +15,7 @@ generate_toc: true
 
 Scalathon 2012 is being held at the [Valley Forge Casino Resort][vfcasino],
 located at 1160 First Avenue, King of Prussia, PA 19406, right next to the
-Valley Forge National Park. See the map, to the right.
-
-<img style="float:right" src='http://maps.googleapis.com/maps/api/staticmap?center=1160+First+Av+,King+of+Prussia,PA,19468&size=400x300&sensor=false&scale=1&maptype=hybrid&markers=label:A%7Csize:mid%7C1160+First+Av+,King+of+Prussia,PA,19468'/>
+Valley Forge National Park. See the map, below.
 
 # Getting to Valley Forge
 
@@ -91,6 +89,13 @@ Take First Avenue exit to Radisson Hotel.
 * Bear right at first light onto Mall Blvd. 
 * Turn right at next light onto N. Gulph Road and proceed approximately 1.
   5 miles to First Avenue.
+
+# Map
+
+
+<div style="text-align: center; margin: 20px">
+<img src='http://maps.googleapis.com/maps/api/staticmap?center=1160+First+Av+,King+of+Prussia,PA,19468&zoom=15&size=600x600&sensor=false&scale=1&maptype=hybrid&markers=label:A%7Csize:mid%7C1160+First+Av+,King+of+Prussia,PA,19468'/>
+</div>
 
 # Where to Stay
 
