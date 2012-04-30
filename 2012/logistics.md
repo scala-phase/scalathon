@@ -2,7 +2,7 @@
 title: Logistics
 layout: main-2012
 tab: logistics
-toc: true
+generate_toc: true
 ---
 
 {:toc}
