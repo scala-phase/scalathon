@@ -38,10 +38,10 @@ given on the [home page](index.html).
 
 Full refunds are available until June 27th, 30 days before the event. Because
 of the costs and upfront financial obligations of securing the venue, we cannot
-offer any refunds after June 27th. If you _after_before June 27th, we'll refund
-your entire $50 registration fee and open your slot to the next person on the
-waiting list. If you cancel _after_ June we'll open your slot, but you'll lose
-your $50 registration fee.
+offer any refunds after June 27th. If you cancel _before_ June 27th, we'll
+refund your entire $50 registration fee and open your slot to the next person
+on the waiting list. If you cancel _after_ June we'll open your slot, but
+you'll lose your $50 registration fee.
 
 ## How can I volunteer to host an out of town guest?
 
