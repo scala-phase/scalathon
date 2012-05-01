@@ -101,7 +101,40 @@ Take First Avenue exit to Radisson Hotel.
 
 ## Hotels
 
+### At the resort
 
+There are two [hotels](https://www.vfcasino.com/hotel) attached to the resort
+complex, the Radisson and the Casino Tower. The Radisson is the less expensive
+of the two.
+
+We will have a block of rooms set aside in the Radisson, for Scalathon
+attendees. Details on that block of rooms will be available soon.
+
+### Nearby
+
+* [**Fairield Inn Philadelphia Valley Forge**][fairfield]
+  (a Marriott property), 258 Mall Boulevard, King Of Prussia, Pa 19406. 
+  **2.2 miles from Scalathon**
+
+* [**Crowne Plaza**][cplaza], 260 Mall Boulevard, King Of Prussia, Pa 19406. 
+  **2.2 miles from Scalathon**
+
+* [**Hampton Inn**][hampton], 530 West Dekalb Pike, King of Prussia, PA 19406.
+  610-962-8111.
+  **2.3 miles from Scalathon**
+
+* [**Comfort Inn Valley Forge National Park**][civf],
+  550 Dekalb Pike, King of Prussia, PA 19406. 610-962-0700.
+  **2.2 miles from Scalathon**
+
+* [**Marriott Courtyard**][courtyard], 1100 Drummers Lane, Wayne, Pennsylvania
+  19087 USA. 610-687-6700.
+  **3.8 miles from Scalathon**
+
+[civf]: http://www.comfortinn.com/hotel-king_of_prussia-pennsylvania-PA189
+[fairfield]: http://www.marriott.com/hotels/travel/PHLVF-Fairfield-Inn-Philadelphia-Valley-Forge-King-of-Prussia
+[cplaza]: http://www.ichotelsgroup.com/crowneplaza/hotels/us/en/king-of-prussia/phlvf/hoteldetail?cm_mmc=mdpr-_-googlemaps-_-cp-_-phlvf
+[hampton]: http://hamptoninn.hilton.com/en/hp/hotels/index.jhtml?ctyhocn=PHLKPHX
 
 ## Free accommodations
 
@@ -115,4 +148,4 @@ handful of out-of-towners, so please don't rely on this option.
 [Tropiano Shuttle]: http://www.tropianotransportation.com/shuttle/
 [vfcasino]: https://www.vfcasino.com/
 [SEPTA]: http://www.septa.org/
-
+[Radisson]: 
