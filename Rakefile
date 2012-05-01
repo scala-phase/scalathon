@@ -34,6 +34,8 @@ BOOTSTRAP_SOURCE = File.join(GIT_TEMP, BOOTSTRAP_SUBDIR)
 SASS_BOOTSTRAP_SUBDIR = 'sass-twitter-bootstrap'
 SASS_BOOTSTRAP_SOURCE = File.join(GIT_TEMP, SASS_BOOTSTRAP_SUBDIR)
 
+TOP = File.dirname(__FILE__)
+
 # ---------------------------------------------------------------------------
 # Tasks
 # ---------------------------------------------------------------------------
@@ -41,7 +43,7 @@ SASS_BOOTSTRAP_SOURCE = File.join(GIT_TEMP, SASS_BOOTSTRAP_SUBDIR)
 task :default => :jekyll
 
 desc "Build the site"
-task :jekyll => [:css] do |t|
+task :jekyll => [:last_updated, :css] do |t|
   sh 'jekyll'
 end
 
@@ -51,6 +53,16 @@ task :generate => :jekyll
 desc "Build the site and run the local previewer on port 4000"
 task :preview => [:css] do |t|
   sh 'jekyll', '--server'
+end
+
+desc "Generate the last-updated content"
+task :last_updated do
+  File.open(File.join(TOP, "_includes", "last-updated-2012.html"), "wb") do |f|
+    now = Time.now.strftime("%d %B, %Y at %H:%M")
+    f.write <<-EOF
+<span class="date">Site last updated #{now}</span>
+    EOF
+  end
 end
 
 desc "Generate CSS from Sass input"

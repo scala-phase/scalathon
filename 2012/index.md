@@ -6,10 +6,9 @@ tab: home
 logo_in_content: true
 ---
 
-We're hard at work organizing the second annual Scalathon, the Scala Hackathon!
+# Scalathon 2012
 
-**This site is currently a work in progress, as we iron out the details for
-Scalathon 2012. Stop back often!**
+[Register now][meetup-page]!
 
 # Goal
 
@@ -27,16 +26,18 @@ July 27th, with a separate, nominal registration fee.
 # Registration
 
 Registration is $50 and covers Saturday and Sunday. Space is limited to 150
-attendees. Please register on the [Scalathon 2012 Meetup page][].
+attendees. Please register on the [Scalathon 2012 Meetup page][meetup-page].
 
 Friday's event will have a separate registration fee.
 
 # Keep Up to Date
 
+* Stop back here often. We'll be updating this web site as details are
+  finalized.
 * Follow [@scalathon](http://twitter.com/#!/scalathon) on Twitter.
 * [Join the mailing list](http://groups.google.com/group/scalathon).
 * Join us in #scalathon on *freenode* IRC.
 
 [Valley Forge Casino Resort]: https://www.vfcasino.com/
 [Philadelphia]: http://en.wikipedia.org/wiki/Philadelphia
-[Scalathon 2012 Meetup page]: http://www.meetup.com/scala-phase/events/62752272/
+[meetup-page]: http://www.meetup.com/scala-phase/events/62752272/

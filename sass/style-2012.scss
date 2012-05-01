@@ -249,6 +249,16 @@ $main-content-padding-top: $navbarHeight + 40px;
   }
 }
 
+.last-updated {
+  margin-top: 1em;
+  font: {
+    size: smaller;
+    style: italic;
+  }
+
+  text-align: center;
+}
+
 #calendar {
   width: 800px;
 }
