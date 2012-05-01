@@ -26,7 +26,7 @@ project brings one obligation and one perk:
 
 To register a *project* send us an [email][] with with your name, project
 name, and project URL. *Humans* still need to register using
-[meetup.com](http://www.meetup.com/scala-phase/events/57847602/).
+[meetup.com](http://www.meetup.com/scala-phase/events/62752272/).
 
 ## Can I give a talk?
 
