@@ -51,7 +51,7 @@ desc "Alias for 'jekyll' task"
 task :generate => :jekyll
 
 desc "Build the site and run the local previewer on port 4000"
-task :preview => [:css] do |t|
+task :preview => [:generate, :css] do |t|
   sh 'jekyll', '--server'
 end
 

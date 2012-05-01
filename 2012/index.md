@@ -20,15 +20,19 @@ libraries.
 Scalathon 2012 will held **Saturday, July 28, and Sunday, July 29, 2012** at
 the [Valley Forge Casino Resort][], in suburban [Philadelphia][], Pennsylvania.
 
-There will be an additional event (details still being worked out) on Friday,
-July 27th, with a separate, nominal registration fee.
+In addition, on **Friday, July 27**, we will host a special event called
+["Anatomy of a Scala Project"][friday-meetup]. See the 
+[Event Outline](/2012/outline.html) page for details on the Friday event.
 
 # Details on Registration
 
 Registration is $50 and covers Saturday and Sunday. Space is limited to 150
 attendees. Please register on the [Scalathon 2012 Meetup page][meetup-page].
 
-Friday's event will have a separate registration fee.
+Friday's event, "Anatomy of a Scala Project" has a separate registration fee
+and a separate [Meetup page][friday-meetup], since it might not appeal to every
+Scalathon attendee. The cost to attend Friday's "Anatomy of a Scala Project"
+event is $25 per participant.
 
 # Keep Up to Date
 
@@ -41,3 +45,4 @@ Friday's event will have a separate registration fee.
 [Valley Forge Casino Resort]: https://www.vfcasino.com/
 [Philadelphia]: http://en.wikipedia.org/wiki/Philadelphia
 [meetup-page]: http://www.meetup.com/scala-phase/events/62752272/
+[friday-meetup]: http://www.meetup.com/scala-phase/events/62963952/
