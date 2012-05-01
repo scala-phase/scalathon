@@ -101,6 +101,11 @@ Take First Avenue exit to Radisson Hotel.
 
 ## Hotels
 
+While there aren't many bed and breakfast establishments in the Valley Forge
+area, there are quite a few hotels. We've listed some of them, below. For more
+selections, use your favorite travel site, and search for "King of Prussia" or
+"Valley Forge".
+
 ### At the resort
 
 There are two [hotels](https://www.vfcasino.com/hotel) attached to the resort
