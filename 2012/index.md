@@ -6,7 +6,7 @@ tab: home
 logo_in_content: true
 ---
 
-# Scalathon 2012
+# Registration is Open!
 
 [Register now][meetup-page]!
 
@@ -23,7 +23,7 @@ the [Valley Forge Casino Resort][], in suburban [Philadelphia][], Pennsylvania.
 There will be an additional event (details still being worked out) on Friday,
 July 27th, with a separate, nominal registration fee.
 
-# Registration
+# Details on Registration
 
 Registration is $50 and covers Saturday and Sunday. Space is limited to 150
 attendees. Please register on the [Scalathon 2012 Meetup page][meetup-page].
