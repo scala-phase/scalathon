@@ -19,13 +19,34 @@ Valley Forge National Park. See the map, below.
 
 # Getting to Valley Forge
 
-## By plane
+## From Philadelphia
+
+### By car
+
+* Take Schuylkill Expressway (Route 76) West to Exit #327, Mall Boulevard. 
+* Bear right at first light onto Mall Blvd.
+* Turn right at next light onto N. Gulph Road and proceed approximately 1.5
+  miles to First Avenue.
+
+### By bus
+
+<div id="125bus"></div>
+[SEPTA][]'s 125 bus will drop you right in front of the Casino Resort, at a
+cost of about $3.50 one way. From 13th and Market Streets, the trip takes a
+little more than an hour. From 29th and Market, it's just about an hour.
+
+You can find the 125's schedule at
+<http://www.septa.org/schedules/bus/pdf/125.pdf>
+
+## From points outside Philadelphia
+
+### By plane
 
 [Philadelphia International Airport (PHL)](http://www.phl.org/) is the
 closest major airport. From the airport, there are numerous ways to get to
 Valley Forge:
 
-### By rental car
+#### Rent a car
 
 * Take I-95 South to I-476 North to Route 76 West.
 * Proceed on the Schuylkill Expressway (Rt. 76) West to Exit #327, Mall 
@@ -34,55 +55,50 @@ Valley Forge:
 * Turn right at next light onto N. Gulph Road and proceed approximately 1.5
   miles to First Avenue.
 
-### Via shuttle
+#### Take a shuttle
 
 [Tropiano Shuttle][] (215-643-5397) provides limousine service every hour on
 the hour for the 45 minute ride to and from the airport. Cost is approximately
 $20.00.
 
-## By train, from points outside Philadelphia
+### By train
 
-* Take Amtrak to Philadelphia's 30th Street Station.
-* From 30th Street Station, take the local [SEPTA][] Paoli-Thorndale train 
-  line, to Paoli.
-* You can grab a cab from Paoli to Valley Forge, though it's not likely to
-  be cheap. Alternatively, you can make arrangements for someone to give you
-  a lift to Scalathon.
+Take Amtrak to Philadelphia's 30th Street Station. From 30th Street Station, 
+you can either:
 
+* take the local [SEPTA][] Paoli-Thorndale train line, to Paoli; or
+* take the [125 bus](#125bus), as described above.
 
-## By car
+If you take the train, You can grab a cab from Paoli to Valley Forge, though
+it's not likely to be cheap. Alternatively, you can make arrangements for
+someone to give you a lift to Scalathon.
 
-### From Philadelphia
+### By automobile
 
-* Take Schuylkill Expressway (Route 76) West to Exit #327, Mall Boulevard. 
-* Bear right at first light onto Mall Blvd.
-* Turn right at next light onto N. Gulph Road and proceed approximately 1.5
-  miles to First Avenue.
-
-### From PA Turnpike
+#### From PA Turnpike
 
 * Take Turnpike (Route 276) to Exit #326 (old exit 24), Valley Forge. 
 * Immediately, take first right and merge onto N. Gulph Road. 
 * Proceed approx 1.3 miles to First Avenue.
 
-### From Route 202 South
+#### From Route 202 South
 
 * Take Pottstown Exit, Route 422 West, to first exit, Bridgeport--Rt. 23 East.
 * Turn right at first light (Moore Rd).
 * Turn right at next light (First Avenue), to Radisson Hotel.
 
-### From Route 202 North
+#### From Route 202 North
 
 * Take 202 South to Allendale Road.
 * Turn right.
 * Proceed approx 2 miles to First Avenue and turn left.
 * Proceed approx 1.5 miles to hotel complex on Right.
  
-### From Route 422 East
+#### From Route 422 East
 
 Take First Avenue exit to Radisson Hotel.
  
-### From I-95
+#### From I-95
 
 * Take Exit 7 (Route 476 North) to Exit 16B, (Route 76 West/Valley Forge).
 * Proceed to Exit #327.

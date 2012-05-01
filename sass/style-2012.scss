@@ -23,6 +23,7 @@ $gridGutterWidth: 20px;
 // Variables
 // ---------------------------------------------------------------------------
 
+$body-font: $baseFontFamily;
 $border-color: #ccc;
 $rounded-border-radius: 10px;
 $header-font: "Crimson Text", "Times New Roman", serif;
@@ -232,11 +233,14 @@ $main-content-padding-top: $navbarHeight + 40px;
   h3 {
     font-family: $header-font !important;
     padding: $header-padding !important;
+    margin-left: 0.5em;
   }
 
   h4 {
-    font-family: $header-font !important;
+    font-family: $body-font !important;
     padding: $header-padding !important;
+    font-style: italic;
+    margin-left: 0.5em;
   }
 
   div#twitter-widget {

@@ -59,6 +59,20 @@ It's is a product of the [Philly Area Scala Enthusiasts][PHASE]
 ([PHASE][]), the Scala user group in Philadelphia. Yuvi and [Brian Clapper][]
 are the primary organizers.
 
+## Why the heck is Scalathon all the way out in the suburbs?
+
+In a word, _price_. The [Valley Forge Casino Resort][] gave us a terrific
+deal.
+
+[Valley Forge Casino Resort]: https://www.vfcasino.com/
+
+## Fine. But don't the suburbs make travel more difficult?
+
+The Valley Forge / King of Prussia area is one of the more populous
+Philadelphia suburbs. While getting to Scalathon won't be as easy as if we'd
+held it in the city, there are plenty of transportion options. See the
+[Logistics](/2012/logistics.html) page for details.
+
 ## What are the various sponsorship levels?
 
 We are very lucky: Many companies are sponsoring Scalathon with financial

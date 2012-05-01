@@ -4493,10 +4493,13 @@ body.error-page {
     padding: 10px 0px 10px 0px !important; }
   #main-content h3 {
     font-family: "Crimson Text", "Times New Roman", serif !important;
-    padding: 10px 0px 10px 0px !important; }
+    padding: 10px 0px 10px 0px !important;
+    margin-left: 0.5em; }
   #main-content h4 {
-    font-family: "Crimson Text", "Times New Roman", serif !important;
-    padding: 10px 0px 10px 0px !important; }
+    font-family: Helvetica, Arial, Verdana, sans-serif !important;
+    padding: 10px 0px 10px 0px !important;
+    font-style: italic;
+    margin-left: 0.5em; }
   #main-content div#twitter-widget {
     margin-left: 20px;
     margin-right: 20px;
