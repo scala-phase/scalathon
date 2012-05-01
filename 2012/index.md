@@ -26,8 +26,10 @@ July 27th, with a separate, nominal registration fee.
 
 # Registration
 
-Registration is $50 and covers all three days. Space is limited to 150
+Registration is $50 and covers Saturday and Sunday. Space is limited to 150
 attendees. Please register on the [Scalathon 2012 Meetup page][].
+
+Friday's event will have a separate registration fee.
 
 # Keep Up to Date
 
