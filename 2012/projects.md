@@ -10,3 +10,6 @@ All talks are optional and will be held in a separate area from the main
 hackathon.
 
 *We'll be updating this page as we go along.*
+
+* **Joe Stein**, [Apache Kafka](http://incubator.apache.org/kafka/)
+

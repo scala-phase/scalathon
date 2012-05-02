@@ -5,8 +5,6 @@ tab: logistics
 generate_toc: true
 ---
 
-{:toc}
-
 # Dates
 
 * Hacking runs Saturday July 27, 2012, 9am - 10pm, and Sunday, July 28, 2012 9am - 5pm.
