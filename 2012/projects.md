@@ -11,5 +11,6 @@ hackathon.
 
 *We'll be updating this page as we go along.*
 
+* **Aemon Cannon**, [ENSIME](https://github.com/aemoncannon/ensime)
 * **Joe Stein**, [Apache Kafka](http://incubator.apache.org/kafka/)
 
