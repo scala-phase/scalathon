@@ -33,9 +33,12 @@ This event is separate from the main Scalathon event. It's intended for those
 who want to learn more about the tools, techniques, and best practices for
 Scala open source projects.
 
-"Anatomy of a Scala Project will feature various Scala open source developers
-"who will discuss Scala open source project best practices. These will include
-"topics like:
+The open source "mentors" for "Anatomy of a Scala Project" will be Josh
+Suereth, Nathan Hamblen,  Doug Tangren, Erik Osheim, Brian Clapper, and Yuvi
+Masory. Each of the mentors has built and maintains various open source Scala
+projects; several also maintain SBT plugins.
+
+The discussion will include topics like:
 
 * Setup: _giter8_, _git_, and other setup aids
 * Building: getting started with _sbt_, using _Maven_ (shudder), etc.
@@ -45,6 +48,9 @@ Scala open source projects.
 * Releasing: _sbt-assembly_, publishing to Sonatype, announcing your project with _herald_, etc.
 * Hosting: Where to put your code. (Should you use GitHub, like so many people? What about Bitbucket.org or other sites?)
 * Anything else we think fits.
+
+The session will include short presentations and hands-on demonstrations. Bring
+your laptops!
 
 The cost for "Anatomy of a Scala Project" is $25 per attendee.  You can sign
 up at <http://www.meetup.com/scala-phase/events/62963952/>.
