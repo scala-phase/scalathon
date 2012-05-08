@@ -33,9 +33,10 @@ This event is separate from the main Scalathon event. It's intended for those
 who want to learn more about the tools, techniques, and best practices for
 Scala open source projects.
 
-The open source "mentors" for "Anatomy of a Scala Project" will be Josh
-Suereth, Nathan Hamblen,  Doug Tangren, Erik Osheim, Brian Clapper, and Yuvi
-Masory. Each of the mentors has built and maintains various open source Scala
+The open source "mentors" for "Anatomy of a Scala Project" will be 
+*Josh Suereth*, *Nathan Hamblen*, *Doug Tangren*, *Erik Osheim*,
+*Brian Clapper*, and *Yuvi Masory*.
+Each of the mentors has built and maintains various open source Scala
 projects; several also maintain SBT plugins.
 
 The discussion will include topics like:
