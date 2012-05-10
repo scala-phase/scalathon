@@ -38,38 +38,38 @@
   <div class="container-fluid" id="main-content">
     <div class="row-fluid">
 
-        <!--
-          WARNING: If you change the following "span3" or the "span9" on
-                   #page-content, you MUST change the appropriate fixed sidebar
-                   values in sass/styles-2012.scss
-        -->
-        <div class="span3">
-          <div id="sponsors-sidebar">
-          {% include sponsors-2012.html %}
-          <div class="last-updated">
-            {% include last-updated-2012.html %}
-          </div>
-          </div>
+      <!--
+        WARNING: If you change the following "span3" or the "span9" on
+                 #page-content, you MUST change the appropriate fixed sidebar
+                 values in sass/styles-2012.scss
+      -->
+      <div class="span3">
+        <div id="sponsors-sidebar">
+        {% include sponsors-2012.html %}
+        <div class="last-updated">
+          {% include last-updated-2012.html %}
         </div>
+        </div>
+      </div>
 
-        <div class="span9">
-          <div id="page-content">
+      <div class="span9">
+        <div id="page-content">
 
-            {% if page.logo_in_content %}
-            <img src="/img/logo-2012.png" class="logo-in-content"/>
-            {% endif %}
+          {% if page.logo_in_content %}
+          <img src="/img/logo-2012.png" class="logo-in-content"/>
+          {% endif %}
 
-            <div id="page-title">{{ page.title }}</div>
+          <div id="page-title">{{ page.title }}</div>
 
-            {% if page.show_twitter %}
-            {% include twitter-widget.html %}
-            {% endif %}
-        
-            <div id="main">
-            {{ content }}
-            </div> 
-          </div> <!-- page-content -->
-        </div> <!-- span10 -->
+          {% if page.show_twitter %}
+          {% include twitter-widget.html %}
+          {% endif %}
+      
+          <div id="main">
+          {{ content }}
+          </div> 
+        </div> <!-- page-content -->
+      </div> <!-- span9 -->
 
     </div> <!-- row-fluid -->
     
