@@ -13,7 +13,7 @@ logo_in_content: true
 # Talks
 
 We are _actively_ soliciting projects and talks! Please send your proposals
-to [*contact@scalathon.org*]<mailto:contact@scalathon.org>.
+to [*contact@scalathon.org*](mailto:contact@scalathon.org).
 
 # Goal
 
