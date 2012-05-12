@@ -10,6 +10,11 @@ logo_in_content: true
 
 [Register now][meetup-page]!
 
+# Talks
+
+We are _actively_ soliciting projects and talks! Please send your proposals
+to [*contact@scalathon.org*]<mailto:contact@scalathon.org>.
+
 # Goal
 
 To get Scala developers contributing to the language, its tools, and its
