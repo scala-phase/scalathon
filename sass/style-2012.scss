@@ -194,7 +194,12 @@ $main-content-padding-top: $navbarHeight + 40px;
       }
 
       img.sponsor-icon {
+        @media (min-width: 901px) {
+          height: 48px !important;
+        }
+        @media (max-width: 900px) {
           height: 32px !important;
+        }
       }
     }
   }

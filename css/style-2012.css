@@ -4472,8 +4472,12 @@ body.error-page {
           margin-right: 0;
           margin-top: 5px;
           margin-bottom: 0px; }
-      #main-content #sponsors-sidebar .sponsor-block img.sponsor-icon {
-        height: 32px !important; }
+      @media (min-width: 901px) {
+        #main-content #sponsors-sidebar .sponsor-block img.sponsor-icon {
+          height: 48px !important; } }
+      @media (max-width: 900px) {
+        #main-content #sponsors-sidebar .sponsor-block img.sponsor-icon {
+          height: 32px !important; } }
   #main-content div#page-content {
     margin-left: 10px;
     width: 95% !important; }
