@@ -14,3 +14,4 @@ hackathon.
 * **Aemon Cannon**, [ENSIME](https://github.com/aemoncannon/ensime)
 * **Joe Stein**, [Apache Kafka](http://incubator.apache.org/kafka/)
 * **Nathan Hamblen** on [Unfiltered](https://github.com/n8han/Unfiltered) and [Databinder Dispatch](https://github.com/n8han/Databinder-Dispatch)
+* **Erik Osheim** on [Spire](https://github.com/non/spire) and [GeoTrellis](https://github.com/azavea/geotrellis)
