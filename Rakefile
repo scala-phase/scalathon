@@ -57,11 +57,18 @@ end
 
 desc "Generate the last-updated content"
 task :last_updated do
+  now = Time.now
   File.open(File.join(TOP, "_includes", "last-updated-2012.html"), "wb") do |f|
-    now = Time.now.strftime("%d %B, %Y at %H:%M")
-    f.write <<-EOF
-<span class="date">Site last updated #{now}</span>
-    EOF
+    f.write <<-END1
+<span class="date">Site last updated #{now.strftime("%d %B, %Y at %H:%M")}</span>
+    END1
+  end
+
+  # The same, only for HTTP.
+  File.open(File.join(TOP, "_includes", "last-modified-header.html"), 'wb') do |f|
+    f.write <<-END2
+<meta http-equiv="Last-Modified" content="#{now.utc.strftime("%a, %d %b %Y %H:%M:%S GMT")}">
+    END2
   end
 end
 
