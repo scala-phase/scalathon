@@ -4,4 +4,5 @@ layout: main-2012
 tab: talks
 ---
 
-*Coming soon!*
+* **Nikita Ivanov**: Live coding of streaming MapReduce, with comparisons
+  to other approaches (Hadoop, Akka, etc.)
