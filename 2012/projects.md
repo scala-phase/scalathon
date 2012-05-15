@@ -18,4 +18,4 @@ hackathon.
 * **Erik Osheim**: [Spire](https://github.com/non/spire) and [GeoTrellis](https://github.com/azavea/geotrellis)
 * **Brendan McAdams**: [Casbah](http://api.mongodb.org/scala/casbah/2.1.1/index.html), [MongoDB](http://www.mongodb.org/), and [Hammersmith](https://github.com/bwmcadams/hammersmith)
 * **Josh Suereth**: sbt-git-plugin, sbt-native-packager, sbt-site-plugin, sbt-pgp-plugin
-* **Jorge Ortiz*: [Linter](https://github.com/jorgeortiz85/linter), [Rogue](https://github.com/foursquare/rogue)
+* **Jorge Ortiz**: [Linter](https://github.com/jorgeortiz85/linter), [Rogue](https://github.com/foursquare/rogue)
