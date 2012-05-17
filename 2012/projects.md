@@ -20,3 +20,4 @@ hackathon.
 * **Josh Suereth**: sbt-git-plugin, sbt-native-packager, sbt-site-plugin, sbt-pgp-plugin
 * **Jorge Ortiz**: [Linter](https://github.com/jorgeortiz85/linter), [Rogue](https://github.com/foursquare/rogue)
 * **Nilanjan Raychaudhuri**: [Play!](http://www.playframework.org/)
+* **Eugene Yokota**: [scalaxb](http://scalxb.org/) and [treehugger.scala](http://eed3si9n.com/treehugger/)
