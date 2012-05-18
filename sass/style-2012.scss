@@ -38,6 +38,9 @@ $toc-gradient-bottom: $navbar-gradient-bottom;
 
 $page-title-color: $top-header-color;
 $sponsor-sidebar-bgcolor: white;
+$gold-sponsor-header-color: $top-header-color;
+$silver-sponsor-header-color: $top-header-color;
+$bronze-sponsor-header-color: $top-header-color;
 
 // ---------------------------------------------------------------------------
 // Local mixins
@@ -129,7 +132,7 @@ $main-content-padding-top: $navbarHeight + 40px;
 
   $sponsor-sidebar-width: ($gridColumnWidth + $gridGutterWidth) * 3;
 
-  @media (min-width: 960px) and (min-height: 900px) {
+  @media (min-width: 960px) and (min-height: 1000px) {
     #sponsors-sidebar {
       position: fixed;
       left: 20px;
@@ -168,12 +171,39 @@ $main-content-padding-top: $navbarHeight + 40px;
         font: {
           family: $header-font;
           size: 150%;
-          color: $top-header-color;
           weight: bold;
         }
 
-        margin-bottom: 40px;
-        margin-top: 40px;
+        margin: {
+          bottom: 40px;
+          top: 40px;
+        }
+      }
+
+      &#gold-sponsors {
+        .heading {
+          color: $gold-sponsor-header-color !important;
+        }
+      }
+
+      &#silver-sponsors {
+        .heading {
+          color: $silver-sponsor-header-color !important;
+        }
+
+        border: {
+          top: 1px solid $border-color;
+        }
+      }
+
+      &#bronze-sponsors {
+        .heading {
+          color: $bronze-sponsor-header-color !important;
+        }
+
+        border: {
+          top: 1px solid $border-color;
+        }
       }
 
       ul {
