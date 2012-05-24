@@ -11,146 +11,48 @@ generate_toc: true
 
 # Location
 
-Scalathon 2012 is being held at the [Valley Forge Casino Resort][vfcasino],
-located at 1160 First Avenue, King of Prussia, PA 19406, right next to the
-Valley Forge National Park. See the map, below.
+Scalathon 2012 will be held in the city of Philadelphia, at a venue to be
+determined *very soon now*. (Most likely, it will be near the University of
+Pennsylvania).
 
-# Getting to Valley Forge
+<div class="alert alert-error" markdown="1" style="width: 25%">
+The directions, below, assume a location near Penn. Once we have a venue nailed
+down, we will update this information.
+</div>
 
-## From Philadelphia
+# Getting to Philadelphia
 
-### By car
-
-* Take Schuylkill Expressway (Route 76) West to Exit #327, Mall Boulevard. 
-* Bear right at first light onto Mall Blvd.
-* Turn right at next light onto N. Gulph Road and proceed approximately 1.5
-  miles to First Avenue.
-
-### By bus
-
-<div id="125bus"></div>
-[SEPTA][]'s 125 bus will drop you right in front of the Casino Resort, at a
-cost of about $3.50 one way. From 13th and Market Streets, the trip takes a
-little more than an hour. From 29th and Market, it's just about an hour.
-
-You can find the 125's schedule at
-<http://www.septa.org/schedules/bus/pdf/125.pdf>
-
-## From points outside Philadelphia
-
-### By plane
+## By plane
 
 [Philadelphia International Airport (PHL)](http://www.phl.org/) is the
-closest major airport. From the airport, there are numerous ways to get to
-Valley Forge:
+closest major airport.
 
-#### Rent a car
+## By train
 
-* Take I-95 South to I-476 North to Route 76 West.
-* Proceed on the Schuylkill Expressway (Rt. 76) West to Exit #327, Mall 
-  Boulevard.
-* Bear right at first light onto Mall Blvd.
-* Turn right at next light onto N. Gulph Road and proceed approximately 1.5
-  miles to First Avenue.
+Take [Amtrak](http://www.amtrak.com/) to 30th Street Station
+(PHL), which is just a few blocks from the event location.
 
-#### Take a shuttle
+## By car
 
-[Tropiano Shuttle][] (215-643-5397) provides limousine service every hour on
-the hour for the 45 minute ride to and from the airport. Cost is approximately
-$20.00.
-
-### By train
-
-Take Amtrak to Philadelphia's 30th Street Station. From 30th Street Station, 
-you can either:
-
-* take the local [SEPTA][] Paoli-Thorndale train line, to Paoli; or
-* take the [125 bus](#125bus), as described above.
-
-If you take the train, You can grab a cab from Paoli to Valley Forge, though
-it's not likely to be cheap. Alternatively, you can make arrangements for
-someone to give you a lift to Scalathon.
-
-### By automobile
-
-#### From PA Turnpike
-
-* Take Turnpike (Route 276) to Exit #326 (old exit 24), Valley Forge. 
-* Immediately, take first right and merge onto N. Gulph Road. 
-* Proceed approx 1.3 miles to First Avenue.
-
-#### From Route 202 South
-
-* Take Pottstown Exit, Route 422 West, to first exit, Bridgeport--Rt. 23 East.
-* Turn right at first light (Moore Rd).
-* Turn right at next light (First Avenue), to Radisson Hotel.
-
-#### From Route 202 North
-
-* Take 202 South to Allendale Road.
-* Turn right.
-* Proceed approx 2 miles to First Avenue and turn left.
-* Proceed approx 1.5 miles to hotel complex on Right.
- 
-#### From Route 422 East
-
-Take First Avenue exit to Radisson Hotel.
- 
-#### From I-95
-
-* Take Exit 7 (Route 476 North) to Exit 16B, (Route 76 West/Valley Forge).
-* Proceed to Exit #327.
-* Bear right at first light onto Mall Blvd. 
-* Turn right at next light onto N. Gulph Road and proceed approximately 1.
-  5 miles to First Avenue.
-
-# Map
-
-
-<div style="text-align: center; margin: 20px">
-<img src='http://maps.googleapis.com/maps/api/staticmap?center=1160+First+Av+,King+of+Prussia,PA,19468&zoom=15&size=600x600&sensor=false&scale=1&maptype=hybrid&markers=label:A%7Csize:mid%7C1160+First+Av+,King+of+Prussia,PA,19468'/>
-</div>
+Penn's admissions office has [driving directions][] that take you right to
+the center of campus.
 
 # Where to Stay
 
 ## Hotels
 
-While there aren't many bed and breakfast establishments in the Valley Forge
-area, there are quite a few hotels. We've listed some of them, below. For more
-selections, use your favorite travel site, and search for "King of Prussia" or
-"Valley Forge".
+The closest hotels to the event are the [Sheraton][] and [The Inn at Penn][]. But they are rather pricey. For good deals see [Club Quarters][] and [Crowne Plaza Downtown][] which are a short subway ride away.
+The University of Pennsylvania has hotel suggestions
+[here](http://www.admissionsug.upenn.edu/visiting/accommodations.php) and
+[here](http://www.upenn.edu/campus/philadelphia.php/). Any hotel in center city provides easy access to campus.
 
-### At the resort
+Once you have selected your hotel, post [where you are staying][].
 
-There are two [hotels](https://www.vfcasino.com/hotel) attached to the resort
-complex, the Radisson and the Casino Tower. The Radisson is the less expensive
-of the two.
-
-We will have a block of rooms set aside in the Radisson, for Scalathon
-attendees. Details on that block of rooms will be available soon.
-
-### Nearby
-
-* [**Fairield Inn Philadelphia Valley Forge**][fairfield]
-  (a Marriott property), 258 Mall Boulevard, King Of Prussia, Pa 19406. 
-  **2.2 miles from Scalathon**
-* [**Crowne Plaza**][cplaza], 260 Mall Boulevard, King Of Prussia, Pa 19406. 
-  **2.2 miles from Scalathon**
-* [**Hampton Inn**][hampton], 530 West Dekalb Pike, King of Prussia, PA 19406.
-  610-962-8111.
-  **2.3 miles from Scalathon**
-* [**Comfort Inn Valley Forge National Park**][civf],
-  550 Dekalb Pike, King of Prussia, PA 19406. 610-962-0700.
-  **2.2 miles from Scalathon**
-* [**Marriott Courtyard**][courtyard], 1100 Drummers Lane, Wayne, Pennsylvania
-  19087 USA. 610-687-6700.
-  **3.8 miles from Scalathon**
-
-[civf]: http://www.comfortinn.com/hotel-king_of_prussia-pennsylvania-PA189
-[fairfield]: http://www.marriott.com/hotels/travel/PHLVF-Fairfield-Inn-Philadelphia-Valley-Forge-King-of-Prussia
-[cplaza]: http://www.ichotelsgroup.com/crowneplaza/hotels/us/en/king-of-prussia/phlvf/hoteldetail?cm_mmc=mdpr-_-googlemaps-_-cp-_-phlvf
-[hampton]: http://hamptoninn.hilton.com/en/hp/hotels/index.jhtml?ctyhocn=PHLKPHX
-[courtyard]: http://www.marriott.com/hotels/travel/phlva-courtyard-philadelphia-valley-forge-king-of-prussia/
+[Sheraton]: http://www.philadelphiasheraton.com/
+[The Inn at Penn]: http://www.theinnatpenn.com/
+[Club Quarters]: http://www.booking.com/hotel/us/club-quarters-in-philadelphia.html?checkin=2011-07-15;checkout=2011-07-19;srfid=85c1511a276ac0663ba37a79c05c7324X4
+[Crowne Plaza Downtown]: http://www.booking.com/hotel/us/crowne-plaza-philadelphia-downtown.html?checkin=2011-07-15;checkout=2011-07-19;srfid=85c1511a276ac0663ba37a79c05c7324X7
+[where you are staying]: https://github.com/jamie-allen/Scalathon-Hotels/wiki
 
 ## Free accommodations
 
@@ -161,7 +63,58 @@ community willing to host out-of-town guests. Please visit the
 We probably won't be able to provide free accommodations for more than a
 handful of out-of-towners, so please don't rely on this option.
 
-[Tropiano Shuttle]: http://www.tropianotransportation.com/shuttle/
-[vfcasino]: https://www.vfcasino.com/
+# Getting to Penn's campus
+
+## From the airport
+
+* There is a [SEPTA][] Airport Express Train (R1) every half hour; the fare is
+  $7 (pay after you get on the train). If coming directly to the hackathon,
+  get off at University City station and walk a block west and a block
+  north; otherwise, go one stop further to 30th Street Station to connect
+  to other forms of transportation.
+* A cab from the airport to Center City or University City is about $30.
+* Although probably a waste of money if you're only coming to the
+  hackathon, the PHL website has a list of
+  [rental car companies](http://www.phl.org/rental_cars.html). Penn's
+  admissions office has [driving directions][] that take you right into the
+  center of campus.
+* Walking is probably not an option.
+
+## Without a car
+
+* [SEPTA][] operates the trains, buses, and trolleys in Philadelphia. The
+  fare is $2 per trip, exact change (so save up your $1s before you come).
+  You can also get tokens (which are cheaper, and don't require exact
+  change to buy) at most big stops. Their site is a little bit unfriendly;
+  we recommend using the
+  [Trip Planner](http://airs1.septa.org/bin/query.exe/en) to find out what
+  routes to take, then consult the
+  [route schedules](http://www.septa.org/service.html) to find out how
+  often those lines run, so you know how flexible your trip will be.
+* There are about a dozen cab companies serving various parts of the city;
+  Google will point the way. You will likely be within Center City and
+  University City (sometimes called West Philadelphia) for the duration of
+  your visit. Hailing cabs is generally easy at 34th and Walnut, just
+  outside the hackathon venue.
+* Walking is always an option. Philadelphia is a very walkable city.
+
+## With a car
+
+There is some metered parking on-campus (especially on 38th street), for
+$1/hour. To help with interpreting the maps, Levine Hall is located
+at 34th and Walnut.
+
+* [Parking on campus](http://www.admissionsug.upenn.edu/visiting/directions.php)
+* [The Penn Parking site](http://cms.business-services.upenn.edu/parking/)
+* [Parking map](http://www.business-services.upenn.edu/parking/map.html)
+
+The [Google map](#google_map) also highlights the public parking locations
+near the hackathon; the fee is about $13/day.
+
+While you're planning your route, keep in mind that while the city is laid
+out mostly in a grid, about half of the roads are one-way.
+
+# Acknowledgments
+
+[driving directions]: http://www.admissionsug.upenn.edu/visiting/directions.php
 [SEPTA]: http://www.septa.org/
-[Radisson]: 

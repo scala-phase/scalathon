@@ -22,8 +22,19 @@ libraries.
 
 # When & Where
 
-Scalathon 2012 will held **Saturday, July 28, and Sunday, July 29, 2012** at
-the [Valley Forge Casino Resort][], in suburban [Philadelphia][], Pennsylvania.
+Scalathon 2012 will held **Saturday, July 28, and Sunday, July 29, 2012**
+<span markdown="1"><strike>at the Valley Forge Casino Resort in suburban Philadelphia, Pennsylvania.</strike></span>
+
+<div class="alert alert-error" markdown="1">
+**VENUE CHANGE ALERT!** The Valley Forge Casino Resort wanted _way_ too much
+money, money we would prefer to spend on food, T-shirts, beer, and other
+amenities. So, we're in the process of arranging a new venue. In all
+likelihood, **the new location will be in [Philadelphia][]**. In addition to
+being less expensive, a venue in the city will be more convenient for out-of-
+town visitors.
+
+Stay tuned! We'll have more information soon!
+</div>
 
 In addition, on **Friday, July 27**, we will host a special event called
 ["Anatomy of a Scala Project"][friday-meetup]. See the 
