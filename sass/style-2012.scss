@@ -109,6 +109,12 @@ body.error-page {
   }
 }
 
+code {
+  color: black !important;
+  border: none !important;
+  background: transparent !important;
+}
+
 $main-content-padding-top: $navbarHeight + 40px;
 
 #main-content {
