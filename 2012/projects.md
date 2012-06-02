@@ -23,3 +23,4 @@ hackathon.
 * **Eugene Yokota**: [scalaxb](http://scalxb.org/) and [treehugger.scala](http://eed3si9n.com/treehugger/)
 * **Owein Reese**: [Squealer](http://wheaties.github.com/Squealer/)
 * **Mark Harrah**: [SBT](https://github.com/harrah/xsbt)
+* **Jon Pretty**: [Rapture I/O](https://github.com/propensive/rapture-io)
