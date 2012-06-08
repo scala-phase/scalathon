@@ -4484,7 +4484,7 @@ code {
           padding: 0;
           margin-left: -5px;
           margin-right: 0;
-          margin-top: 5px;
+          margin-top: 10px;
           margin-bottom: 0px; }
       @media (min-width: 901px) {
         #main-content #sponsors-sidebar .sponsor-block img.sponsor-icon {
