@@ -74,8 +74,8 @@ The good news is that The [Quorum][], at the
 accustomed to running technology events, so network connectivity should be
 excellent. The location is only a few blocks from *last* year's Scalathon, so
 it's convenient to out of town travelers and city residents; plus, the location
-is convenient to all the terrific amenities (restaurants, parking, nightlife)
-in Philadelphia's University City.
+provides easy access to all the terrific amenities (restaurants, parking,
+nightlife) in Philadelphia's University City and Center City sections.
 
 [Valley Forge Casino Resort]: https://www.vfcasino.com/
 [University City Science Center]: http://www.sciencecenter.org/
