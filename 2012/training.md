@@ -5,7 +5,7 @@ show_twitter: false
 tab: training
 ---
 
-In association with Scalathon, two sponsors are providing Scala training.
+**In association with Scalathon, two sponsors are providing Scala training.**
 
 ## Fast Track to Scala, by Chariot Solutions
 
