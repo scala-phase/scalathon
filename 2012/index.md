@@ -22,27 +22,21 @@ libraries.
 
 # When & Where
 
-Scalathon 2012 will held **Saturday, July 28, and Sunday, July 29, 2012**
-<span markdown="1"><strike>at the Valley Forge Casino Resort in suburban Philadelphia, Pennsylvania.</strike></span>
-
-<div class="alert alert-error" markdown="1">
-**VENUE CHANGE ALERT!** The Valley Forge Casino Resort wanted _way_ too much
-money, money we would prefer to spend on food, T-shirts, beer, and other
-amenities. So, we're in the process of arranging a new venue. In all
-likelihood, **the new location will be in [Philadelphia][]**. In addition to
-being less expensive, a venue in the city will be more convenient for out-of-
-town visitors.
-
-Stay tuned! We'll have more information soon!
-</div>
+Scalathon 2012 will held **Saturday, July 28, and Sunday, July 29, 2012** in
+the [Quorum][], at the [University City Science Center][], in [Philadelphia][],
+Pennsylvania. The Quorum is a beautiful space, and good network connectivity is
+assured. The Quorum is only a few blocks from where we held last year's
+Scalathon, so you'll have access to the samegood restaurants, parking
+facilities and other amenities associated with Philadelphia's University City.
 
 In addition, on **Friday, July 27**, we will host a special event called
 ["Anatomy of a Scala Project"][friday-meetup]. See the 
-[Event Outline](/2012/outline.html) page for details on the Friday event.
+[Event Outline](/2012/outline.html) page for details on the Friday event. This
+event will also be in the Quorum.
 
 # Details on Registration
 
-Registration is $50 and covers Saturday and Sunday. Space is limited to 150
+Registration is $50 and covers Saturday and Sunday. Space is limited to 120
 attendees. Please register on the [Scalathon 2012 Meetup page][meetup-page].
 
 Friday's event, "Anatomy of a Scala Project" has a separate registration fee
@@ -58,7 +52,8 @@ event is $25 per participant.
 * [Join the mailing list](http://groups.google.com/group/scalathon).
 * Join us in #scalathon on *freenode* IRC.
 
-[Valley Forge Casino Resort]: https://www.vfcasino.com/
 [Philadelphia]: http://en.wikipedia.org/wiki/Philadelphia
 [meetup-page]: http://www.meetup.com/scala-phase/events/62752272/
 [friday-meetup]: http://www.meetup.com/scala-phase/events/62963952/
+[University City Science Center]: http://www.sciencecenter.org/
+[Quorum]: http://www.sciencecenter.org/programs/quorum

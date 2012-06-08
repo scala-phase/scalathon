@@ -11,14 +11,11 @@ generate_toc: true
 
 # Location
 
-Scalathon 2012 will be held in the city of Philadelphia, at a venue to be
-determined *very soon now*. (Most likely, it will be near the University of
-Pennsylvania).
+Scalathon 2012 will be held in the city of Philadelphia, in The [Quorum][], at
+the [University City Science Center][], on the campus of the 
+[University of Pennsylvania][].
 
-<div class="alert alert-error" markdown="1" style="width: 25%">
-The directions, below, assume a location near Penn. Once we have a venue nailed
-down, we will update this information.
-</div>
+[University of Pennsylvania]: http://www.upenn.edu/
 
 # Getting to Philadelphia
 
@@ -113,8 +110,6 @@ near the hackathon; the fee is about $13/day.
 
 While you're planning your route, keep in mind that while the city is laid
 out mostly in a grid, about half of the roads are one-way.
-
-# Acknowledgments
 
 [driving directions]: http://www.admissionsug.upenn.edu/visiting/directions.php
 [SEPTA]: http://www.septa.org/

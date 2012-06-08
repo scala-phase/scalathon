@@ -59,19 +59,26 @@ It's is a product of the [Philly Area Scala Enthusiasts][PHASE]
 ([PHASE][]), the Scala user group in Philadelphia. Yuvi and [Brian Clapper][]
 are the primary organizers.
 
-## Why the heck is Scalathon all the way out in the suburbs?
+## What's with all the venue confusion this year?
 
-In a word, _price_. The [Valley Forge Casino Resort][] gave us a terrific
-deal.
+We initially chose the [Valley Forge Casino Resort][] because they assured us
+they'd give us a terrific price. The venue seemed cool and having Scalathon
+at a hotel resort would relieve the organizer of a significant amount of work.
+
+In the end, however, the [Valley Forge Casino Resort][] still wanted far too
+much money, and we had no choice but to change the venue.
+
+The good news is that The [Quorum][], at the
+[University City Science Center][], is a *great* venue for a hackathon. They're
+accustomed to running technology events, so network connectivity should be
+excellent. The location is only a few blocks from *last* year's Scalathon, so
+it's convenient to out of town travelers and city residents; plus, the location
+is convenient to all the terrific amenities (restaurants, parking, nightlife)
+in Philadelphia's University City.
 
 [Valley Forge Casino Resort]: https://www.vfcasino.com/
-
-## Fine. But don't the suburbs make travel more difficult?
-
-The Valley Forge / King of Prussia area is one of the more populous
-Philadelphia suburbs. While getting to Scalathon won't be as easy as if we'd
-held it in the city, there are plenty of transportion options. See the
-[Logistics](/2012/logistics.html) page for details.
+[University City Science Center]: http://www.sciencecenter.org/
+[Quorum]: http://www.sciencecenter.org/programs/quorum
 
 ## What are the various sponsorship levels?
 
