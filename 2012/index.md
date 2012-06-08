@@ -27,7 +27,7 @@ Scalathon 2012 will held **Saturday, July 28, and Sunday, July 29, 2012** in
 The [Quorum][], at the [University City Science Center][], in [Philadelphia][],
 Pennsylvania. The Quorum is a beautiful space, and good network connectivity is
 assured. The Quorum is only a few blocks from where we held last year's
-Scalathon, so you'll have access to the samegood restaurants, parking
+Scalathon, so you'll have access to the same good restaurants, parking
 facilities and other amenities associated with Philadelphia's University City.
 
 In addition, on **Friday, July 27**, we will host a special event called
