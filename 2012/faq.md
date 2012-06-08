@@ -62,8 +62,9 @@ are the primary organizers.
 ## What's with all the venue confusion this year?
 
 We initially chose the [Valley Forge Casino Resort][] because they assured us
-they'd give us a terrific price. The venue seemed cool and having Scalathon
-at a hotel resort would relieve the organizer of a significant amount of work.
+they'd give us a terrific price. We thought the venue looked like a cool place
+to have a conference, and having Scalathon at a hotel resort would have
+relieved the organizers of a significant amount of work.
 
 In the end, however, the [Valley Forge Casino Resort][] still wanted far too
 much money, and we had no choice but to change the venue.
