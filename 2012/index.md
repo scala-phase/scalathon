@@ -48,7 +48,7 @@ event is $25 per participant.
 # Training
 
 In conjunction with Scalathon, two of our sponsors are also offering Scala
-[training][/2012/training.html]. Be sure to check into their offerings.
+[training](/2012/training.html). Be sure to check into their offerings.
 
 # Keep Up to Date
 
