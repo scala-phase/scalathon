@@ -21,7 +21,7 @@ appreciation of the more advanced features. If you already have Scala
 programming experience, then this course could be a useful refresher.
 
 For more information, including how to register, see
-<http://chariotsolutions.com/training_events/fast-track-to-scala-2012-07-19>.
+[the Chariot Solutions course page](http://chariotsolutions.com/training_events/fast-track-to-scala-2012-07-19).
 
 ## Typesafe Scala Training
 
