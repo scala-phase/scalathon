@@ -10,15 +10,16 @@ logo_in_content: true
 
 [Register now][meetup-page]!
 
+# Goal
+
+To get Scala developers contributing to the language, its tools, and its
+libraries.
+
 # Talks
 
 We are _actively_ soliciting projects and talks! Please send your proposals
 to [contact@scalathon.org](mailto:contact@scalathon.org).
 
-# Goal
-
-To get Scala developers contributing to the language, its tools, and its
-libraries.
 
 # When & Where
 
@@ -43,6 +44,11 @@ Friday's event, "Anatomy of a Scala Project" has a separate registration fee
 and a separate [Meetup page][friday-meetup], since it might not appeal to every
 Scalathon attendee. The cost to attend Friday's "Anatomy of a Scala Project"
 event is $25 per participant.
+
+# Training
+
+In conjunction with Scalathon, two of our sponsors are also offering Scala
+[training][/2012/training.html]. Be sure to check into their offerings.
 
 # Keep Up to Date
 
