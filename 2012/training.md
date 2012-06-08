@@ -23,6 +23,8 @@ programming experience, then this course could be a useful refresher.
 For more information, including how to register, see
 [the Chariot Solutions course page](http://chariotsolutions.com/training_events/fast-track-to-scala-2012-07-19).
 
+**Scalathon attendees get a $300.00 registration discount.**
+
 ## Typesafe Scala Training
 
 ### FAST TRACK TO AKKA
