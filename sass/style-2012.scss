@@ -158,7 +158,10 @@ $main-content-padding-top: $navbarHeight + 40px;
   // ----------------------------------------------------------------------
 
   #sponsors-sidebar {
+    @include box-shadow(5px 5px 3px 0 #ccc);
+
     margin-right: 10px !important;
+    margin-bottom: 10px !important;
 
     text-align: center;
     background: $sponsor-sidebar-bgcolor !important;

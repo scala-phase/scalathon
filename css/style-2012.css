@@ -4447,7 +4447,11 @@ code {
     #main-content #page-content {
       padding-left: 240px; } }
   #main-content #sponsors-sidebar {
+    -webkit-box-shadow: 5px 5px 3px 0 #cccccc;
+    -moz-box-shadow: 5px 5px 3px 0 #cccccc;
+    box-shadow: 5px 5px 3px 0 #cccccc;
     margin-right: 10px !important;
+    margin-bottom: 10px !important;
     text-align: center;
     background: white !important;
     -webkit-border-radius: 10px;
