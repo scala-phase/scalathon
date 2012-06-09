@@ -7,7 +7,9 @@ tab: training
 
 **In association with Scalathon, two sponsors are providing Scala training.**
 
-## Fast Track to Scala, by Chariot Solutions
+## Chariot Solutions
+
+### Fast Track to Scala, by 
 
 This two-day course, designed by Martin Odersky, the creator of the Scala
 programming language, and Heiko Seeberger, a recognized Scala expert, will give
@@ -26,7 +28,7 @@ For more information, including how to register, see
 **Scalathon attendees get a $300.00 registration discount.**
 To get the discount, use the promo code "scalathon2012" when registering for the course.
 
-## Typesafe Scala Training
+## Typesafe
 
 ### FAST TRACK TO AKKA
 
