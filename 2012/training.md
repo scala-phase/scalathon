@@ -9,7 +9,7 @@ tab: training
 
 ## Chariot Solutions
 
-### Fast Track to Scala, by 
+### FAST TRACK TO SCALA
 
 This two-day course, designed by Martin Odersky, the creator of the Scala
 programming language, and Heiko Seeberger, a recognized Scala expert, will give
