@@ -42,8 +42,7 @@ on exercises in which you will build real Akka applications.  Code examples and
 exercises will be written in Scala, so previous experience with Scala is
 required.
 
-_This is a 2-day course, to be given on Thursday, July 26th, and Friday, July
-27th._
+_This course will be given on Thursday, July 26th, and Friday, July 27th._
 
 ### FAST TRACK TO PLAY
 
@@ -56,4 +55,4 @@ you will build from the ground up using Play 2.0.  Code examples and exercises
 will be written in Scala, so previous experience with Scala is required.
 Experience with HTML and JavaScript is also a prerequisite.
 
-_This is a 1-day course, to be given on Friday, July 27th._
+_This course will be given on Friday, July 27th._
