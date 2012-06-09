@@ -28,7 +28,8 @@ $border-color: #ccc;
 $rounded-border-radius: 10px;
 $header-font: "Crimson Text", "Times New Roman", serif;
 $header-padding: 10px 0px 10px 0px;
-$top-header-color: #dd3333;
+//$top-header-color: #dd3333;
+$top-header-color: blue;
 
 $navbar-gradient-top: $navbarBackground;
 $navbar-gradient-bottom: darken($navbar-gradient-top, 40%);

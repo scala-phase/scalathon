@@ -4418,7 +4418,7 @@ body.error-page {
   margin-right: 30px; }
 
 #page-title {
-  color: #dd3333;
+  color: blue;
   font-size: 250%;
   font-family: "Crimson Text", "Times New Roman", serif;
   font-weight: bold;
@@ -4472,15 +4472,15 @@ code {
         margin-bottom: 40px;
         margin-top: 40px; }
       #main-content #sponsors-sidebar .sponsor-block#gold-sponsors .heading {
-        color: #dd3333 !important; }
+        color: blue !important; }
       #main-content #sponsors-sidebar .sponsor-block#silver-sponsors {
         border-top: 1px solid #cccccc; }
         #main-content #sponsors-sidebar .sponsor-block#silver-sponsors .heading {
-          color: #dd3333 !important; }
+          color: blue !important; }
       #main-content #sponsors-sidebar .sponsor-block#bronze-sponsors {
         border-top: 1px solid #cccccc; }
         #main-content #sponsors-sidebar .sponsor-block#bronze-sponsors .heading {
-          color: #dd3333 !important; }
+          color: blue !important; }
       #main-content #sponsors-sidebar .sponsor-block ul {
         margin: 0;
         list-style-type: none; }
