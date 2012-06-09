@@ -48,7 +48,8 @@ This course will be given on **Thursday, July 26th**, and
 To register, see the
 ["Fast Track to Akka" registration page](http://www.eventbrite.com/event/3715264456).
 
-**Use discount code "scalathon2012" to receive a $300 discount off the price of this class.**
+**Scalathon attendees get a $300.00 registration discount.**
+To get the discount, use the promo code "scalathon2012" when registering for the course.
 
 ### FAST TRACK TO PLAY
 
@@ -66,4 +67,5 @@ This course will be given on **Friday, July 27th**.
 To register, see the
 ["Fast Track to Play" registration page](http://www.eventbrite.com/event/3715292540).
 
-**Use discount code "scalathon2012" to receive a $150 discount off the price of this class.**
+**Scalathon attendees get a $150.00 registration discount.**
+To get the discount, use the promo code "scalathon2012" when registering for the course.
