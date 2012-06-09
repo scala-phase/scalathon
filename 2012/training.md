@@ -42,7 +42,13 @@ on exercises in which you will build real Akka applications.  Code examples and
 exercises will be written in Scala, so previous experience with Scala is
 required.
 
-_This course will be given on Thursday, July 26th, and Friday, July 27th._
+This course will be given on **Thursday, July 26th**, and
+**Friday, July 27th**.
+
+To register, see the
+["Fast Track to Akka" registration page](http://www.eventbrite.com/event/3715264456).
+Use discount code "scalathon2012" to receive a $300 discount off the price
+of this class.
 
 ### FAST TRACK TO PLAY
 
@@ -55,4 +61,9 @@ you will build from the ground up using Play 2.0.  Code examples and exercises
 will be written in Scala, so previous experience with Scala is required.
 Experience with HTML and JavaScript is also a prerequisite.
 
-_This course will be given on Friday, July 27th._
+This course will be given on **Friday, July 27th**.
+
+To register, see the
+["Fast Track to Play" registration page](http://www.eventbrite.com/event/3715292540).
+Use discount code "scalathon2012" to receive a $150 discount off the price
+of this class.
