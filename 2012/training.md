@@ -22,11 +22,17 @@ language, the tooling and the development process as well as a good
 appreciation of the more advanced features. If you already have Scala
 programming experience, then this course could be a useful refresher.
 
+This course will be given on **Thursday, July 19th**, and
+**Friday, July 20th**, in the [Chariot Solutions][] offices at 
+515 Pennsylvania Ave, Suite 202, Fort Washington, Pennsylvania.
+
 For more information, including how to register, see
 [the Chariot Solutions course page](http://chariotsolutions.com/training_events/fast-track-to-scala-2012-07-19).
 
 **Scalathon attendees get a $300.00 registration discount.**
 To get the discount, use the promo code "scalathon2012" when registering for the course.
+
+[Chariot Solutions]: http://www.chariotsolutions.com/
 
 ## Typesafe
 
@@ -43,7 +49,7 @@ exercises will be written in Scala, so previous experience with Scala is
 required.
 
 This course will be given on **Thursday, July 26th**, and
-**Friday, July 27th**.
+**Friday, July 27th**, at the [Quorum][].
 
 To register, see the
 ["Fast Track to Akka" registration page](http://www.eventbrite.com/event/3715264456).
@@ -62,10 +68,12 @@ you will build from the ground up using Play 2.0.  Code examples and exercises
 will be written in Scala, so previous experience with Scala is required.
 Experience with HTML and JavaScript is also a prerequisite.
 
-This course will be given on **Friday, July 27th**.
+This course will be given on **Friday, July 27th**, at the [Quorum][].
 
 To register, see the
 ["Fast Track to Play" registration page](http://www.eventbrite.com/event/3715292540).
 
 **Scalathon attendees get a $150.00 registration discount.**
 To get the discount, use the promo code "scalathon2012" when registering for the course.
+
+[Quorum]: http://www.sciencecenter.org/programs/quorum
