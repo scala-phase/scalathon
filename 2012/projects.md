@@ -25,3 +25,4 @@ hackathon.
 * **Mark Harrah**: [SBT](https://github.com/harrah/xsbt)
 * **Jon Pretty**: [Rapture I/O](https://github.com/propensive/rapture-io)
 * **Alexander Podkhalyuzin**: Scala plugin for IntelliJ IDEA
+* **Bill Venners**: [ScalaTest](http://www.scalatest.org/)
