@@ -18,6 +18,7 @@ Scalathon 2012 will be held in the city of Philadelphia, in The [Quorum][], at
 the [University City Science Center][], on the campus of the 
 [University of Pennsylvania][].
 
+[University City Science Center]: http://www.sciencecenter.org/
 [University of Pennsylvania]: http://www.upenn.edu/
 [Quorum]: http://www.sciencecenter.org/programs/quorum
 
