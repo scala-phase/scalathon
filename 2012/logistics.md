@@ -7,7 +7,10 @@ generate_toc: true
 
 # Dates
 
-* Hacking runs Saturday July 27, 2012, 9am - 10pm, and Sunday, July 28, 2012 9am - 5pm.
+* Hacking runs Saturday July 28, 2012, 9am - 10pm, and Sunday, July 29, 2012 9am - 5pm.
+* ["Anatomy of a Scala Project"][anatomy] is on Friday, July 27, starting at noon.
+
+[anatomy]: http://www.meetup.com/scala-phase/events/62963952/
 
 # Location
 
@@ -16,6 +19,7 @@ the [University City Science Center][], on the campus of the
 [University of Pennsylvania][].
 
 [University of Pennsylvania]: http://www.upenn.edu/
+[Quorum]: http://www.sciencecenter.org/programs/quorum
 
 # Getting to Philadelphia
 
