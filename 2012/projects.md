@@ -26,3 +26,5 @@ hackathon.
 * **Jon Pretty**: [Rapture I/O](https://github.com/propensive/rapture-io)
 * **Alexander Podkhalyuzin**: Scala plugin for IntelliJ IDEA
 * **Bill Venners**: [ScalaTest](http://www.scalatest.org/)
+* **Guillaume Massé**: [ScalaKata](https://github.com/MasseGuillaume/ScalaKata) 
+  (Run Scala code in your browser, and share to the rest of the world.)
