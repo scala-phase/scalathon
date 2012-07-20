@@ -26,13 +26,22 @@ project brings one obligation and one perk:
 
 To register a *project* send us an [email][] with with your name, project
 name, and project URL. *Humans* still need to register using
-[meetup.com](http://www.meetup.com/scala-phase/events/57847602/).
+[meetup.com](http://www.meetup.com/scala-phase/events/62752272/).
 
 ## Can I give a talk?
 
 Some of the talks are invited, but we strongly encourage others to [email][] us
 their proposals. Talks at Scalathon should relate to Scalathon's goal, as
 given on the [home page](index.html).
+
+## I've paid for Scalathon, but now I can't go. Can I get a refund?
+
+Full refunds are available until June 27th, 30 days before the event. Because
+of the costs and upfront financial obligations of securing the venue, we cannot
+offer any refunds after June 27th. If you cancel _before_ June 27th, we'll
+refund your entire $50 registration fee and open your slot to the next person
+on the waiting list. If you cancel _after_ June we'll open your slot, but
+you'll lose your $50 registration fee.
 
 ## How can I volunteer to host an out of town guest?
 
@@ -50,16 +59,70 @@ It's is a product of the [Philly Area Scala Enthusiasts][PHASE]
 ([PHASE][]), the Scala user group in Philadelphia. Yuvi and [Brian Clapper][]
 are the primary organizers.
 
+## What's with all the venue confusion this year?
+
+We initially chose the [Valley Forge Casino Resort][] because they assured us
+they'd give us a terrific price. We thought the venue looked like a cool place
+to have a conference, and having Scalathon at a hotel resort would have
+relieved the organizers of a significant amount of work.
+
+In the end, however, the [Valley Forge Casino Resort][] still wanted far too
+much money, and we had no choice but to change the venue.
+
+The good news is that The [Quorum][], at the
+[University City Science Center][], is a *great* venue for a hackathon. They're
+accustomed to running technology events, so network connectivity should be
+excellent. The location is only a few blocks from *last* year's Scalathon, so
+it's convenient to out of town travelers and city residents; plus, the location
+provides easy access to all the terrific amenities (restaurants, parking,
+nightlife) in Philadelphia's University City and Center City sections.
+
+[Valley Forge Casino Resort]: https://www.vfcasino.com/
+[University City Science Center]: http://www.sciencecenter.org/
+[Quorum]: http://www.sciencecenter.org/programs/quorum
+
 ## What are the various sponsorship levels?
 
 We are very lucky: Many companies are sponsoring Scalathon with financial
 donations.
 
-* Gold sponsors have donated $2,000 or more.
-* Silver sponsors have donated between $1,000 and $1,999.
-* Bronze sponsors have donated between $250 and $999.
+**Gold Sponsors**
+
+Gold sponsors have donated $2,000 or more. There are only three or four of
+these to go around. An entire event (e.g., a happy hour or dinner) is named for
+each Gold Sponsor. Signage and thanks are a prominent part of that event. The
+special name for the event is used consistently throughout all our literature.
+Gold sponsorship also comes with all the Silver sponsor benefits.
+
+**Silver Sponsor**
+
+Silver sponsors have donated between $1,000 and $1,999. This sponsorship level
+comes with a booth at the event. It puts the sponsor's logo on every page of
+the website. Silver sponsors  will be verbally thanked in the opening remarks.
+Silver sponsors receive advertising benefits via our listserv and Twitter
+account.
+
+**Bronze Sponsor**
+
+Bronze sponsors have donated between $250 and $999. They get thanks on the
+website, below the Gold and Silver sponsors; they are also mentioned  in all
+advertising material. Bronze sponsors only receive limited contact with
+attendees or their email inboxes.
 
 Thanks to *all* our sponsors!
+
+## Why don't I see the sponsors?
+
+The most likely culprit is [AdBlock](http://adblockplus.org/en/). Either
+disable your AdBlock extension, or add an exception rule for _scalathon.org_:
+
+    @@http://scalathon.org/
+
+See <http://adblockplus.org/en/filters> for more details on AdBlock filters.
+
+## Why is there an empty box on the left of this web page?
+
+See the previous question.
 
 ## What technologies did you use for the web site?
 

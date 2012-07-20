@@ -23,11 +23,13 @@ $gridGutterWidth: 20px;
 // Variables
 // ---------------------------------------------------------------------------
 
+$body-font: $baseFontFamily;
 $border-color: #ccc;
 $rounded-border-radius: 10px;
 $header-font: "Crimson Text", "Times New Roman", serif;
 $header-padding: 10px 0px 10px 0px;
-$top-header-color: #dd3333;
+//$top-header-color: #dd3333;
+$top-header-color: blue;
 
 $navbar-gradient-top: $navbarBackground;
 $navbar-gradient-bottom: darken($navbar-gradient-top, 40%);
@@ -37,6 +39,9 @@ $toc-gradient-bottom: $navbar-gradient-bottom;
 
 $page-title-color: $top-header-color;
 $sponsor-sidebar-bgcolor: white;
+$gold-sponsor-header-color: $top-header-color;
+$silver-sponsor-header-color: $top-header-color;
+$bronze-sponsor-header-color: $top-header-color;
 
 // ---------------------------------------------------------------------------
 // Local mixins
@@ -105,6 +110,12 @@ body.error-page {
   }
 }
 
+code {
+  color: black !important;
+  border: none !important;
+  background: transparent !important;
+}
+
 $main-content-padding-top: $navbarHeight + 40px;
 
 #main-content {
@@ -128,7 +139,7 @@ $main-content-padding-top: $navbarHeight + 40px;
 
   $sponsor-sidebar-width: ($gridColumnWidth + $gridGutterWidth) * 3;
 
-  @media (min-width: 960px) {
+  @media (min-width: 960px) and (min-height: 1000px) {
     #sponsors-sidebar {
       position: fixed;
       left: 20px;
@@ -147,15 +158,18 @@ $main-content-padding-top: $navbarHeight + 40px;
   // END FIXED SIDEBAR DEFS
   // ----------------------------------------------------------------------
 
-
   #sponsors-sidebar {
+    @include box-shadow(5px 5px 3px 0 #ccc);
+
     margin-right: 10px !important;
+    margin-bottom: 10px !important;
 
     text-align: center;
     background: $sponsor-sidebar-bgcolor !important;
 
     @include rounded-border;
 
+    visibility: visible;
     border: 1px solid $border-color;
 
     .sponsor-block {
@@ -166,43 +180,64 @@ $main-content-padding-top: $navbarHeight + 40px;
         font: {
           family: $header-font;
           size: 150%;
-          color: $top-header-color;
           weight: bold;
         }
 
-        margin-bottom: 40px;
-        margin-top: 40px;
-      }
-
-      ul {
-        list-style-type: none;
-
-        li {
-          padding: 0;
-          margin: {
-            left: -5px;
-            right: 0;
-            top: 5px;
-            bottom: 0px;
-          }
+        margin: {
+          bottom: 40px;
+          top: 40px;
         }
       }
-    }
 
-   .sponsor-block {
-      img.sponsor-icon {
-          height: 32px !important;
+      &#gold-sponsors {
+        .heading {
+          color: $gold-sponsor-header-color !important;
+        }
+      }
+
+      &#silver-sponsors {
+        .heading {
+          color: $silver-sponsor-header-color !important;
+        }
+
+        border: {
+          top: 1px solid $border-color;
+        }
+      }
+
+      &#bronze-sponsors {
+        .heading {
+          color: $bronze-sponsor-header-color !important;
+        }
+
+        border: {
+          top: 1px solid $border-color;
+        }
       }
 
       ul {
         margin: 0;
+
+        list-style-type: none;
+
         li {
+          padding: 0;
+
           margin: {
-            top: 10px;
-            bottom: 0;
-            left: 0;
+            left: -5px;
             right: 0;
+            top: 10px;
+            bottom: 0px;
           }
+        }
+      }
+
+      img.sponsor-icon {
+        @media (min-width: 901px) {
+          height: 48px !important;
+        }
+        @media (max-width: 900px) {
+          height: 32px !important;
         }
       }
     }
@@ -242,11 +277,14 @@ $main-content-padding-top: $navbarHeight + 40px;
   h3 {
     font-family: $header-font !important;
     padding: $header-padding !important;
+    margin-left: 0.5em;
   }
 
   h4 {
-    font-family: $header-font !important;
+    font-family: $body-font !important;
     padding: $header-padding !important;
+    font-style: italic;
+    margin-left: 0.5em;
   }
 
   div#twitter-widget {
@@ -257,6 +295,16 @@ $main-content-padding-top: $navbarHeight + 40px;
     }
     float: right;
   }
+}
+
+.last-updated {
+  margin-top: 1em;
+  font: {
+    size: smaller;
+    style: italic;
+  }
+
+  text-align: center;
 }
 
 #calendar {

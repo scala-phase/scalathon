@@ -5,8 +5,9 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% include last-modified-header.html %}
 
 <title>{{ page.title }}</title> 
 
@@ -38,35 +39,38 @@
   <div class="container-fluid" id="main-content">
     <div class="row-fluid">
 
-        <!--
-          WARNING: If you change the following "span3" or the "span9" on
-                   #page-content, you MUST change the appropriate fixed sidebar
-                   values in sass/styles-2012.scss
-        -->
-        <div class="span3">
-          <div id="sponsors-sidebar">
-          {% include sponsors-2012.html %}
-          </div>
+      <!--
+        WARNING: If you change the following "span3" or the "span9" on
+                 #page-content, you MUST change the appropriate fixed sidebar
+                 values in sass/styles-2012.scss
+      -->
+      <div class="span3">
+        <div id="sponsors-sidebar">
+        {% include sponsors-2012.html %}
+        <div class="last-updated">
+          {% include last-updated-2012.html %}
         </div>
+        </div>
+      </div>
 
-        <div class="span9">
-          <div id="page-content">
+      <div class="span9">
+        <div id="page-content">
 
-            {% if page.logo_in_content %}
-            <img src="/img/logo-2012.png" class="logo-in-content"/>
-            {% endif %}
+          {% if page.logo_in_content %}
+          <img src="/img/logo-2012.png" class="logo-in-content"/>
+          {% endif %}
 
-            <div id="page-title">{{ page.title }}</div>
+          <div id="page-title">{{ page.title }}</div>
 
-            {% if page.show_twitter %}
-            {% include twitter-widget.html %}
-            {% endif %}
-        
-            <div id="main">
-            {{ content }}
-            </div> 
-          </div> <!-- page-content -->
-        </div> <!-- span10 -->
+          {% if page.show_twitter %}
+          {% include twitter-widget.html %}
+          {% endif %}
+      
+          <div id="main">
+          {{ content }}
+          </div> 
+        </div> <!-- page-content -->
+      </div> <!-- span9 -->
 
     </div> <!-- row-fluid -->
     
