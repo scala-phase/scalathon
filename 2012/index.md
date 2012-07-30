@@ -6,7 +6,7 @@ tab: home
 logo_in_content: true
 ---
 
-# Registration is Open!
+# Registration is <span style="text-decoration: line-through">Open!</span> Closed.
 
 <div markdown="1" style="text-decoration: line-through">
 [Register now][meetup-page]!
@@ -22,20 +22,24 @@ libraries.
 
 # Talks
 
+<div markdown="1" style="color: #bbb">
 We are _actively_ soliciting projects and talks! Please send your proposals
-to [contact@scalathon.org](mailto:contact@scalathon.org).
+to _contact@scalathon.org_.
+</div>
 
+Please see the [Talks](talks.html) page, for pointers to the presentations
+from Scalathon 2012.
 
 # When & Where
 
-Scalathon 2012 will held **Saturday, July 28, and Sunday, July 29, 2012** in
+Scalathon 2012 was held **Saturday, July 28, and Sunday, July 29, 2012** in
 The [Quorum][], at the [University City Science Center][], in [Philadelphia][],
 Pennsylvania. The Quorum is a beautiful space, and good network connectivity is
 assured. The Quorum is only a few blocks from where we held last year's
 Scalathon, so you'll have access to the same good restaurants, parking
 facilities and other amenities associated with Philadelphia's University City.
 
-In addition, on **Friday, July 27**, we will host a special event called
+In addition, on **Friday, July 27**, we hosted a special event called
 ["Anatomy of a Scala Project"][friday-meetup]. See the 
 [Event Outline](/2012/outline.html) page for details on the Friday event. This
 event will also be in the Quorum.
@@ -57,8 +61,6 @@ In conjunction with Scalathon, two of our sponsors are also offering Scala
 
 # Keep Up to Date
 
-* Stop back here often. We'll be updating this web site as details are
-  finalized.
 * Follow [@scalathon](http://twitter.com/#!/scalathon) on Twitter.
 * [Join the mailing list](http://groups.google.com/group/scalathon).
 * Join us in #scalathon on *freenode* IRC.
