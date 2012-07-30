@@ -6,8 +6,9 @@ tab: talks
 
 ## Saturday
 
-* **Josh Suereth**: Scala Standard Library
-* **Aemon Cannon**: ENSIME
+* **Josh Suereth**: Scala Standard Library ([PDF](presentations/coding-in-style.pdf))
+* **Aemon Cannon**: ENSIME 
+  ([PPT](presentations/ensime.pptx), [PDF](presentations/ensime.pdf))
 * **Joe Stein**: Apache Kafka
 * **Josh Suereth**: `sbt-git-plugin`, `sbt-native-packager`, `sbt-site-plugin`,
   `sbt-pgp-plugin`
@@ -25,6 +26,7 @@ tab: talks
 ## Sunday
 
 * **Alexander Podkhalyuzin**: IntelliJ IDEA Scala Plugin
+  ([PDF](presentations/scala-magic.pdf))
 * **Bill Venners**: ScalaTest
 * **Guillaume Massé**: ScalaKata
 * **Nikita Ivanov**: Streaming MapReduce with GridGain and Scala (Live

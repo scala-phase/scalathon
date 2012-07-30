@@ -8,7 +8,12 @@ logo_in_content: true
 
 # Registration is Open!
 
+<div markdown="1" style="text-decoration: line-through">
 [Register now][meetup-page]!
+</div>
+
+**Scalathon 2012 was great fun! Thanks to all who attended.** Check out the
+[Talks](talks.html) page for links to various speakers' slides.
 
 # Goal
 
